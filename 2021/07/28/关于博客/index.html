@@ -84,7 +84,7 @@
 <meta name="description" content="本文介绍了撰写博客的内容分类、tags 和 categories 等，会持续的保持更新！">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于博客">
-<meta property="og:url" content="http://example.com/2021/07/28/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:url" content="https://morningstarovo.github.io/2021/07/28/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="MorningStar">
 <meta property="og:description" content="本文介绍了撰写博客的内容分类、tags 和 categories 等，会持续的保持更新！">
 <meta property="og:locale" content="en_US">
@@ -122,7 +122,7 @@
 
 
 
-  <link rel="canonical" href="http://example.com/2021/07/28/关于博客/"/>
+  <link rel="canonical" href="https://morningstarovo.github.io/2021/07/28/关于博客/"/>
 
 
 
@@ -309,7 +309,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/28/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/">
+    <link itemprop="mainEntityOfPage" href="https://morningstarovo.github.io/2021/07/28/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -373,6 +373,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2021/07/28/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/07/28/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -442,6 +452,30 @@
     
 
     
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>最喜欢你一言不合就打赏的样子了~~~么么哒！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/image/微信收款码.jpg" alt=" WeChat Pay"/>
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
 
     
 
@@ -483,6 +517,9 @@
 
           
 
+  
+    <div class="comments" id="comments">
+    </div>
   
 
 
@@ -574,6 +611,22 @@
             </div>
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/MorningStarOvO" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/ha-ha-ha-ha-ha-58-78" target="_blank" title="zhihu">
+                      
+                        <i class="fa fa-fw fa-globe"></i>zhihu</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -778,6 +831,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'khbq861jzkdsuRSArqOokQUr-gzGzoHsz',
+        appKey: 'lDrW4ddywwOlFPqzMiiPsHpf',
+        placeholder: '请在此输入您的留言',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 

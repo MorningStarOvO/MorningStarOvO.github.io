@@ -73,8 +73,6 @@
 
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="MorningStar" type="application/atom+xml" />
 
@@ -86,7 +84,7 @@
 <meta name="description" content="Hi there 👋, I am MorningStarOvO !&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;I am Morningstar. I am a PhD student at Institute of Information Engineering (IIE), Chinese Academy of Sciences (CAS). &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
-<meta property="og:url" content="http://example.com/about/index.html">
+<meta property="og:url" content="https://morningstarovo.github.io/about/index.html">
 <meta property="og:site_name" content="MorningStar">
 <meta property="og:description" content="Hi there 👋, I am MorningStarOvO !&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;I am Morningstar. I am a PhD student at Institute of Information Engineering (IIE), Chinese Academy of Sciences (CAS). &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp">
 <meta property="og:locale" content="en_US">
@@ -125,7 +123,7 @@
 
 
 
-  <link rel="canonical" href="http://example.com/about/"/>
+  <link rel="canonical" href="https://morningstarovo.github.io/about/"/>
 
 
 
@@ -342,13 +340,13 @@
 <li><a target="_blank" rel="noopener" href="https://github.com/MorningStarOvO/MorningStarOvO.github.io">Blog</a> I’m going to create a personal blog</li>
 </ul>
 <h1 id="📫-How-to-reach-me-…"><a href="#📫-How-to-reach-me-…" class="headerlink" title="📫 How to reach me: …"></a>📫 How to reach me: …</h1><ul>
-<li><p>Email: <a href="mailto:&#97;&#49;&#x32;&#x32;&#x38;&#x31;&#x33;&#x36;&#x31;&#56;&#56;&#x40;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#x6d;">&#97;&#49;&#x32;&#x32;&#x38;&#x31;&#x33;&#x36;&#x31;&#56;&#56;&#x40;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#x6d;</a></p>
+<li><p>Email: <a href="mailto:&#x61;&#49;&#50;&#50;&#56;&#49;&#x33;&#x36;&#49;&#x38;&#x38;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#x61;&#49;&#50;&#50;&#56;&#49;&#x33;&#x36;&#49;&#x38;&#x38;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#x6f;&#109;</a></p>
 </li>
 <li><p>知乎: <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ha-ha-ha-ha-ha-58-78">MorningStar</a></p>
 </li>
 <li><p>CSDN: <a target="_blank" rel="noopener" href="https://blog.csdn.net/a1228136188">晨旭OvO</a></p>
 </li>
-<li><p>Blog: <a target="_blank" rel="noopener" href="https://morningstarovo.github.io/">https://morningstarovo.github.io/</a></p>
+<li><p>Blog: <a href="https://morningstarovo.github.io/">https://morningstarovo.github.io/</a></p>
 </li>
 </ul>
 <!--
@@ -385,6 +383,9 @@ Here are some ideas to get you started:
 
           
 
+  
+    <div class="comments" id="comments">
+    </div>
   
 
 
@@ -476,6 +477,22 @@ Here are some ideas to get you started:
             </div>
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/MorningStarOvO" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/ha-ha-ha-ha-ha-58-78" target="_blank" title="zhihu">
+                      
+                        <i class="fa fa-fw fa-globe"></i>zhihu</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -680,6 +697,28 @@ Here are some ideas to get you started:
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'khbq861jzkdsuRSArqOokQUr-gzGzoHsz',
+        appKey: 'lDrW4ddywwOlFPqzMiiPsHpf',
+        placeholder: '请在此输入您的留言',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
