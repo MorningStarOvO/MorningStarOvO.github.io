@@ -6,7 +6,7 @@
   <link href="https://morningstarovo.github.io/atom.xml" rel="self"/>
   
   <link href="https://morningstarovo.github.io/"/>
-  <updated>2021-08-07T15:20:28.396Z</updated>
+  <updated>2021-08-09T02:48:34.845Z</updated>
   <id>https://morningstarovo.github.io/</id>
   
   <author>
@@ -17,14 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Markdown 的数学公式</title>
+    <link href="https://morningstarovo.github.io/2021/08/09/Markdown-%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
+    <id>https://morningstarovo.github.io/2021/08/09/Markdown-%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</id>
+    <published>2021-08-09T02:36:57.000Z</published>
+    <updated>2021-08-09T02:48:34.845Z</updated>
+    
+    
+    <summary type="html">本文介绍了 Markdown 的常用数学公式。</summary>
+    
+    
+    
+    <category term="技能 &amp; 技巧" scheme="https://morningstarovo.github.io/categories/%E6%8A%80%E8%83%BD-%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="Markdown" scheme="https://morningstarovo.github.io/tags/Markdown/"/>
+    
+    <category term="LaTeX" scheme="https://morningstarovo.github.io/tags/LaTeX/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于博客</title>
     <link href="https://morningstarovo.github.io/2021/07/28/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
     <id>https://morningstarovo.github.io/2021/07/28/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</id>
     <published>2021-07-28T03:29:27.000Z</published>
-    <updated>2021-08-07T15:20:28.396Z</updated>
+    <updated>2021-08-09T02:41:30.941Z</updated>
     
     
-    <summary type="html">本文介绍了撰写博客的内容分类、tags 和 categories 等，会持续的保持更新！</summary>
+    <summary type="html">本文介绍了撰写博客的内容分类、tags 和 categories 等。</summary>
     
     
     

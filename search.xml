@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>Markdown 的数学公式</title>
+      <link href="/2021/08/09/Markdown-%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
+      <url>/2021/08/09/Markdown-%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<p><strong>写在前面的话</strong><br>本文会不断的记录在写 Markdown 时，用到的数学公式符号，会不断的保持更新。</p><h2 id="Markdown-数学公式的使用"><a href="#Markdown-数学公式的使用" class="headerlink" title="Markdown 数学公式的使用"></a>Markdown 数学公式的使用</h2><ul><li>行内公式：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$公式$</span><br></pre></td></tr></table></figure></li><li>行间公式：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">公式</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></li></ul><hr><h2 id="LaTeX-的常用数学符号"><a href="#LaTeX-的常用数学符号" class="headerlink" title="LaTeX 的常用数学符号"></a>LaTeX 的常用数学符号</h2><h3 id="数学运算符号"><a href="#数学运算符号" class="headerlink" title="数学运算符号"></a>数学运算符号</h3><ul><li>点乘，如 $a \cdot b$<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">a \cdot b</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></li><li>叉乘, 如 $a \times b$ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">a \times b</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></li><li>除以, 如 $a \div b$<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">a \div b</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技能 &amp; 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> LaTeX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于博客</title>
       <link href="/2021/07/28/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
       <url>/2021/07/28/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<h1 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h1><p>本文介绍了博客的记录内容和分类标准。</p><hr><h1 id="内容分类"><a href="#内容分类" class="headerlink" title="内容分类"></a>内容分类</h1><h2 id="tags-介绍"><a href="#tags-介绍" class="headerlink" title="tags 介绍"></a>tags 介绍</h2><p><strong>tags</strong> 用于介绍一篇博客的具体标签，分类较详细。<font color=red>一篇博客可包含多个标签</font>。<br>包括以下内容: </p><hr><h2 id="categories-介绍"><a href="#categories-介绍" class="headerlink" title="categories 介绍"></a>categories 介绍</h2><p><strong>categories</strong> 用于介绍一篇博客大的方向，分类比较广。<br>包括以下内容:</p><ul><li><strong>Git</strong>: 介绍 git、github 等的使用</li><li><strong>MAC 技巧</strong>: MAC 系统的使用技巧</li><li><strong>Python</strong>: Python 的代码技巧 &amp; 包的调用</li><li><strong>论文笔记</strong>: 论文的笔记记录</li><li><strong>论坛 &amp; 视频感悟</strong>: 看完视频、论坛后的感悟 &amp; 习得的知识</li><li><strong>视频剪辑</strong>: 视频剪辑相关的技巧</li><li><strong>读书笔记</strong>: 看书的笔记</li><li><strong>知识点</strong>: 具体需要了解的知识概念</li><li><strong>求职</strong>: 找工作相关的内容</li><li><strong>生活</strong>: 生活技巧 &amp; 感悟 </li><li><strong>英语学习</strong>: 英语学习相关</li><li><strong>其他</strong>: 其他内容</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h2><p>本文介绍了博客的记录内容和分类标准。</p><hr><h2 id="内容分类"><a href="#内容分类" class="headerlink" title="内容分类"></a>内容分类</h2><h3 id="tags-介绍"><a href="#tags-介绍" class="headerlink" title="tags 介绍"></a>tags 介绍</h3><p><strong>tags</strong> 用于介绍一篇博客的具体标签，分类较详细。<font color=red>一篇博客可包含多个标签</font>。<br>包括以下内容: </p><h3 id="categories-介绍"><a href="#categories-介绍" class="headerlink" title="categories 介绍"></a>categories 介绍</h3><p><strong>categories</strong> 用于介绍一篇博客大的方向，分类比较广。<br>包括以下内容:</p><ul><li><strong>Git</strong>: 介绍 git、github 等的使用</li><li><strong>MAC 技巧</strong>: MAC 系统的使用技巧</li><li><strong>Python</strong>: Python 的代码技巧 &amp; 包的调用</li><li><strong>论文笔记</strong>: 论文的笔记记录</li><li><strong>论坛 &amp; 视频感悟</strong>: 看完视频、论坛后的感悟 &amp; 习得的知识</li><li><strong>视频剪辑</strong>: 视频剪辑相关的技巧</li><li><strong>读书笔记</strong>: 看书的笔记</li><li><strong>知识点</strong>: 具体需要了解的知识概念</li><li><strong>求职</strong>: 找工作相关的内容</li><li><strong>生活</strong>: 生活技巧 &amp; 感悟 </li><li><strong>英语学习</strong>: 英语学习相关</li><li><strong>技能 &amp; 技巧</strong>: 常用的计算机技能 &amp; 技巧</li><li><strong>其他</strong>: 其他内容</li></ul>]]></content>
       
       
       <categories>
