@@ -6,7 +6,7 @@
   <link href="https://morningstarovo.github.io/atom.xml" rel="self"/>
   
   <link href="https://morningstarovo.github.io/"/>
-  <updated>2021-08-30T02:28:46.076Z</updated>
+  <updated>2021-08-30T15:37:46.955Z</updated>
   <id>https://morningstarovo.github.io/</id>
   
   <author>
@@ -15,6 +15,239 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NLP-2021-NAACL</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-NAACL/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-NAACL/</id>
+    <published>2021-08-30T15:37:46.000Z</published>
+    <updated>2021-08-30T15:37:46.955Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>NLP-2021-EMNLP</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-EMNLP/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-EMNLP/</id>
+    <published>2021-08-30T15:37:29.000Z</published>
+    <updated>2021-08-30T15:37:29.173Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>NLP-2021-COLING</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-COLING/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-COLING/</id>
+    <published>2021-08-30T15:37:15.000Z</published>
+    <updated>2021-08-30T15:37:15.267Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>NLP-2021-ACL</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-ACL/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-ACL/</id>
+    <published>2021-08-30T15:37:00.000Z</published>
+    <updated>2021-08-30T15:37:00.089Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ML-2021-NIPS</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-NIPS/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-NIPS/</id>
+    <published>2021-08-30T15:36:42.000Z</published>
+    <updated>2021-08-30T15:36:42.192Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ML-2021-ICML</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-ICML/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-ICML/</id>
+    <published>2021-08-30T15:36:23.000Z</published>
+    <updated>2021-08-30T15:36:23.389Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ML-2021-ICLR</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-ICLR/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-ICLR/</id>
+    <published>2021-08-30T15:36:08.000Z</published>
+    <updated>2021-08-30T15:36:08.591Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CV-2021-ICCV</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ICCV/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ICCV/</id>
+    <published>2021-08-30T15:35:48.000Z</published>
+    <updated>2021-08-30T15:35:48.699Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CV-2021-ECCV</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ECCV/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ECCV/</id>
+    <published>2021-08-30T15:35:33.000Z</published>
+    <updated>2021-08-30T15:35:33.533Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CV-2021-CVPR</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-CVPR/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-CVPR/</id>
+    <published>2021-08-30T15:35:17.000Z</published>
+    <updated>2021-08-30T15:35:17.460Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CV-2021-ACM MM</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ACM%20MM/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ACM%20MM/</id>
+    <published>2021-08-30T15:34:56.000Z</published>
+    <updated>2021-08-30T15:34:57.011Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>AI-2021-IJCAI</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/AI-2021-IJCAI/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/AI-2021-IJCAI/</id>
+    <published>2021-08-30T15:34:35.000Z</published>
+    <updated>2021-08-30T15:34:35.828Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>AI-2021-AAAI</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/AI-2021-AAAI/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/AI-2021-AAAI/</id>
+    <published>2021-08-30T15:33:45.000Z</published>
+    <updated>2021-08-30T15:33:45.384Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Paper List</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/Paper%20List/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/Paper%20List/</id>
+    <published>2021-08-30T15:22:38.000Z</published>
+    <updated>2021-08-30T15:23:45.777Z</updated>
+    
+    
+    <summary type="html">用于汇总 Paper List 相关内容</summary>
+    
+    
+    
+    <category term="论文笔记" scheme="https://morningstarovo.github.io/categories/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="日常积累" scheme="https://morningstarovo.github.io/tags/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>要关注的顶会</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/%E8%A6%81%E5%85%B3%E6%B3%A8%E7%9A%84%E9%A1%B6%E4%BC%9A/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/%E8%A6%81%E5%85%B3%E6%B3%A8%E7%9A%84%E9%A1%B6%E4%BC%9A/</id>
+    <published>2021-08-30T15:19:24.000Z</published>
+    <updated>2021-08-30T15:29:34.956Z</updated>
+    
+    
+    <summary type="html">Vision-Language 领域需要关注的顶会。</summary>
+    
+    
+    
+    <category term="论文笔记" scheme="https://morningstarovo.github.io/categories/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Paper List" scheme="https://morningstarovo.github.io/tags/Paper-List/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Conda 的简单使用</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/Conda%20%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/Conda%20%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</id>
+    <published>2021-08-30T03:21:51.000Z</published>
+    <updated>2021-08-30T03:21:51.758Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CelebA 数据集</title>
+    <link href="https://morningstarovo.github.io/2021/08/30/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E9%9B%86/CelebA/"/>
+    <id>https://morningstarovo.github.io/2021/08/30/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E9%9B%86/CelebA/</id>
+    <published>2021-08-30T03:14:20.000Z</published>
+    <updated>2021-08-30T03:14:20.768Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>学术研究之日常积累</title>
@@ -76,145 +309,6 @@
     <category term="日常积累" scheme="https://morningstarovo.github.io/tags/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
     
     <category term="编程技巧" scheme="https://morningstarovo.github.io/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Math List</title>
-    <link href="https://morningstarovo.github.io/2021/08/28/%E7%9F%A5%E8%AF%86%E7%82%B9/Math-List/"/>
-    <id>https://morningstarovo.github.io/2021/08/28/%E7%9F%A5%E8%AF%86%E7%82%B9/Math-List/</id>
-    <published>2021-08-28T13:57:03.000Z</published>
-    <updated>2021-08-30T02:28:00.141Z</updated>
-    
-    
-    <summary type="html">用于汇总 Math List 相关内容</summary>
-    
-    
-    
-    <category term="知识点" scheme="https://morningstarovo.github.io/categories/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
-    
-    
-    <category term="日常积累" scheme="https://morningstarovo.github.io/tags/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
-    
-    <category term="数学知识" scheme="https://morningstarovo.github.io/tags/%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>国科大生活</title>
-    <link href="https://morningstarovo.github.io/2021/08/28/%E7%94%9F%E6%B4%BB/%E5%9B%BD%E7%A7%91%E5%A4%A7%E7%94%9F%E6%B4%BB/"/>
-    <id>https://morningstarovo.github.io/2021/08/28/%E7%94%9F%E6%B4%BB/%E5%9B%BD%E7%A7%91%E5%A4%A7%E7%94%9F%E6%B4%BB/</id>
-    <published>2021-08-28T11:29:32.000Z</published>
-    <updated>2021-08-28T12:36:15.055Z</updated>
-    
-    
-    <summary type="html">国科大的生活小技巧</summary>
-    
-    
-    
-    <category term="生活" scheme="https://morningstarovo.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="国科大" scheme="https://morningstarovo.github.io/tags/%E5%9B%BD%E7%A7%91%E5%A4%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac | 使用小技巧</title>
-    <link href="https://morningstarovo.github.io/2021/08/28/MAC%20%E6%8A%80%E5%B7%A7/Mac-%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    <id>https://morningstarovo.github.io/2021/08/28/MAC%20%E6%8A%80%E5%B7%A7/Mac-%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/</id>
-    <published>2021-08-28T08:10:45.000Z</published>
-    <updated>2021-08-28T12:29:01.376Z</updated>
-    
-    
-    <summary type="html">本文记录了使用 Mac 电脑的一些小技巧</summary>
-    
-    
-    
-    <category term="MAC 技巧" scheme="https://morningstarovo.github.io/categories/MAC-%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="MAC" scheme="https://morningstarovo.github.io/tags/MAC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>专业英语单词汇总</title>
-    <link href="https://morningstarovo.github.io/2021/08/23/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D%E6%B1%87%E6%80%BB/"/>
-    <id>https://morningstarovo.github.io/2021/08/23/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D%E6%B1%87%E6%80%BB/</id>
-    <published>2021-08-23T01:08:12.000Z</published>
-    <updated>2021-08-30T03:10:43.598Z</updated>
-    
-    
-    <summary type="html">本文汇总了遇到的专业相关的英语词汇。</summary>
-    
-    
-    
-    <category term="英语学习" scheme="https://morningstarovo.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="English List" scheme="https://morningstarovo.github.io/tags/English-List/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo | 使用技巧(总)</title>
-    <link href="https://morningstarovo.github.io/2021/08/16/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/Hexo-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7-%E6%80%BB/"/>
-    <id>https://morningstarovo.github.io/2021/08/16/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/Hexo-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7-%E6%80%BB/</id>
-    <published>2021-08-16T01:17:32.000Z</published>
-    <updated>2021-08-16T01:19:01.289Z</updated>
-    
-    
-    <summary type="html">本文介绍了 Hexo 的 Next 主题的使用技巧</summary>
-    
-    
-    
-    <category term="技能 &amp; 技巧" scheme="https://morningstarovo.github.io/categories/%E6%8A%80%E8%83%BD-%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="Hexo" scheme="https://morningstarovo.github.io/tags/Hexo/"/>
-    
-    <category term="Next" scheme="https://morningstarovo.github.io/tags/Next/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown | 数学公式</title>
-    <link href="https://morningstarovo.github.io/2021/08/09/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/Markdown-%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
-    <id>https://morningstarovo.github.io/2021/08/09/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/Markdown-%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</id>
-    <published>2021-08-09T02:36:57.000Z</published>
-    <updated>2021-08-28T08:12:58.852Z</updated>
-    
-    
-    <summary type="html">本文介绍了 Markdown 的常用数学公式。</summary>
-    
-    
-    
-    <category term="技能 &amp; 技巧" scheme="https://morningstarovo.github.io/categories/%E6%8A%80%E8%83%BD-%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="Markdown" scheme="https://morningstarovo.github.io/tags/Markdown/"/>
-    
-    <category term="LaTeX" scheme="https://morningstarovo.github.io/tags/LaTeX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于博客</title>
-    <link href="https://morningstarovo.github.io/2021/07/28/%E5%85%B6%E4%BB%96/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://morningstarovo.github.io/2021/07/28/%E5%85%B6%E4%BB%96/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</id>
-    <published>2021-07-28T03:29:27.000Z</published>
-    <updated>2021-08-30T02:31:38.530Z</updated>
-    
-    
-    <summary type="html">本文介绍了撰写博客的内容分类、tags 和 categories 等。</summary>
-    
-    
-    
-    <category term="其他" scheme="https://morningstarovo.github.io/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="博客" scheme="https://morningstarovo.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
