@@ -4,13 +4,102 @@
   
     
     <entry>
-      <title>NLP-2021-NAACL</title>
-      <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-NAACL/"/>
-      <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-NAACL/</url>
+      <title>解耦表征学习领域数据集总结</title>
+      <link href="/2021/09/03/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E9%9B%86/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
+      <url>/2021/09/03/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E9%9B%86/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%E6%95%B0%E6%8D%AE%E9%9B%86/</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> 技能 &amp; 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>视觉-语言领域数据集总结</title>
+      <link href="/2021/09/03/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E9%9B%86/%E8%A7%86%E8%A7%89-%E8%AF%AD%E8%A8%80%E9%A2%86%E5%9F%9F%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
+      <url>/2021/09/03/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E9%9B%86/%E8%A7%86%E8%A7%89-%E8%AF%AD%E8%A8%80%E9%A2%86%E5%9F%9F%E6%95%B0%E6%8D%AE%E9%9B%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="图文匹配-Textual-Visual-Cross-Modal-Retrieval"><a href="#图文匹配-Textual-Visual-Cross-Modal-Retrieval" class="headerlink" title="图文匹配 (Textual-Visual Cross-Modal Retrieval)"></a>图文匹配 (Textual-Visual Cross-Modal Retrieval)</h2><h2 id="图片描述生成-Image-Captioning"><a href="#图片描述生成-Image-Captioning" class="headerlink" title="图片描述生成 (Image Captioning)"></a>图片描述生成 (Image Captioning)</h2><h3 id="Conceptual-Captions"><a href="#Conceptual-Captions" class="headerlink" title="Conceptual Captions"></a>Conceptual Captions</h3><ul><li><a href="https://ai.google.com/research/ConceptualCaptions/">链接</a></li><li><strong>Google</strong></li></ul><p><br></p><h2 id="视觉问答-Visual-Question-Answer-VQA"><a href="#视觉问答-Visual-Question-Answer-VQA" class="headerlink" title="视觉问答 (Visual Question Answer, VQA)"></a>视觉问答 (Visual Question Answer, VQA)</h2><h2 id="目标指代理解-Referring-Expression-Comprehension"><a href="#目标指代理解-Referring-Expression-Comprehension" class="headerlink" title="目标指代理解 (Referring Expression Comprehension)"></a>目标指代理解 (Referring Expression Comprehension)</h2><h2 id="视觉对话-Visual-Dialog"><a href="#视觉对话-Visual-Dialog" class="headerlink" title="视觉对话 (Visual Dialog)"></a>视觉对话 (Visual Dialog)</h2><h2 id="文本到图像生成-Text-to-Image-Synthesis"><a href="#文本到图像生成-Text-to-Image-Synthesis" class="headerlink" title="文本到图像生成 (Text to Image Synthesis)"></a>文本到图像生成 (Text to Image Synthesis)</h2><h2 id="视觉语言导航-vision-and-language-navigation-VLN"><a href="#视觉语言导航-vision-and-language-navigation-VLN" class="headerlink" title="视觉语言导航 (vision-and-language navigation, VLN)"></a>视觉语言导航 (vision-and-language navigation, VLN)</h2><h2 id="文本到视频生成"><a href="#文本到视频生成" class="headerlink" title="文本到视频生成"></a>文本到视频生成</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技能 &amp; 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>机器学习术语总结——机器之心</title>
+      <link href="/2021/09/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%9C%AF%E8%AF%AD%E6%80%BB%E7%BB%93%E2%80%94%E2%80%94%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83/"/>
+      <url>/2021/09/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%9C%AF%E8%AF%AD%E6%80%BB%E7%BB%93%E2%80%94%E2%80%94%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83/</url>
+      
+        <content type="html"><![CDATA[<h3 id="机器学习术语总结——机器之心"><a href="#机器学习术语总结——机器之心" class="headerlink" title="机器学习术语总结——机器之心"></a>机器学习术语总结——机器之心</h3><ul><li><a href="https://github.com/jiqizhixin/Artificial-Intelligence-Terminology-Database">链接</a></li></ul><p><br></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> English List </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>NLP-2021-NAACL</title>
+      <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-NAACL/"/>
+      <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-NAACL/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> NAACL </tag>
+            
+        </tags>
       
     </entry>
     
@@ -21,9 +110,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-EMNLP/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-EMNLP/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> EMNLP </tag>
+            
+        </tags>
       
     </entry>
     
@@ -34,9 +137,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-COLING/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-COLING/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> COLING </tag>
+            
+        </tags>
       
     </entry>
     
@@ -47,9 +164,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-ACL/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/NLP-2021-ACL/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3><ul><li>ACL Paper Awards 链接：<a href="https://2021.aclweb.org/program/accept/">https://2021.aclweb.org/program/accept/</a></li></ul>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> ACL </tag>
+            
+        </tags>
       
     </entry>
     
@@ -60,9 +191,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-NIPS/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-NIPS/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> NIPS </tag>
+            
+        </tags>
       
     </entry>
     
@@ -73,9 +218,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-ICML/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-ICML/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> ICML </tag>
+            
+        </tags>
       
     </entry>
     
@@ -86,9 +245,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-ICLR/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/ML-2021-ICLR/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> ICLR </tag>
+            
+        </tags>
       
     </entry>
     
@@ -99,9 +272,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ICCV/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ICCV/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> ICCV </tag>
+            
+        </tags>
       
     </entry>
     
@@ -112,9 +299,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ECCV/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ECCV/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> ECCV </tag>
+            
+        </tags>
       
     </entry>
     
@@ -125,9 +326,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-CVPR/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-CVPR/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> CVPR </tag>
+            
+        </tags>
       
     </entry>
     
@@ -138,9 +353,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ACM%20MM/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/CV-2021-ACM%20MM/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3><ul><li>ACM MM 2021 Accepted Papers 链接：<a href="https://2021.acmmm.org/main-track-list">https://2021.acmmm.org/main-track-list</a></li></ul><p><br></p>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> ACM MM </tag>
+            
+        </tags>
       
     </entry>
     
@@ -151,9 +380,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/AI-2021-IJCAI/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/AI-2021-IJCAI/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> IJCAI </tag>
+            
+        </tags>
       
     </entry>
     
@@ -164,9 +407,23 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/AI-2021-AAAI/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/AI-2021-AAAI/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 论文笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Paper List </tag>
+            
+            <tag> AAAI </tag>
+            
+        </tags>
       
     </entry>
     
@@ -202,7 +459,7 @@
       <link href="/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/%E8%A6%81%E5%85%B3%E6%B3%A8%E7%9A%84%E9%A1%B6%E4%BC%9A/"/>
       <url>/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/%E8%A6%81%E5%85%B3%E6%B3%A8%E7%9A%84%E9%A1%B6%E4%BC%9A/</url>
       
-        <content type="html"><![CDATA[<h3 id="Computer-Vision-CV-领域"><a href="#Computer-Vision-CV-领域" class="headerlink" title="Computer Vision (CV) 领域"></a>Computer Vision (CV) 领域</h3><ul><li><strong>CVPR</strong></li><li><strong>ICCV</strong></li><li><strong>ECCV</strong></li><li><strong>ACM MM</strong></li></ul><p><br></p><h3 id="Natural-Language-Processing-NLP-领域"><a href="#Natural-Language-Processing-NLP-领域" class="headerlink" title="Natural Language Processing (NLP) 领域"></a>Natural Language Processing (NLP) 领域</h3><ul><li><strong>ACL</strong></li><li><strong>EMNLP</strong></li><li><strong>NAACL</strong></li><li><strong>COLING</strong></li></ul><p><br></p><h3 id="Machine-Learning-ML-领域"><a href="#Machine-Learning-ML-领域" class="headerlink" title="Machine Learning (ML) 领域"></a>Machine Learning (ML) 领域</h3><ul><li><strong>NIPS</strong></li><li><strong>ICML</strong></li><li><strong>ICLR</strong></li></ul><p><br></p><h3 id="AI-人工智能顶级会议-General-领域"><a href="#AI-人工智能顶级会议-General-领域" class="headerlink" title="AI 人工智能顶级会议 (General) 领域"></a>AI 人工智能顶级会议 (General) 领域</h3><ul><li><strong>AAAI</strong></li><li><strong>IJCAI</strong></li></ul><p><br></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="要关注的顶会"><a href="#要关注的顶会" class="headerlink" title="要关注的顶会"></a>要关注的顶会</h2><h3 id="Computer-Vision-CV-领域"><a href="#Computer-Vision-CV-领域" class="headerlink" title="Computer Vision (CV) 领域"></a>Computer Vision (CV) 领域</h3><ul><li><strong>CVPR</strong></li><li><strong>ICCV</strong></li><li><strong>ECCV</strong></li><li><strong>ACM MM</strong></li></ul><p><br></p><h3 id="Natural-Language-Processing-NLP-领域"><a href="#Natural-Language-Processing-NLP-领域" class="headerlink" title="Natural Language Processing (NLP) 领域"></a>Natural Language Processing (NLP) 领域</h3><ul><li><strong>ACL</strong>：</li><li><strong>EMNLP</strong>：</li><li><strong>NAACL</strong>：3 年 2 届</li><li><strong>COLING</strong>：2 年 1 届 (双数年)</li></ul><p><br></p><h3 id="Machine-Learning-ML-领域"><a href="#Machine-Learning-ML-领域" class="headerlink" title="Machine Learning (ML) 领域"></a>Machine Learning (ML) 领域</h3><ul><li><strong>NIPS</strong></li><li><strong>ICML</strong></li><li><strong>ICLR</strong></li></ul><p><br></p><h3 id="AI-人工智能顶级会议-General-领域"><a href="#AI-人工智能顶级会议-General-领域" class="headerlink" title="AI 人工智能顶级会议 (General) 领域"></a>AI 人工智能顶级会议 (General) 领域</h3><ul><li><strong>AAAI</strong></li><li><strong>IJCAI</strong></li></ul><p><br></p><h2 id="论文阅读等级"><a href="#论文阅读等级" class="headerlink" title="论文阅读等级"></a>论文阅读等级</h2><ul><li><strong>第一梯队</strong>：问题相关、方法相关</li><li><strong>第二梯队</strong>：相同的任务，但解决的是不同的问题</li><li><strong>第三梯队</strong>：大的领域是相同的</li><li><strong>第四梯队</strong>：Machine Learning 相关的通用技术</li></ul><p><br></p>]]></content>
       
       
       <categories>
@@ -230,6 +487,18 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> 技能 &amp; 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> conda </tag>
+            
+        </tags>
       
     </entry>
     
@@ -243,6 +512,18 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> 技能 &amp; 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据集 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -253,7 +534,7 @@
       <link href="/2021/08/28/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B9%8B%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
       <url>/2021/08/28/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B9%8B%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/</url>
       
-        <content type="html"><![CDATA[<p>补充：等积累一段时间，可以补充图片</p><h3 id="日常-1M-5L-积累"><a href="#日常-1M-5L-积累" class="headerlink" title="日常 1M + 5L 积累"></a>日常 1M + 5L 积累</h3><ul><li><strong>Positive Mindset</strong></li><li><strong>Paper List</strong></li><li><strong>Idea List</strong></li><li><strong>Math List</strong> </li><li><strong>English List</strong></li><li><strong>Code List</strong></li></ul><p><br></p><h3 id="Positive-Mindset"><a href="#Positive-Mindset" class="headerlink" title="Positive Mindset"></a>Positive Mindset</h3><ul><li><font color=purple>科研的态度</font>：享受过程、匠人精神</li><li><font color=orange>解决问题的能力</font>：发现问题 → 调研 → 方法 → 实践 → 总结</li><li><font color=blue>科学素养</font>：学术品位、科学的方法、严谨的逻辑、清晰的表达</li><li><font color=red>长线思维</font>：不急功近利，不计较一城一池的得失，深思与远虑</li><li><font color=green>平常心</font>：不患得患失，有自己的节奏，持续积累，持续进步</li></ul><p><br></p><h3 id="Paper-List"><a href="#Paper-List" class="headerlink" title="Paper List"></a>Paper List</h3><ul><li><strong>如何找论文</strong><ul><li>看领域内权威的<font color=purple>综述</font> </li><li>刷<font color=orange>顶会</font>期刊 </li><li>刷 <font color=blue>arxiv</font> </li><li>从<font color=red>公众号、知乎</font>等</li><li>从 <font color=green>AMiner、Connect papers</font> 等 </li></ul></li><li><strong>精读论文</strong><ul><li>记录论文的<font color=purple>标题</font>、<font color=purple>出处</font>和<font color=purple>研究团队</font>等</li><li>记录读完论文的<font color=orange>收获与启发</font></li><li>记录论文的<font color=blue>动机</font></li><li>记录论文的<font color=red>模型结构</font></li><li>记录论文的<font color=green>实验设计</font> </li></ul></li><li><strong>粗读论文</strong><ul><li>记录论文的<font color=purple>链接</font>、<font color=orange>团队</font>、<font color=blue>来源</font>、<font color=red>亮点</font> (50 字左右)、<font color=green>启发</font>等</li></ul></li><li><strong>文献整理</strong><ul><li>按<font color=red>内容</font>整理：将论文按照不同的主题进行分类</li><li>按<font color=blue>时间</font>整理：年份 + 来源 + 题目 + 内容简介</li><li>可以将领域内的<font color=orange>经典模型</font>方法记录在 Excel 表格中，便于查找。</li></ul></li></ul><p><br></p><h3 id="Idea-List"><a href="#Idea-List" class="headerlink" title="Idea List"></a>Idea List</h3><ul><li>有想法 or 问题，<font color=purple>及时</font>找老师或师兄师姐<font color=purple>交流</font>，及时<font color=orange>记录</font> &amp; <font color=orange>复盘</font>。</li><li>多看领域内的论坛、tutorial 和 workshop 等 。可从 <font color=blue>B 站</font>、<font color=blue>知乎</font>、<font color=blue>CCF 数字图书馆</font>等也有很多资源可看。</li><li>多与同领域内的<font color=red>同龄人</font>多交流。</li><li>跟上大牛的步伐。可从<font color=green>大牛</font>的<font color=green>个人主页</font>获取信息。</li><li>及时的进行复盘总结。可以记录<font color=purple>不会的知识点</font>、<font color=orange>遇到的问题</font>、<font color=blue>好的想法</font>、<font color=red>论文阅读计划</font>、<font color=green>实验计划</font>等。</li></ul><p><br></p><h3 id="Math-List"><a href="#Math-List" class="headerlink" title="Math List"></a>Math List</h3><ul><li>积累<font color=red>基础的</font>数学知识</li><li>对模型中重要的<font color=blue>数学公式</font>进行<font color=blue>推导</font></li></ul><p><br></p><h3 id="English-List"><a href="#English-List" class="headerlink" title="English List"></a>English List</h3><ul><li>积累<font color=orange>专业知识相关的</font>英语词汇</li><li>积累论文中的<font color=red>好句</font>、<font color=blue>好词</font></li></ul><p><br></p><h3 id="Code-List"><a href="#Code-List" class="headerlink" title="Code List"></a>Code List</h3><ul><li><font color=purple>数据集</font>积累</li><li><font color=orange>基准模型</font>积累</li><li><font color=blue>代码 trick</font> 积累</li><li><font color=red>实验结果</font>积累</li></ul><p><br></p>]]></content>
+        <content type="html"><![CDATA[<p>补充：等积累一段时间，可以补充图片</p><h3 id="日常-1M-5L-积累"><a href="#日常-1M-5L-积累" class="headerlink" title="日常 1M + 5L 积累"></a>日常 1M + 5L 积累</h3><ul><li><strong>Positive Mindset</strong></li><li><strong>Paper List</strong></li><li><strong>Idea List</strong></li><li><strong>Math List</strong> </li><li><strong>English List</strong></li><li><strong>Code List</strong></li></ul><p><br></p><h3 id="Positive-Mindset"><a href="#Positive-Mindset" class="headerlink" title="Positive Mindset"></a>Positive Mindset</h3><ul><li><font color=purple>科研的态度</font>：享受过程、匠人精神</li><li><font color=orange>解决问题的能力</font>：发现问题 → 调研 → 方法 → 实践 → 总结</li><li><font color=blue>科学素养</font>：学术品位、科学的方法、严谨的逻辑、清晰的表达</li><li><font color=red>长线思维</font>：不急功近利，不计较一城一池的得失，深思与远虑</li><li><font color=green>平常心</font>：不患得患失，有自己的节奏，持续积累，持续进步</li></ul><p><br></p><h3 id="Paper-List"><a href="#Paper-List" class="headerlink" title="Paper List"></a>Paper List</h3><ul><li><strong>如何找论文</strong><ul><li>看领域内权威的<font color=purple>综述</font> </li><li>刷<font color=orange>顶会</font>期刊 </li><li>刷 <font color=blue>arxiv</font> </li><li>从<font color=red>公众号、知乎</font>等</li><li>从 <font color=green>AMiner、Connect papers</font> 等 </li></ul></li><li><strong>精读论文</strong><ul><li>记录论文的<font color=purple>标题</font>、<font color=purple>出处</font>和<font color=purple>研究团队</font>等</li><li>记录读完论文的<font color=orange>收获与启发</font></li><li>记录论文的<font color=blue>动机</font></li><li>记录论文的<font color=red>模型结构</font></li><li>记录论文的<font color=green>实验设计</font> </li></ul></li><li><strong>粗读论文</strong><ul><li>记录论文的<font color=purple>链接</font>、<font color=orange>团队</font>、<font color=blue>来源</font>、<font color=red>亮点</font> (50 字左右)、<font color=green>启发</font>等</li></ul></li><li><strong>文献整理</strong><ul><li>按<font color=red>内容</font>整理：将论文按照不同的主题进行分类</li><li>按<font color=blue>时间</font>整理：年份 + 来源 + 题目 + 内容简介</li><li>可以将领域内的<font color=orange>经典模型</font>方法记录在 Excel 表格中，便于查找。</li><li>将文献分为两类时，可以使用<strong>快捷方式存储</strong>。这样可以保证记录的版本一致</li></ul></li></ul><p><br></p><h3 id="Idea-List"><a href="#Idea-List" class="headerlink" title="Idea List"></a>Idea List</h3><ul><li>有想法 or 问题，<font color=purple>及时</font>找老师或师兄师姐<font color=purple>交流</font>，及时<font color=orange>记录</font> &amp; <font color=orange>复盘</font>。</li><li>多看领域内的论坛、tutorial 和 workshop 等 。可从 <font color=blue>B 站</font>、<font color=blue>知乎</font>、<font color=blue>CCF 数字图书馆</font>等也有很多资源可看。</li><li>多与同领域内的<font color=red>同龄人</font>多交流。</li><li>跟上大牛的步伐。可从<font color=green>大牛</font>的<font color=green>个人主页</font>获取信息。</li><li>及时的进行复盘总结。可以记录<font color=purple>不会的知识点</font>、<font color=orange>遇到的问题</font>、<font color=blue>好的想法</font>、<font color=red>论文阅读计划</font>、<font color=green>实验计划</font>等。</li></ul><p><br></p><h3 id="Math-List"><a href="#Math-List" class="headerlink" title="Math List"></a>Math List</h3><ul><li>积累<font color=red>基础的</font>数学知识</li><li>对模型中重要的<font color=blue>数学公式</font>进行<font color=blue>推导</font></li></ul><p><br></p><h3 id="English-List"><a href="#English-List" class="headerlink" title="English List"></a>English List</h3><ul><li>积累<font color=orange>专业知识相关的</font>英语词汇</li><li>积累论文中的<font color=red>好句</font>、<font color=blue>好词</font></li></ul><p><br></p><h3 id="Code-List"><a href="#Code-List" class="headerlink" title="Code List"></a>Code List</h3><ul><li><font color=purple>数据集</font>积累</li><li><font color=orange>基准模型</font>积累</li><li><font color=blue>代码 trick</font> 积累</li><li><font color=red>实验结果</font>积累</li></ul><p><br></p>]]></content>
       
       
       <categories>
@@ -265,9 +546,9 @@
       
         <tags>
             
-            <tag> 日常积累 </tag>
-            
             <tag> 学习技巧 </tag>
+            
+            <tag> 日常积累 </tag>
             
         </tags>
       
@@ -411,7 +692,7 @@
       <link href="/2021/08/23/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D%E6%B1%87%E6%80%BB/"/>
       <url>/2021/08/23/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D%E6%B1%87%E6%80%BB/</url>
       
-        <content type="html"><![CDATA[<h2 id="解耦表征学习相关"><a href="#解耦表征学习相关" class="headerlink" title="解耦表征学习相关"></a>解耦表征学习相关</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="解耦表征学习相关"><a href="#解耦表征学习相关" class="headerlink" title="解耦表征学习相关"></a>解耦表征学习相关</h2><h2 id="多模态领域相关"><a href="#多模态领域相关" class="headerlink" title="多模态领域相关"></a>多模态领域相关</h2><ul><li>跨模态检索：cross-modal retrieval</li><li>双模态数据：bi-modal data</li><li>多模态生成学习：Multimodal Generative Learning</li><li></li></ul>]]></content>
       
       
       <categories>
@@ -490,7 +771,7 @@
       <link href="/2021/07/28/%E5%85%B6%E4%BB%96/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
       <url>/2021/07/28/%E5%85%B6%E4%BB%96/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<h2 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h2><p>本文介绍了博客的记录内容和分类标准。</p><p><br></p><h2 id="内容分类"><a href="#内容分类" class="headerlink" title="内容分类"></a>内容分类</h2><h3 id="tags-介绍"><a href="#tags-介绍" class="headerlink" title="tags 介绍"></a>tags 介绍</h3><p><strong>tags</strong> 用于介绍一篇博客的具体标签，分类较详细。<font color=red>一篇博客可包含多个标签</font>。</p><p>包括以下内容: </p><ul><li><strong>博客</strong>：博客说明相关</li><li><strong>国科大</strong>：国科大的生活小技巧</li><li><strong>学习技巧</strong>：有关学习的技巧</li><li><strong>编程技巧</strong>：有关编程的技巧</li><li><strong>数学知识</strong>：数学相关的知识</li><li><strong>日常积累</strong>：学术中，需要日常积累的</li><li><strong>English List</strong>：日常积累 English 相关的</li><li><strong>Code List</strong>：日常积累 Code 相关的</li><li><strong>Math List</strong>：日常积累 Math 相关的</li><li><strong>Paper List</strong>：日常积累 Paper 相关的</li><li><strong>Markdown</strong>：Markdown 相关的</li><li><strong>LaTeX</strong>：LaTeX 相关的</li><li><strong>MAC</strong>：有关 MAC 相关的</li><li><strong>Hexo</strong>：Hexo 个人主页搭建相关</li><li><strong>Next</strong>：Hexo 的 Next 主题使用相关</li></ul><p><br></p><h3 id="categories-介绍"><a href="#categories-介绍" class="headerlink" title="categories 介绍"></a>categories 介绍</h3><p><strong>categories</strong> 用于介绍一篇博客大的方向，分类比较广。</p><p>包括以下内容:</p><ul><li><strong>Git</strong>: 介绍 git、github 等的使用</li><li><strong>MAC 技巧</strong>: MAC 系统的使用技巧</li><li><strong>Python</strong>: Python 的代码技巧 &amp; 包的调用</li><li><strong>论文笔记</strong>: 论文的笔记记录</li><li><strong>论坛 &amp; 视频感悟</strong>: 看完视频、论坛后的感悟 &amp; 习得的知识</li><li><strong>视频剪辑</strong>: 视频剪辑相关的技巧</li><li><strong>读书笔记</strong>: 看书的笔记</li><li><strong>知识点</strong>: 具体需要了解的知识概念</li><li><strong>求职</strong>: 找工作相关的内容</li><li><strong>生活</strong>: 生活技巧 &amp; 感悟 </li><li><strong>英语学习</strong>: 英语学习相关</li><li><strong>技能 &amp; 技巧</strong>: 常用的计算机技能 &amp; 技巧</li><li><strong>学习感悟</strong></li><li><strong>其他</strong>: 其他内容</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h2><p>本文介绍了博客的记录内容和分类标准。</p><p><br></p><h2 id="内容分类"><a href="#内容分类" class="headerlink" title="内容分类"></a>内容分类</h2><h3 id="tags-介绍"><a href="#tags-介绍" class="headerlink" title="tags 介绍"></a>tags 介绍</h3><p><strong>tags</strong> 用于介绍一篇博客的具体标签，分类较详细。<font color=red>一篇博客可包含多个标签</font>。</p><p>包括以下内容: </p><ul><li><strong>博客</strong>：博客说明相关</li><li><strong>国科大</strong>：国科大的生活小技巧</li><li><strong>学习技巧</strong>：有关学习的技巧</li><li><strong>编程技巧</strong>：有关编程的技巧</li><li><strong>数学知识</strong>：数学相关的知识</li><li><strong>日常积累</strong>：学术中，需要日常积累的</li><li><strong>数据集</strong>：介绍数据集相关的内容</li><li><strong>Markdown</strong>：Markdown 相关的</li><li><strong>LaTeX</strong>：LaTeX 相关的</li><li><strong>MAC</strong>：有关 MAC 相关的</li><li><strong>Hexo</strong>：Hexo 个人主页搭建相关</li><li><strong>Next</strong>：Hexo 的 Next 主题使用相关</li><li><strong>conda</strong>：conda 使用相关</li></ul><p><strong>日常积累相关的 tag</strong></p><ul><li><strong>English List</strong>：日常积累 English 相关的</li><li><strong>Code List</strong>：日常积累 Code 相关的</li><li><strong>Math List</strong>：日常积累 Math 相关的</li><li><strong>Paper List</strong>：日常积累 Paper 相关的</li></ul><p><strong>顶会阅读相关的 tag</strong></p><ul><li><strong>CV 领域</strong> (计算机视觉)<ul><li><strong>CVPR</strong></li><li><strong>ICCV</strong></li><li><strong>ECCV</strong></li><li><strong>ACM MM</strong></li></ul></li><li><strong>NLP 领域</strong> (自然语言处理)<ul><li><strong>ACL</strong></li><li><strong>EMNLP</strong></li><li><strong>NAACL</strong></li><li><strong>COLING</strong></li></ul></li><li><strong>ML 领域</strong> (机器学习)<ul><li><strong>NIPS</strong></li><li><strong>ICML</strong></li><li><strong>ICLR</strong></li></ul></li><li><strong>AI 领域</strong> (通用人工智能)<ul><li><strong>AAAI</strong></li><li><strong>IJCAI</strong></li></ul></li></ul><p><br></p><h3 id="categories-介绍"><a href="#categories-介绍" class="headerlink" title="categories 介绍"></a>categories 介绍</h3><p><strong>categories</strong> 用于介绍一篇博客大的方向，分类比较广。</p><p>包括以下内容:</p><ul><li><strong>Git</strong>: 介绍 git、github 等的使用</li><li><strong>MAC 技巧</strong>: MAC 系统的使用技巧</li><li><strong>Python</strong>: Python 的代码技巧 &amp; 包的调用</li><li><strong>论文笔记</strong>: 论文的笔记记录</li><li><strong>论坛 &amp; 视频感悟</strong>: 看完视频、论坛后的感悟 &amp; 习得的知识</li><li><strong>视频剪辑</strong>: 视频剪辑相关的技巧</li><li><strong>读书笔记</strong>: 看书的笔记</li><li><strong>知识点</strong>: 具体需要了解的知识概念</li><li><strong>求职</strong>: 找工作相关的内容</li><li><strong>生活</strong>: 生活技巧 &amp; 感悟 </li><li><strong>英语学习</strong>: 英语学习相关</li><li><strong>技能 &amp; 技巧</strong>: 常用的计算机技能 &amp; 技巧</li><li><strong>学习感悟</strong></li><li><strong>其他</strong>: 其他内容</li></ul>]]></content>
       
       
       <categories>
