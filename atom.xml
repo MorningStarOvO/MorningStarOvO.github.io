@@ -6,7 +6,7 @@
   <link href="https://morningstarovo.github.io/atom.xml" rel="self"/>
   
   <link href="https://morningstarovo.github.io/"/>
-  <updated>2021-09-04T02:40:00.790Z</updated>
+  <updated>2021-09-15T01:39:58.041Z</updated>
   <id>https://morningstarovo.github.io/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解耦表征学习 English List</title>
+    <link href="https://morningstarovo.github.io/2021/09/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%20English%20List-1/"/>
+    <id>https://morningstarovo.github.io/2021/09/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%20English%20List-1/</id>
+    <published>2021-09-15T01:34:09.000Z</published>
+    <updated>2021-09-15T01:39:58.041Z</updated>
+    
+    
+    <summary type="html">阅读解耦表征学习领域的 paper 遇到的不会的英语单词</summary>
+    
+    
+    
+    <category term="英语学习" scheme="https://morningstarovo.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="English List" scheme="https://morningstarovo.github.io/tags/English-List/"/>
+    
+    <category term="解耦表征学习" scheme="https://morningstarovo.github.io/tags/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大佬们推荐的书籍</title>
+    <link href="https://morningstarovo.github.io/2021/09/09/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E5%A4%A7%E4%BD%AC%E4%BB%AC%E6%8E%A8%E8%8D%90%E7%9A%84%E4%B9%A6%E7%B1%8D/"/>
+    <id>https://morningstarovo.github.io/2021/09/09/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E5%A4%A7%E4%BD%AC%E4%BB%AC%E6%8E%A8%E8%8D%90%E7%9A%84%E4%B9%A6%E7%B1%8D/</id>
+    <published>2021-09-09T12:36:06.000Z</published>
+    <updated>2021-09-14T10:49:09.358Z</updated>
+    
+    
+    <summary type="html">记录了大佬们推荐的一些书籍</summary>
+    
+    
+    
+    <category term="学习感悟" scheme="https://morningstarovo.github.io/categories/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/"/>
+    
+    
+    <category term="书籍" scheme="https://morningstarovo.github.io/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>解耦表征学习领域数据集总结</title>
@@ -381,44 +421,6 @@
     
     
     <category term="Paper List" scheme="https://morningstarovo.github.io/tags/Paper-List/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Conda 的简单使用</title>
-    <link href="https://morningstarovo.github.io/2021/08/30/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/Conda%20%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/"/>
-    <id>https://morningstarovo.github.io/2021/08/30/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/Conda%20%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</id>
-    <published>2021-08-30T03:21:51.000Z</published>
-    <updated>2021-09-04T02:42:04.068Z</updated>
-    
-    
-    <summary type="html">conda 的常用技巧</summary>
-    
-    
-    
-    <category term="技能 &amp; 技巧" scheme="https://morningstarovo.github.io/categories/%E6%8A%80%E8%83%BD-%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="conda" scheme="https://morningstarovo.github.io/tags/conda/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CelebA 数据集</title>
-    <link href="https://morningstarovo.github.io/2021/08/30/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E9%9B%86/CelebA/"/>
-    <id>https://morningstarovo.github.io/2021/08/30/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E6%95%B0%E6%8D%AE%E9%9B%86/CelebA/</id>
-    <published>2021-08-30T03:14:20.000Z</published>
-    <updated>2021-09-04T02:40:45.082Z</updated>
-    
-    
-    <summary type="html">解耦表征领域的常用数据集</summary>
-    
-    
-    
-    <category term="技能 &amp; 技巧" scheme="https://morningstarovo.github.io/categories/%E6%8A%80%E8%83%BD-%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="数据集" scheme="https://morningstarovo.github.io/tags/%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
     
   </entry>
   
