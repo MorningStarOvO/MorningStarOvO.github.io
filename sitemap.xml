@@ -9,6 +9,20 @@
   </url>
   
   <url>
+    <loc>https://morningstarovo.github.io/2021/09/27/%E6%8A%80%E8%83%BD%20&%20%E6%8A%80%E5%B7%A7/%E7%BB%98%E5%9B%BE%E6%8A%80%E5%B7%A7/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E4%B8%8A%E7%BB%98%E5%9B%BE%E5%B7%A5%E5%85%B7/</loc>
+    
+    <lastmod>2021-09-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://morningstarovo.github.io/2021/07/28/%E5%85%B6%E4%BB%96/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
+    
+    <lastmod>2021-09-27</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://morningstarovo.github.io/2021/09/09/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E5%A4%A7%E4%BD%AC%E4%BB%AC%E6%8E%A8%E8%8D%90%E7%9A%84%E4%B9%A6%E7%B1%8D/</loc>
     
     <lastmod>2021-09-24</lastmod>
@@ -17,13 +31,6 @@
   
   <url>
     <loc>https://morningstarovo.github.io/2021/09/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%20English%20List-1/</loc>
-    
-    <lastmod>2021-09-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://morningstarovo.github.io/2021/07/28/%E5%85%B6%E4%BB%96/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2021-09-15</lastmod>
     
@@ -474,6 +481,13 @@
   
   <url>
     <loc>https://morningstarovo.github.io/tags/%E4%B9%A6%E7%B1%8D/</loc>
+    <lastmod>2021-09-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://morningstarovo.github.io/tags/%E7%94%BB%E5%9B%BE%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2021-09-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

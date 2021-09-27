@@ -6,7 +6,7 @@
   <link href="https://morningstarovo.github.io/atom.xml" rel="self"/>
   
   <link href="https://morningstarovo.github.io/"/>
-  <updated>2021-09-15T01:39:58.041Z</updated>
+  <updated>2021-09-27T09:59:09.553Z</updated>
   <id>https://morningstarovo.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>post</title>
+    <link href="https://morningstarovo.github.io/2021/09/27/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E7%BB%98%E5%9B%BE%E6%8A%80%E5%B7%A7/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E4%B8%8A%E7%BB%98%E5%9B%BE%E5%B7%A5%E5%85%B7/"/>
+    <id>https://morningstarovo.github.io/2021/09/27/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E7%BB%98%E5%9B%BE%E6%8A%80%E5%B7%A7/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E4%B8%8A%E7%BB%98%E5%9B%BE%E5%B7%A5%E5%85%B7/</id>
+    <published>2021-09-27T09:47:29.000Z</published>
+    <updated>2021-09-27T09:59:09.553Z</updated>
+    
+    
+    <summary type="html">本文介绍了好用的网上绘图工具</summary>
+    
+    
+    
+    <category term="技能 &amp; 技巧" scheme="https://morningstarovo.github.io/categories/%E6%8A%80%E8%83%BD-%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="画图技巧" scheme="https://morningstarovo.github.io/tags/%E7%94%BB%E5%9B%BE%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>解耦表征学习 English List</title>
@@ -402,25 +421,6 @@
     
     
     <category term="日常积累" scheme="https://morningstarovo.github.io/tags/%E6%97%A5%E5%B8%B8%E7%A7%AF%E7%B4%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>要关注的顶会</title>
-    <link href="https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/%E8%A6%81%E5%85%B3%E6%B3%A8%E7%9A%84%E9%A1%B6%E4%BC%9A/"/>
-    <id>https://morningstarovo.github.io/2021/08/30/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/%E8%A6%81%E5%85%B3%E6%B3%A8%E7%9A%84%E9%A1%B6%E4%BC%9A/</id>
-    <published>2021-08-30T15:19:24.000Z</published>
-    <updated>2021-09-04T02:49:57.348Z</updated>
-    
-    
-    <summary type="html">Vision-Language 领域需要关注的顶会。</summary>
-    
-    
-    
-    <category term="论文笔记" scheme="https://morningstarovo.github.io/categories/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="Paper List" scheme="https://morningstarovo.github.io/tags/Paper-List/"/>
     
   </entry>
   
