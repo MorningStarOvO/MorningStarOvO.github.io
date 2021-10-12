@@ -6,7 +6,7 @@
   <link href="https://morningstarovo.github.io/atom.xml" rel="self"/>
   
   <link href="https://morningstarovo.github.io/"/>
-  <updated>2021-10-08T15:40:42.713Z</updated>
+  <updated>2021-10-10T02:13:24.894Z</updated>
   <id>https://morningstarovo.github.io/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>有趣的现象 &amp; 定理</title>
+    <link href="https://morningstarovo.github.io/2021/10/10/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%8E%B0%E8%B1%A1_%E5%AE%9A%E7%90%86/"/>
+    <id>https://morningstarovo.github.io/2021/10/10/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%8E%B0%E8%B1%A1_%E5%AE%9A%E7%90%86/</id>
+    <published>2021-10-10T02:08:40.000Z</published>
+    <updated>2021-10-10T02:13:24.894Z</updated>
+    
+    
+    <summary type="html">遇到的有趣现象 &amp; 定理</summary>
+    
+    
+    
+    <category term="学习感悟" scheme="https://morningstarovo.github.io/categories/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/"/>
+    
+    
+    <category term="现象定理" scheme="https://morningstarovo.github.io/tags/%E7%8E%B0%E8%B1%A1%E5%AE%9A%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>好用的协助网站</title>
+    <link href="https://morningstarovo.github.io/2021/10/09/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E5%A5%BD%E7%94%A8%E7%9A%84%E5%8D%8F%E5%8A%A9%E7%BD%91%E7%AB%99/"/>
+    <id>https://morningstarovo.github.io/2021/10/09/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E5%A5%BD%E7%94%A8%E7%9A%84%E5%8D%8F%E5%8A%A9%E7%BD%91%E7%AB%99/</id>
+    <published>2021-10-09T14:14:33.000Z</published>
+    <updated>2021-10-09T14:15:44.328Z</updated>
+    
+    
+    
+    
+    <category term="技能 &amp; 技巧" scheme="https://morningstarovo.github.io/categories/%E6%8A%80%E8%83%BD-%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="网站分享" scheme="https://morningstarovo.github.io/tags/%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>git 的简单使用</title>
@@ -40,7 +76,7 @@
     <link href="https://morningstarovo.github.io/2021/10/04/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%8B%B1%E8%AF%AD%E5%8F%A5%E5%BC%8F_%E5%8D%95%E8%AF%8D/"/>
     <id>https://morningstarovo.github.io/2021/10/04/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%8B%B1%E8%AF%AD%E5%8F%A5%E5%BC%8F_%E5%8D%95%E8%AF%8D/</id>
     <published>2021-10-04T13:32:14.000Z</published>
-    <updated>2021-10-07T02:11:24.277Z</updated>
+    <updated>2021-10-11T04:29:50.629Z</updated>
     
     
     <summary type="html">遇到的好用的英语句式、单词</summary>
@@ -347,44 +383,6 @@
     
     
     <summary type="html">Experiment 写作技巧、好的句子</summary>
-    
-    
-    
-    <category term="英语学习" scheme="https://morningstarovo.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="论文写作" scheme="https://morningstarovo.github.io/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英语论文写作-Method</title>
-    <link href="https://morningstarovo.github.io/2021/10/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/5-Method/"/>
-    <id>https://morningstarovo.github.io/2021/10/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/5-Method/</id>
-    <published>2021-10-01T08:12:05.000Z</published>
-    <updated>2021-10-04T13:30:55.277Z</updated>
-    
-    
-    <summary type="html">Method 写作技巧、好的句子</summary>
-    
-    
-    
-    <category term="英语学习" scheme="https://morningstarovo.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="论文写作" scheme="https://morningstarovo.github.io/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Work</title>
-    <link href="https://morningstarovo.github.io/2021/10/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/4-Related%20Work/"/>
-    <id>https://morningstarovo.github.io/2021/10/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/4-Related%20Work/</id>
-    <published>2021-10-01T08:11:48.000Z</published>
-    <updated>2021-10-04T13:30:49.515Z</updated>
-    
-    
-    <summary type="html">Related Work 写作技巧、好的句子</summary>
     
     
     
