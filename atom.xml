@@ -6,7 +6,7 @@
   <link href="https://morningstarovo.github.io/atom.xml" rel="self"/>
   
   <link href="https://morningstarovo.github.io/"/>
-  <updated>2021-10-10T02:13:24.894Z</updated>
+  <updated>2021-10-16T14:34:57.331Z</updated>
   <id>https://morningstarovo.github.io/</id>
   
   <author>
@@ -17,11 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>相关技巧</title>
+    <link href="https://morningstarovo.github.io/2021/10/16/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7/pytorch%20%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/argparse%20%E7%9B%B8%E5%85%B3%E6%8A%80%E5%B7%A7/"/>
+    <id>https://morningstarovo.github.io/2021/10/16/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7/pytorch%20%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/argparse%20%E7%9B%B8%E5%85%B3%E6%8A%80%E5%B7%A7/</id>
+    <published>2021-10-16T14:34:57.000Z</published>
+    <updated>2021-10-16T14:34:57.331Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>认知感悟</title>
+    <link href="https://morningstarovo.github.io/2021/10/16/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E8%AE%A4%E7%9F%A5%E6%84%9F%E6%82%9F/"/>
+    <id>https://morningstarovo.github.io/2021/10/16/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E8%AE%A4%E7%9F%A5%E6%84%9F%E6%82%9F/</id>
+    <published>2021-10-16T14:02:44.000Z</published>
+    <updated>2021-10-16T14:04:48.415Z</updated>
+    
+    
+    <summary type="html">有关认知的感悟、思想</summary>
+    
+    
+    
+    <category term="学习感悟" scheme="https://morningstarovo.github.io/categories/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/"/>
+    
+    
+    <category term="认知感悟" scheme="https://morningstarovo.github.io/tags/%E8%AE%A4%E7%9F%A5%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>有趣的现象 &amp; 定理</title>
     <link href="https://morningstarovo.github.io/2021/10/10/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%8E%B0%E8%B1%A1_%E5%AE%9A%E7%90%86/"/>
     <id>https://morningstarovo.github.io/2021/10/10/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%8E%B0%E8%B1%A1_%E5%AE%9A%E7%90%86/</id>
     <published>2021-10-10T02:08:40.000Z</published>
-    <updated>2021-10-10T02:13:24.894Z</updated>
+    <updated>2021-10-16T14:10:44.660Z</updated>
     
     
     <summary type="html">遇到的有趣现象 &amp; 定理</summary>
@@ -152,7 +184,7 @@
     <link href="https://morningstarovo.github.io/2021/10/03/%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/"/>
     <id>https://morningstarovo.github.io/2021/10/03/%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/</id>
     <published>2021-10-03T09:18:43.000Z</published>
-    <updated>2021-10-13T15:39:58.550Z</updated>
+    <updated>2021-10-19T00:26:42.718Z</updated>
     
     
     <summary type="html">对「解耦表征学习」相关的论文进行梳理、总结</summary>
@@ -224,15 +256,14 @@
     <link href="https://morningstarovo.github.io/2021/10/03/%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
     <id>https://morningstarovo.github.io/2021/10/03/%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E9%9B%86/</id>
     <published>2021-10-03T08:40:08.000Z</published>
-    <updated>2021-10-13T00:15:09.061Z</updated>
+    <updated>2021-10-19T00:24:30.744Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;dSprites-数据集&quot;&gt;&lt;a href=&quot;#dSprites-数据集&quot; class=&quot;headerlink&quot; title=&quot;dSprites 数据集&quot;&gt;&lt;/a&gt;dSprites 数据集&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;2017</summary>
+    <summary type="html">&lt;h2 id=&quot;写在前面的话&quot;&gt;&lt;a href=&quot;#写在前面的话&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -354,44 +385,6 @@
     
     
     <summary type="html">Rebuttal 写作技巧、好的句子</summary>
-    
-    
-    
-    <category term="英语学习" scheme="https://morningstarovo.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="论文写作" scheme="https://morningstarovo.github.io/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英语论文写作-Conclusion</title>
-    <link href="https://morningstarovo.github.io/2021/10/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/7-Conclusion/"/>
-    <id>https://morningstarovo.github.io/2021/10/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/7-Conclusion/</id>
-    <published>2021-10-01T08:12:54.000Z</published>
-    <updated>2021-10-04T13:31:03.928Z</updated>
-    
-    
-    <summary type="html">Conclusion 写作技巧、好的句子</summary>
-    
-    
-    
-    <category term="英语学习" scheme="https://morningstarovo.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="论文写作" scheme="https://morningstarovo.github.io/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英语论文写作-Experiment</title>
-    <link href="https://morningstarovo.github.io/2021/10/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/6-Experiment/"/>
-    <id>https://morningstarovo.github.io/2021/10/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/%E8%8B%B1%E8%AF%AD%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/6-Experiment/</id>
-    <published>2021-10-01T08:12:27.000Z</published>
-    <updated>2021-10-04T13:30:59.560Z</updated>
-    
-    
-    <summary type="html">Experiment 写作技巧、好的句子</summary>
     
     
     
