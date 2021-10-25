@@ -89,7 +89,7 @@
 <meta property="og:description" content="对「解耦表征学习」相关的论文进行梳理、总结">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-10-03T09:18:43.000Z">
-<meta property="article:modified_time" content="2021-10-24T01:47:51.259Z">
+<meta property="article:modified_time" content="2021-10-25T12:44:22.739Z">
 <meta property="article:author" content="MorningStar">
 <meta property="article:tag" content="解耦表征学习">
 <meta name="twitter:card" content="summary">
@@ -511,11 +511,18 @@
 <li><strong>机构</strong>: 西北工业大学自动化学院、信息融合技术教育部重点实验室</li>
 <li><a target="_blank" rel="noopener" href="http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210096">论文链接</a></li>
 <li><strong>简要描述</strong>:<ul>
-<li>综述介绍  </li>
+<li>综述介绍</li>
+<li>从<strong>非结构化表征</strong>先验归纳偏好、<strong>结构化模型</strong>先验归纳偏好、<strong>物理知识</strong>归纳偏好三方面，对现有的解耦表征学习的研究进展进行综述。  </li>
+</ul>
+</li>
+<li><strong>好的句子</strong><ul>
+<li>为了使现有系统<font color=red>真正实现对数据的自主智能感知</font>，借鉴人类这种层次化数据智能感知思想<br>构建从<strong>数据</strong>、<strong>信息</strong>、<strong>语义</strong>、<strong>规则</strong>再到<strong>知识</strong>的<font color=blue>多尺度、多层次、具有可解释性的</font>数据表征至关重要。</li>
+<li>现有以<strong>有监督深度网络</strong>为代表的<strong>端到端黑箱判别式学习</strong>方法是一种<font color=red>捷径学习</font>策略 (Shortcut Learning)<br>即网络学习得到的<strong>判别性隐式抽象特征</strong>往往<font color=blue>没朝人类所期望的方向进行泛化。</font></li>
+<li>网络学习得到的<font color=red>泛化能力不能为人类所理解</font><br>发生这种现象的<strong>本质原因</strong>在于现有<strong>判别式网络</strong><font color=blue>做出决策的评判标准仅仅为了提高训练样本数据的<strong>预测准确性</strong></font><br>在这种评判标准下，网络会<font color=red>自主选择一条最容易、最精准地对训练集拟合的方向学习</font><br>这一方向并不一定是人类所期望网络学习的方向</li>
+<li>为了缓解上述问题，对网络学习方向<font color=blue>施加一定的<strong>归纳偏好约束</strong></font><br>促使网络挖掘数据中所蕴含的<strong>常识推理</strong>与<strong>因果逻辑关系</strong><br>将有助于网络像人类一样<font color=red>学习从数据到信息到语义到规则再到知识的多尺度、多层次化数据表征</font><br><br></li>
 </ul>
 </li>
 </ul>
-<p><br></p>
 <p><strong>解耦表征学习研究进展</strong></p>
 <ul>
 <li><strong>作者</strong>: 成科扬、孟春运、王文杉、师文喜、詹永照</li>
@@ -526,7 +533,42 @@
 </ul>
 </li>
 </ul>
-<h2 id="2020"><a href="#2020" class="headerlink" title="2020"></a>2020</h2><p><br></p>
+<p><strong>On the transfer of disentangled representations in realistic settings</strong></p>
+<ul>
+<li><strong>作者</strong>: Dittadi, Trauble, Locatello</li>
+<li><strong>机构</strong>: Max Planck Institute for Intelligent Systems</li>
+<li><a target="_blank" rel="noopener" href="https://openreview.net/pdf?id=8VXvj1QNRl1">论文链接</a>, 2021 ICLR</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Counterfactual fairness with disentangled causal effect variational autoencoder.</strong></p>
+<ul>
+<li><strong>作者</strong>: Kim, Shin, Jang</li>
+<li><strong>机构</strong>: Department of Industrial and Systems Engineering, Korea Advanced Institute of Science and Technology (KAIST), Department of AI, University of Seoul, Department of Mathematical Sciences, KAIST</li>
+<li><a target="_blank" rel="noopener" href="https://ojs.aaai.org/index.php/AAAI/article/view/16990/16797">论文链接</a>, 2021 AAAI</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<h2 id="2020"><a href="#2020" class="headerlink" title="2020"></a>2020</h2><p><strong>Disentangling factors of variation using few labels</strong></p>
+<ul>
+<li><strong>作者</strong>: Locatello,  Tschannen, Bauer, Rätsch, Schölkopf, Bachem</li>
+<li><strong>机构</strong>: Department of Computer Science, ETH Zurich, Max Planck Institute for Intelligent Systems, Tubingen, Google Research, Brain Team</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1905.01258.pdf">论文链接</a>, 2020 ICLR</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>同 「2019 Challenging Common Assumptions …」是同一批人</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>: </li>
+</ul>
+<p><br></p>
+<p><strong>Weakly supervised disentanglement with guarantees</strong></p>
+<ul>
+<li><strong>作者</strong>: Rui Shu, Yining Chen, Kumar</li>
+<li><strong>机构</strong>: Stanford University, Google Brain</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1910.09772.pdf">论文链接</a>, 2020 ICLR</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
 <h2 id="2019"><a href="#2019" class="headerlink" title="2019"></a>2019</h2><p><strong>Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations</strong></p>
 <ul>
 <li><strong>作者</strong>: Locatello, Bauer, Lucic, Rätsch, Gelly, Schölkopf, Bachem</li>
@@ -571,6 +613,17 @@
 <li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1802.05983.pdf">论文链接</a>, 2019 ICML</li>
 <li><strong>简要描述</strong>:  <ul>
 <li><strong>Factor VAE</strong> 模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>变分自编码器模型综述</strong></p>
+<ul>
+<li><strong>作者</strong>: 翟正利, 梁振明, 周炜, 孙霞</li>
+<li><strong>机构</strong>: 青岛理工大学，信息与控制工程学院</li>
+<li><a target="_blank" rel="noopener" href="http://cea.ceaj.org/CN/10.3778/j.issn.1002-8331.1810-0284#">论文链接</a>, 2019 计算机工程与应用</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>VAE 模型中文综述</li>
 </ul>
 </li>
 <li><strong>Related Work 中的描述</strong>:<br><br></li>
@@ -621,6 +674,17 @@
 <li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1802.04942.pdf">论文链接</a>, 2018 NIPS</li>
 <li><strong>简要描述</strong>:  <ul>
 <li><strong>β-TCVAE</strong> 模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Recent Advances in Autoencoder-Based Representation Learning</strong></p>
+<ul>
+<li><strong>作者</strong>: Tschannen, Bachem, Lucic</li>
+<li><strong>机构</strong>: ETH Zurich, Google AI, Brain Team</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1812.05069.pdf">论文链接</a>, 2018 NIPS 的 workshop</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>基于 Autoencoder 的表征学习的综述</li>
 </ul>
 </li>
 <li><strong>Related Work 中的描述</strong>:<br><br></li>
