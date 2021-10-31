@@ -6,7 +6,7 @@
   <link href="https://morningstarovo.github.io/atom.xml" rel="self"/>
   
   <link href="https://morningstarovo.github.io/"/>
-  <updated>2021-10-26T00:31:29.336Z</updated>
+  <updated>2021-10-28T15:16:46.741Z</updated>
   <id>https://morningstarovo.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2013-TPAMI-Representation Learning: A Review and New Perspectives</title>
+    <link href="https://morningstarovo.github.io/2021/10/28/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%84%89%E7%BB%9C%E6%A2%B3%E7%90%86/2013-TPAMI-Representation%20Learning:%20A%20Review%20and%20New%20Perspectives/"/>
+    <id>https://morningstarovo.github.io/2021/10/28/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%84%89%E7%BB%9C%E6%A2%B3%E7%90%86/2013-TPAMI-Representation%20Learning:%20A%20Review%20and%20New%20Perspectives/</id>
+    <published>2021-10-28T15:14:52.000Z</published>
+    <updated>2021-10-28T15:16:46.741Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Representation-Learning-A-Review-and-New-Perspectives&quot;&gt;&lt;a href=&quot;#Representation-Learning-A-Review-and-New-Perspectives&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Markdown | 高级用法</title>
     <link href="https://morningstarovo.github.io/2021/10/24/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/Markdown%20%E7%9A%84%E4%BD%BF%E7%94%A8/Markdown%20%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/"/>
     <id>https://morningstarovo.github.io/2021/10/24/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/Markdown%20%E7%9A%84%E4%BD%BF%E7%94%A8/Markdown%20%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/</id>
     <published>2021-10-24T03:05:34.000Z</published>
-    <updated>2021-10-26T00:31:29.336Z</updated>
+    <updated>2021-10-28T09:22:57.100Z</updated>
     
     
     <summary type="html">记录了 Markdown 的高级用法</summary>
@@ -36,11 +57,11 @@
   </entry>
   
   <entry>
-    <title>相关技巧</title>
+    <title>argparse | 相关技巧</title>
     <link href="https://morningstarovo.github.io/2021/10/16/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7/pytorch%20%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/argparse%20%E7%9B%B8%E5%85%B3%E6%8A%80%E5%B7%A7/"/>
     <id>https://morningstarovo.github.io/2021/10/16/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7/pytorch%20%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/argparse%20%E7%9B%B8%E5%85%B3%E6%8A%80%E5%B7%A7/</id>
     <published>2021-10-16T14:34:57.000Z</published>
-    <updated>2021-10-16T14:34:57.331Z</updated>
+    <updated>2021-10-28T09:19:56.289Z</updated>
     
     
     
@@ -91,8 +112,17 @@
     <link href="https://morningstarovo.github.io/2021/10/09/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E5%A5%BD%E7%94%A8%E7%9A%84%E5%8D%8F%E5%8A%A9%E7%BD%91%E7%AB%99/"/>
     <id>https://morningstarovo.github.io/2021/10/09/%E6%8A%80%E8%83%BD%20&amp;%20%E6%8A%80%E5%B7%A7/%E5%A5%BD%E7%94%A8%E7%9A%84%E5%8D%8F%E5%8A%A9%E7%BD%91%E7%AB%99/</id>
     <published>2021-10-09T14:14:33.000Z</published>
-    <updated>2021-10-09T14:15:44.328Z</updated>
+    <updated>2021-10-28T00:48:05.401Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;产品经理的人工智能学习库&quot;&gt;&lt;a href=&quot;#产品经理的人工智能学习库&quot; class=&quot;headerlink&quot; title=&quot;产品经理的人工智能学习库&quot;&gt;&lt;/a&gt;产品经理的人工智能学习库&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
     
     
     
@@ -203,7 +233,7 @@
     <link href="https://morningstarovo.github.io/2021/10/03/%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/"/>
     <id>https://morningstarovo.github.io/2021/10/03/%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/</id>
     <published>2021-10-03T09:18:43.000Z</published>
-    <updated>2021-10-27T15:46:03.289Z</updated>
+    <updated>2021-10-29T04:07:08.966Z</updated>
     
     
     <summary type="html">对「解耦表征学习」相关的论文进行梳理、总结</summary>
@@ -258,7 +288,7 @@
     <link href="https://morningstarovo.github.io/2021/10/03/%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E6%8C%87%E6%A0%87/"/>
     <id>https://morningstarovo.github.io/2021/10/03/%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E6%8C%87%E6%A0%87/</id>
     <published>2021-10-03T08:40:20.000Z</published>
-    <updated>2021-10-03T08:42:16.207Z</updated>
+    <updated>2021-10-28T15:22:22.690Z</updated>
     
     
     
@@ -373,25 +403,6 @@
     
     
     <category term="解耦表征学习" scheme="https://morningstarovo.github.io/tags/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日常发问</title>
-    <link href="https://morningstarovo.github.io/2021/10/01/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E6%97%A5%E5%B8%B8%E5%8F%91%E9%97%AE/"/>
-    <id>https://morningstarovo.github.io/2021/10/01/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/%E6%97%A5%E5%B8%B8%E5%8F%91%E9%97%AE/</id>
-    <published>2021-10-01T08:31:05.000Z</published>
-    <updated>2021-10-16T14:02:56.623Z</updated>
-    
-    
-    <summary type="html">在生活中想到的有趣的问题</summary>
-    
-    
-    
-    <category term="学习感悟" scheme="https://morningstarovo.github.io/categories/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/"/>
-    
-    
-    <category term="日常发问" scheme="https://morningstarovo.github.io/tags/%E6%97%A5%E5%B8%B8%E5%8F%91%E9%97%AE/"/>
     
   </entry>
   
