@@ -89,7 +89,7 @@
 <meta property="og:description" content="对「解耦表征学习」相关的论文进行梳理、总结">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-10-03T09:18:43.000Z">
-<meta property="article:modified_time" content="2021-10-29T04:07:08.966Z">
+<meta property="article:modified_time" content="2021-10-31T10:43:31.835Z">
 <meta property="article:author" content="MorningStar">
 <meta property="article:tag" content="解耦表征学习">
 <meta name="twitter:card" content="summary">
@@ -617,6 +617,14 @@
 </li>
 <li><strong>Related Work 中的描述</strong>:<br><br></li>
 </ul>
+<p><strong>On the Fairness of Disentangled Representations</strong></p>
+<ul>
+<li><strong>作者</strong>: Locatello、Abbati、Rainforth、Bachem</li>
+<li><strong>机构</strong>: Google Research, Brain Team、Dept. of Computer Science, ETH Zurich、Dept. of Engineering Science, University of Oxford、Dept. of Statistics, University of Oxford、Max-Planck Institute for Intelligent Systems</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1905.13662.pdf">论文链接</a>, 2019 NIPS</li>
+<li><strong>简要描述</strong>:<br>* </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
 <p><strong>变分自编码器模型综述</strong></p>
 <ul>
 <li><strong>作者</strong>: 翟正利, 梁振明, 周炜, 孙霞</li>
@@ -655,9 +663,18 @@
 <ul>
 <li><strong>作者</strong>: Kumar, Sattigeri, Balakrishnan</li>
 <li><strong>机构</strong>: IBM Research AI, Yorktown Heights, NY</li>
-<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1711.00848.pdf">论文链接</a></li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1711.00848.pdf">论文链接</a>, 2018 ICLR</li>
 <li><strong>简要描述</strong>:  <ul>
 <li>DIP-VAE 模型</li>
+<li>总结了「解耦表征学习」的几个<strong>优点</strong> (<code>advantages</code>):<ul>
+<li><strong>Invariance</strong>: 不相关性</li>
+<li><strong>Transferability</strong>: 可转移性</li>
+<li><strong>Interpretability</strong>: 可解释性</li>
+<li><strong>Conditioning and intervention</strong>: 调节和干预</li>
+</ul>
+</li>
+<li>总结了「解耦表征学习」引入的一些<strong>监督信息</strong>的手段 (<font color=green>详见 paper, 尚未详细看</font>)</li>
+<li>提出了一种新的<strong>解耦指标</strong> (<code>disentanglement metric</code>), 叫做 <font color=red>Separated Attribute Predictability</font> (SAP)</li>
 </ul>
 </li>
 <li><strong>Related Work 中的描述</strong>:<br><br></li>
@@ -723,10 +740,10 @@
 <li><strong>Related Work 中的描述</strong><ul>
 <li>modify the VAE objective to induce disentangled representations</li>
 <li>introduces a hyperparameter in front of the KL regularizer of vanilla VAEs to constrain the capacity of the VAE bottleneck</li>
+<li>introduce extra conflict between disentanglement of the latents and the observed data likelihood, (<strong>缺点</strong>)<br><br></li>
 </ul>
 </li>
 </ul>
-<p><br></p>
 <p><strong>Learning disentangled representations with semi-supervised deep generative models</strong></p>
 <ul>
 <li><strong>作者</strong>: Siddharth、Paige、Desmaison</li>
