@@ -1,0 +1,2202 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="解耦表征学习," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="MorningStar" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="对「解耦表征学习」相关的论文进行梳理、总结">
+<meta property="og:type" content="article">
+<meta property="og:title" content="解耦表征学习 | 论文整理">
+<meta property="og:url" content="https://morningstarovo.github.io/2021/10/03/4-%E9%A2%86%E5%9F%9F%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/5-%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/index.html">
+<meta property="og:site_name" content="MorningStar">
+<meta property="og:description" content="对「解耦表征学习」相关的论文进行梳理、总结">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-10-03T09:18:43.000Z">
+<meta property="article:modified_time" content="2021-12-22T15:14:57.516Z">
+<meta property="article:author" content="MorningStar">
+<meta property="article:tag" content="解耦表征学习">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"输入关键字进行搜索","hits_empty":"找不到关于  ${query} 的文章","hits_stats":"共找到 ${hits} 篇文章，花了 ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://morningstarovo.github.io/2021/10/03/4-领域学习相关/5-解耦表征学习/解耦表征学习_论文整理/"/>
+
+
+
+
+
+  <title>解耦表征学习 | 论文整理 | MorningStar</title>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?3ec404aa56960f0fcb8eaba5a155ccb6";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">MorningStar</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">晨旭OvO</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://morningstarovo.github.io/2021/10/03/4-%E9%A2%86%E5%9F%9F%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/5-%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/GitHub-1-%E5%A8%B1%E4%B9%90-%E7%99%BD%E8%89%B2%E8%83%8C%E6%99%AF.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="MorningStar">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">解耦表征学习 | 论文整理</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-10-03T17:18:43+08:00">
+                2021-10-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/" itemprop="url" rel="index">
+                    <span itemprop="name">领域知识</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2021/10/03/4-%E9%A2%86%E5%9F%9F%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/5-%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/10/03/4-%E9%A2%86%E5%9F%9F%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/5-%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2021/10/03/4-%E9%A2%86%E5%9F%9F%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/5-%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/" class="leancloud_visitors" data-flag-title="解耦表征学习 | 论文整理">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+              <div class="post-description">
+                  对「解耦表征学习」相关的论文进行梳理、总结
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h2><ul>
+<li><strong>记录方式</strong>: 主要以「<strong>时间顺序</strong>」进行梳理, 以「<strong>研究方向</strong>」加以辅助梳理</li>
+</ul>
+<p><br></p>
+<p><strong>记录模板</strong></p>
+<ul>
+<li><strong>作者</strong>: </li>
+<li><strong>机构</strong>: </li>
+<li><a href="">论文链接</a></li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<h2 id="2021"><a href="#2021" class="headerlink" title="2021"></a>2021</h2><p><strong>How to Not Measure Disentanglement</strong></p>
+<ul>
+<li><strong>作者</strong>: Anna Sepliarskaia, Julia Kiseleva, Maarten de Rijke</li>
+<li><strong>机构</strong>: Vienna University of Technology, Austria, Microsoft Research AI, Seattle, WA, USA</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1910.05587.pdf">论文链接</a>, 2021 arxiv</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>手写的解释</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>On the relationship between disentanglement and multi-task learning</strong></p>
+<ul>
+<li><strong>作者</strong>: Łukasz Maziarka, Aleksandra Nowak, Maciej Wołczyk, Andrzej Bedychaj</li>
+<li><strong>机构</strong>: Jagiellonian University</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2110.03498.pdf">论文链接</a>, 2021 arxiv</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>When Is Unsupervised Disentanglement Possible?</strong></p>
+<ul>
+<li><strong>作者</strong>: Daniella Horan and Eitan Richardson and Yair Weiss</li>
+<li><strong>机构</strong>: School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem, Israel</li>
+<li><a target="_blank" rel="noopener" href="https://proceedings.neurips.cc/paper/2021/file/29586cb449c90e249f1f09a0a4ee245a-Paper.pdf">论文链接</a>, 2021 NIPS</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Commutative Lie Group VAE for Disentanglement Learning</strong></p>
+<ul>
+<li><strong>作者</strong>: Xinqi Zhu, Chang Xu, Dacheng Tao</li>
+<li><strong>机构</strong>: School of Computer Science, Faculty of Engineering, The University of Sydney</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2106.03375.pdf">论文链接</a>, 2021 ICML</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>On the Generative Utility of Cyclic Conditionals</strong></p>
+<ul>
+<li><strong>作者</strong>: Chang Liu, Haoyue Tang, Tao Qin</li>
+<li><strong>机构</strong>: Microsoft Research Asia, Beijing, Tsinghua University, Beijing</li>
+<li><a target="_blank" rel="noopener" href="https://papers.nips.cc/paper/2021/file/fe04e05fbe48920b8ba90bea2ddfe60b-Paper.pdf">论文链接</a>, 2021 NIPS</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/changliu00/cygen">代码链接</a> </li>
+<li><strong>简要描述</strong>: <ul>
+<li>基于「概率论」理论的「生成式建模」新模式</li>
+<li>对两「条件分布」能否确定「联合分布」进行了讨论？ </li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>: <ul>
+<li><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Towards Causal Representation Learning</strong></p>
+<ul>
+<li><strong>作者</strong>: Schölkopf、Locatello、Bauer、 Kalchbrenner、Goyal、 Bengio</li>
+<li><strong>机构</strong>: Max-Planck Institute for Intelligent Systems、t ETH Zurich, Computer Science Department</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2102.11107.pdf">论文链接</a>, 2021 IEEE</li>
+<li><strong>简要描述</strong>:   <ul>
+<li>因果表征学习的综述</li>
+<li>因果领域的工作，通常<font color=red>事先假定<strong>因果变量是已知的</strong></font><br>而对于人工智能和因果，一个重要问题就是:<br>因果表征的学习，是<font color=blue>从<strong>低阶的观测数据</strong>中发现<strong>高阶的因果变量</strong></font></li>
+<li>描绘了<strong>因果</strong>对<strong>机器学习</strong>的一些启示，并提出了在两个领域交汇处的一些重要研究方向    </li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>NP-DRAW: A Non-Parametric Structured Latent Variable Model for Image Generation</strong></p>
+<ul>
+<li><strong>作者</strong>: Xiaohui Zeng, Urtasun, Zemel, Fidler, Renjie Liao</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2106.13435.pdf">论文链接</a>, 2021 UAI</li>
+<li><strong>简要描述</strong>: <ul>
+<li>2021 UAI (Uncertainty in Artificial Intelligence (UAI 2021).)</li>
+<li>涉及的任务: <font color=blue><strong>Image Generation</strong></font>,</li>
+<li>可能<font color=red>未谈及「解耦表征」</font>, 替换了<strong>潜在变量</strong>的高斯分布, 用非参数的分类分布, 制作了一个字典保存这些分布。</li>
+<li>part-by-part 的生成图像。whether-to-draw 到 what-to-draw 到 where-to-draw。</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<p><strong>Smoothing the Disentangled Latent Style Space for Unsupervised Image-to-Image Translation</strong></p>
+<ul>
+<li><strong>作者</strong>: Yahui Liu, Sangineto1, Yajing Chen, Linchao Bao, Haoxian Zhang, Sebe, Lepri, Wei Wang, Nadai</li>
+<li><strong>机构</strong>: University of Trento, Italy、Tencent AI Lab, China、Fondazione Bruno Kessler, Italy</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2106.09016.pdf">论文链接</a>, 2021 CVPR</li>
+<li><strong>简要描述</strong>: <ul>
+<li>涉及的任务: <font color=blue><strong>Image-to-Image Translation</strong></font><br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Where and What? Examining Interpretable Disentangled Representations</strong></p>
+<ul>
+<li><strong>作者</strong>: Xinqi Zhu, Chang Xu, Dacheng Tao</li>
+<li><strong>机构</strong>: The University of Sydney</li>
+<li><a target="_blank" rel="noopener" href="https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Where_and_What_Examining_Interpretable_Disentangled_Representations_CVPR_2021_paper.pdf">论文链接</a>, 2021 CVPR</li>
+<li><strong>简要描述</strong>: <ul>
+<li>加入了一种对<strong>可解释性</strong>判断的 <strong>bias</strong>, 使得到的潜在变量 $\boldsymbol{z}$ 在更具可解释性的约束下得到求解<br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>CausalVAE: Disentangled Representation Learning via Neural Structural Causal Models</strong></p>
+<ul>
+<li><strong>作者</strong>:</li>
+<li><strong>机构</strong>:</li>
+<li><a href="">论文链接</a></li>
+<li><strong>简要描述</strong>:<br><br></li>
+</ul>
+<p><strong>Image-to-image Translation via Hierarchical Style Disentanglement</strong></p>
+<ul>
+<li><strong>作者</strong>:</li>
+<li><strong>机构</strong>:</li>
+<li><a href="">论文链接</a></li>
+<li><strong>简要描述</strong>:<br><br></li>
+</ul>
+<p><strong>The Role of Disentanglement in Generalisation</strong></p>
+<ul>
+<li><strong>作者</strong>: Montero, Ludwig, Costa, Malhotra, Bowers</li>
+<li><strong>机构</strong>: School of Psychological Science、Computational Neuroscience Unit, Department of Computer Science</li>
+<li><a target="_blank" rel="noopener" href="https://openreview.net/pdf?id=qbH974jKUVy">论文链接</a>, 2021 ICLR</li>
+<li><strong>简要描述</strong>: <ul>
+<li><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>解耦表征学习综述</strong></p>
+<ul>
+<li><strong>作者</strong>: 文载道、王佳蕊、王小旭、潘泉</li>
+<li><strong>机构</strong>: 西北工业大学自动化学院、信息融合技术教育部重点实验室</li>
+<li><a target="_blank" rel="noopener" href="http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210096">论文链接</a></li>
+<li><strong>简要描述</strong>:<ul>
+<li>综述介绍</li>
+<li>从<strong>非结构化表征</strong>先验归纳偏好、<strong>结构化模型</strong>先验归纳偏好、<strong>物理知识</strong>归纳偏好三方面，对现有的解耦表征学习的研究进展进行综述。  </li>
+</ul>
+</li>
+<li><strong>好的句子</strong><ul>
+<li>为了使现有系统<font color=red>真正实现对数据的自主智能感知</font>，借鉴人类这种层次化数据智能感知思想<br>构建从<strong>数据</strong>、<strong>信息</strong>、<strong>语义</strong>、<strong>规则</strong>再到<strong>知识</strong>的<font color=blue>多尺度、多层次、具有可解释性的</font>数据表征至关重要。</li>
+<li>现有以<strong>有监督深度网络</strong>为代表的<strong>端到端黑箱判别式学习</strong>方法是一种<font color=red>捷径学习</font>策略 (Shortcut Learning)<br>即网络学习得到的<strong>判别性隐式抽象特征</strong>往往<font color=blue>没朝人类所期望的方向进行泛化。</font></li>
+<li>网络学习得到的<font color=red>泛化能力不能为人类所理解</font><br>发生这种现象的<strong>本质原因</strong>在于现有<strong>判别式网络</strong><font color=blue>做出决策的评判标准仅仅为了提高训练样本数据的<strong>预测准确性</strong></font><br>在这种评判标准下，网络会<font color=red>自主选择一条最容易、最精准地对训练集拟合的方向学习</font><br>这一方向并不一定是人类所期望网络学习的方向</li>
+<li>为了缓解上述问题，对网络学习方向<font color=blue>施加一定的<strong>归纳偏好约束</strong></font><br>促使网络挖掘数据中所蕴含的<strong>常识推理</strong>与<strong>因果逻辑关系</strong><br>将有助于网络像人类一样<font color=red>学习从数据到信息到语义到规则再到知识的多尺度、多层次化数据表征</font><br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>解耦表征学习研究进展</strong></p>
+<ul>
+<li><strong>作者</strong>: 成科扬、孟春运、王文杉、师文喜、詹永照</li>
+<li><strong>机构</strong>: 江苏大学计算机科学与通信工程学院、中国电子科学研究院社会安全风险感知与防控大数据应用国家工程实验室等</li>
+<li><a target="_blank" rel="noopener" href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CAPJ&amp;dbname=CAPJLAST&amp;filename=JSJY20210723000&amp;uniplatform=NZKPT&amp;v=5lc3RO%25mmd2BEUUDMMN95SI2LdIPu%25mmd2F319OIaRoSzlwHKLQY5hHlICoejBGsIIGaIcF1Pj">论文链接</a></li>
+<li><strong>简要描述</strong>:  <ul>
+<li>综述介绍<br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>On the transfer of disentangled representations in realistic settings</strong></p>
+<ul>
+<li><strong>作者</strong>: Dittadi, Trauble, Locatello</li>
+<li><strong>机构</strong>: Max Planck Institute for Intelligent Systems</li>
+<li><a target="_blank" rel="noopener" href="https://openreview.net/pdf?id=8VXvj1QNRl1">论文链接</a>, 2021 ICLR</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Counterfactual fairness with disentangled causal effect variational autoencoder.</strong></p>
+<ul>
+<li><strong>作者</strong>: Kim, Shin, Jang</li>
+<li><strong>机构</strong>: Department of Industrial and Systems Engineering, Korea Advanced Institute of Science and Technology (KAIST), Department of AI, University of Seoul, Department of Mathematical Sciences, KAIST</li>
+<li><a target="_blank" rel="noopener" href="https://ojs.aaai.org/index.php/AAAI/article/view/16990/16797">论文链接</a>, 2021 AAAI</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Ib-gan: Disentangled representation learning with information bottleneck gan</strong></p>
+<ul>
+<li><strong>作者</strong>: Insu Jeon, Wonkwang Lee, Myeongjang Pyeon, Gunhee Kim</li>
+<li><strong>机构</strong>: Dept. of Computer Science and Engineering, Seoul National University, Republic of Korea (South), School of Computing, Korea Advanced Institute of Science and Technology, Republic of Korea (South)</li>
+<li><a target="_blank" rel="noopener" href="https://ojs.aaai.org/index.php/AAAI/article/view/16967/16774">论文链接</a>, 2021 AAAI</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Towards Nonlinear Disentanglement in Natural Data with Temporal Sparse Coding</strong></p>
+<ul>
+<li><strong>作者</strong>: David Klindt, Lukas Schott, Yash Sharma</li>
+<li><strong>机构</strong>: University of Tübingen</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2007.10930.pdf">论文链接</a>, 2021 ICLR</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<h2 id="2020"><a href="#2020" class="headerlink" title="2020"></a>2020</h2><p><strong>Theory and Evaluation Metrics for Learning Disentangled Representations</strong></p>
+<ul>
+<li><strong>作者</strong>: Kien Do and Truyen Tran</li>
+<li><strong>机构</strong>: Applied AI Institute, Deakin University, Geelong, Australia</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1908.09961.pdf">论文链接</a>, 2020 ICLR</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>提出了几种「<strong>新的解耦准则</strong>」</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Denoising diffusion probabilistic models</strong></p>
+<ul>
+<li><strong>作者</strong>: Jonathan Ho, Ajay Jain, Pieter Abbeel</li>
+<li><strong>机构</strong>: UC Berkeley</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2006.11239.pdf">论文链接</a>, 2020 NIPS</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>基于「扩散过程」的「生成模型」</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Disentangling factors of variation using few labels</strong></p>
+<ul>
+<li><strong>作者</strong>: Locatello,  Tschannen, Bauer, Rätsch, Schölkopf, Bachem</li>
+<li><strong>机构</strong>: Department of Computer Science, ETH Zurich, Max Planck Institute for Intelligent Systems, Tubingen, Google Research, Brain Team</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1905.01258.pdf">论文链接</a>, 2020 ICLR</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>同 「2019 Challenging Common Assumptions …」是同一批人</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>: </li>
+</ul>
+<p><br></p>
+<p><strong>Weakly supervised disentanglement with guarantees</strong></p>
+<ul>
+<li><strong>作者</strong>: Rui Shu, Yining Chen, Kumar</li>
+<li><strong>机构</strong>: Stanford University, Google Brain</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1910.09772.pdf">论文链接</a>, 2020 ICLR</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>InfoGAN-CR and ModelCentrality: Self-supervised Model Training and Selection for Disentangling GANs</strong></p>
+<ul>
+<li><strong>作者</strong>: Zinan Lin, Thekumparampil, Fanti, Sewoong Oh</li>
+<li><strong>机构</strong>: Carnegie Mellon University, University of Illinois at Urbana-Champaign, University of Washington</li>
+<li><a target="_blank" rel="noopener" href="http://proceedings.mlr.press/v119/lin20e/lin20e.pdf">论文链接</a>, 2020 ICML</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>: <ul>
+<li>总结了「解耦生成模型」的两大挑战：<ul>
+<li>designing architectures that achieve good disentanglement and good sample quality</li>
+<li>hyperparameter tuning and model selection given a fixed learning architecture.</li>
+</ul>
+</li>
+<li>对<strong>早期的</strong>无监督解耦表征方法进行了汇总</li>
+<li>对<strong>多个领域</strong> 的具体模型进行了汇总</li>
+<li>对「<strong>GANs</strong>」模型进行了汇总<br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Unsupervised Model Selection for Variational Disentangled Representation Learning</strong></p>
+<ul>
+<li><strong>作者</strong>: Sunny Duan, Loic Matthey, Andre Saraiva, Irina Higgins</li>
+<li><strong>机构</strong>: DeepMind</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1905.12614.pdf">论文链接</a>, 2020 ICLR</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>对 <strong>VAEs</strong> 的模型选择方法</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Oogan: Disentangling gan with one-hot sampling and orthogonal regularization</strong></p>
+<ul>
+<li><strong>作者</strong>: Bingchen Liu, Yizhe Zhu, Zuohui Fu, Ahmed Elgammal</li>
+<li><strong>机构</strong>: Department of Computer Science, Rutgers University</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1905.10836.pdf">论文链接</a>, 2020 AAAI</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Measuring Disentanglement: A Review of Metrics</strong></p>
+<ul>
+<li><strong>作者</strong>: Julian Zaidi, Jonathan Boilard, Ghyslain Gagnon</li>
+<li><strong>机构</strong>: Ubisoft - La Forge, École de technologie supérieure</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2012.09276.pdf">论文链接</a>, 2020 arxiv</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>A style-based generator architecture for generative adversarial networks</strong></p>
+<ul>
+<li><strong>作者</strong>: Tero Karras, Samuli Laine, Timo Aila</li>
+<li><strong>机构</strong>: NVIDIA</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1812.04948.pdf">论文链接</a>, 2020 TPAMI</li>
+<li><strong>简要描述</strong>:<ul>
+<li><strong>StyleGAN 模型</strong>  </li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Learning disentangled representations with latent variation predictability</strong></p>
+<ul>
+<li><strong>作者</strong>: Xinqi Zhu, Chang Xu, Dacheng Tao</li>
+<li><strong>机构</strong>: UBTECH Sydney AI Centre, School of Computer Science, Faculty of Engineering, The University of Sydney, Darlington, NSW 2008, Australia</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2007.12885.pdf">论文链接</a>, 2020 ECCV</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<h2 id="2019"><a href="#2019" class="headerlink" title="2019"></a>2019</h2><p><strong>Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations</strong></p>
+<ul>
+<li><strong>作者</strong>: Locatello, Bauer, Lucic, Rätsch, Gelly, Schölkopf, Bachem</li>
+<li><strong>机构</strong>: ETH Zurich, Department for Computer Science、Max-Planck Institute for Intelligent Systems、Google Research, Brain Team.</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1811.12359.pdf">论文链接</a>, 2019 ICML</li>
+<li><strong>简要描述</strong>: 对<strong>无监督</strong>「解耦表征学习」中的<strong>假设</strong>进行挑战<br><br></li>
+</ul>
+<p><strong>Structured Disentangled Representations</strong></p>
+<ul>
+<li><strong>作者</strong>: Esmaeili、Hao Wu、Sarthak Jain</li>
+<li><strong>机构</strong>: Northeastern University</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1804.02086.pdf">论文链接</a>, 2019 AISTATS</li>
+<li><strong>简要描述</strong>:  <ul>
+<li><strong>HFVAE</strong> 模型</li>
+<li>对 VAEs 模型的<strong>损失函数</strong>进行的一个总结<br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Auto-encoding total correlation explanation</strong></p>
+<ul>
+<li><strong>作者</strong>: Shuyang Gao, Brekelmans, Steeg, Galstyan</li>
+<li><strong>机构</strong>: Information Sciences Institute, University of Southern California, Marina Del Rey, California, USA</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1802.05822.pdf">论文链接</a>, 2019 AISTATS</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>InfoVAE: Balancing Learning and Inference in Variational Autoencoders</strong></p>
+<ul>
+<li><strong>作者</strong>: Shengjia Zhao, Jiaming Song, Stefano Ermon</li>
+<li><strong>机构</strong>: Stanford University</li>
+<li><a target="_blank" rel="noopener" href="https://ojs.aaai.org/index.php/AAAI/article/view/4538/4416">论文链接</a>, 2019 AAAI</li>
+<li><strong>简要描述</strong>:  <ul>
+<li><strong>InfoVAE</strong> 模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>On the Fairness of Disentangled Representations</strong></p>
+<ul>
+<li><strong>作者</strong>: Locatello、Abbati、Rainforth、Bachem</li>
+<li><strong>机构</strong>: Google Research, Brain Team、Dept. of Computer Science, ETH Zurich、Dept. of Engineering Science, University of Oxford、Dept. of Statistics, University of Oxford、Max-Planck Institute for Intelligent Systems</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1905.13662.pdf">论文链接</a>, 2019 NIPS</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>探讨了「解耦表征学习」与「fair representation Learning」的关系</li>
+<li>Section 2, 对 <strong>Disentanglement scores</strong> 和 <strong>Unsupervised methods</strong> 进行了简单的总结</li>
+<li>Section 5, 介绍了大量的<strong>半监督</strong>「解耦表征学习」的工作 (<font color=green>尚未整理</font>)</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>变分自编码器模型综述</strong></p>
+<ul>
+<li><strong>作者</strong>: 翟正利, 梁振明, 周炜, 孙霞</li>
+<li><strong>机构</strong>: 青岛理工大学，信息与控制工程学院</li>
+<li><a target="_blank" rel="noopener" href="http://cea.ceaj.org/CN/10.3778/j.issn.1002-8331.1810-0284#">论文链接</a>, 2019 计算机工程与应用</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>VAE 模型中文综述</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Relevance factor vae: Learning and identifying disentangled factors</strong></p>
+<ul>
+<li><strong>作者</strong>: Minyoung Kim, Yuting Wang, Sahu, Pavlovic</li>
+<li><strong>机构</strong>: Dept. of Computer Science, Rutgers University, NJ, USA、Dept. of Electronic Engineering, Seoul National University of Science &amp; Technology, Seoul, South Korea</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1902.01568.pdf">论文链接</a>, 2019 arxiv</li>
+<li><strong>简要描述</strong>:  <ul>
+<li><strong>RF-VAE</strong> 模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Robustly Disentangled Causal Mechanisms: Validating Deep Representations for Interventional Robustness</strong></p>
+<ul>
+<li><strong>作者</strong>: Raphael Suter, Dorde Miladinovic ́, Bernhard Schölkopf, Stefan Bauer</li>
+<li><strong>机构</strong>: Department of Computer Science, ETH Zurich, Switzerland, MPI for Intelligent Systems, Tu ̈bingen, Germany</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1811.00007.pdf">论文链接</a>, 2019 ICML</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Learning Discrete and Continuous Factors of Data via Alternating Disentanglement</strong></p>
+<ul>
+<li><strong>作者</strong>: Yeonwoo Jeong, Hyun Oh Song</li>
+<li><strong>机构</strong>: Department of Computer Science and Engineering, Seoul National University, Seoul, Korea.</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1905.09432.pdf">论文链接</a>, 2019 ICML</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>对几个经典的「解耦表征模型」进行了「概率图模型」的总结</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Variational Autoencoders Pursue PCA Directions (by Accident)</strong></p>
+<ul>
+<li><strong>作者</strong>: Michal Rol´ınek, Dominik Zietlow, Georg Martius</li>
+<li><strong>机构</strong>: Max-Planck-Institute for Intelligent Systems, Tubingen, Germany</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1812.06775.pdf">论文链接</a>, 2019 CVPR</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>对 VAEs 最新的「<font color=red>理论解读</font>」</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Disentangling Disentanglement in Variational Autoencoders</strong></p>
+<ul>
+<li><strong>作者</strong>: Emile Mathieu, Tom Rainforth, N. Siddharth, Yee Whye Teh</li>
+<li><strong>机构</strong>: Department of Statistics, Department of Engineering, University of Oxford</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1812.02833.pdf">论文链接</a>, 2019 ICML</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>对「VAEs」为什么能解耦的「理论分析」</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<h2 id="2018"><a href="#2018" class="headerlink" title="2018"></a>2018</h2><p><strong>Sylvester normalizing flows for variational inference</strong></p>
+<ul>
+<li><strong>作者</strong>: Rianne van den Berg, Leonard Hasenclever, Jakub M. Tomczak</li>
+<li><strong>机构</strong>: University of Amsterdam, University of Oxford</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1803.05649.pdf">论文链接</a>, 2018 UAI</li>
+<li><strong>简要描述</strong>:   <ul>
+<li>基于「流」的概率模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>The Riemannian geometry of deep generative models</strong></p>
+<ul>
+<li><strong>作者</strong>: Hang Shao, Abhishek Kumar, P. Thomas Fletcher</li>
+<li><strong>机构</strong>: University of Utah Salt Lake City, UT</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1711.08014.pdf">论文链接</a>, 2018 CVPR</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>标准 VAE 的「隐空间」非常线性</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Glow: Generative Flow with Invertible 1x1 Convolutions</strong></p>
+<ul>
+<li><strong>作者</strong>: Diederik P. Kingma, Prafulla Dhariwal</li>
+<li><strong>机构</strong>: OpenAI, San Francisco</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1807.03039.pdf">论文链接</a>, 2018 NIPS</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>基于流的生成模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Disentangling by Factorising</strong></p>
+<ul>
+<li><strong>作者</strong>: Kim, Mnih</li>
+<li><strong>机构</strong>: DeepMind UK, Department of Statistics, University of Oxford.</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1802.05983.pdf">论文链接</a>, 2018 ICML</li>
+<li><strong>简要描述</strong>:  <ul>
+<li><strong>Factor VAE</strong> 模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Learning disentangled representations from grouped observations</strong></p>
+<ul>
+<li><strong>作者</strong>: Bouchacourt, Nowozin</li>
+<li><strong>机构</strong>: OVAL Group University of Oxford、Machine Intelligence and Perception Group, Microsoft Research, Cambridge, UK</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1705.08841.pdf">论文链接</a></li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>: <ul>
+<li><strong>weak supervision</strong> 方法，使用了 <strong>batch-level factor invariances</strong></li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<p><strong>Variational inference of disentangled latent concepts from unlabeled observations</strong></p>
+<ul>
+<li><strong>作者</strong>: Kumar, Sattigeri, Balakrishnan</li>
+<li><strong>机构</strong>: IBM Research AI, Yorktown Heights, NY</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1711.00848.pdf">论文链接</a>, 2018 ICLR</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>DIP-VAE 模型</li>
+<li>总结了「解耦表征学习」的几个<strong>优点</strong> (<code>advantages</code>):<ul>
+<li><strong>Invariance</strong>: 不相关性</li>
+<li><strong>Transferability</strong>: 可转移性</li>
+<li><strong>Interpretability</strong>: 可解释性</li>
+<li><strong>Conditioning and intervention</strong>: 调节和干预</li>
+</ul>
+</li>
+<li>总结了「解耦表征学习」引入的一些<strong>监督信息</strong>的手段 (<font color=green>详见 paper, 尚未详细看</font>)</li>
+<li>提出了一种新的<strong>解耦指标</strong> (<code>disentanglement metric</code>), 叫做 <font color=red>Separated Attribute Predictability</font> (SAP)</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Fixing a Broken ELBO</strong></p>
+<ul>
+<li><strong>作者</strong>: Alemi, Poole, Fischer</li>
+<li><strong>机构</strong>: Google AI、Stanford University</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1711.00464.pdf">论文链接</a>, 2018 ICML</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Understanding disentangling in β-vae</strong></p>
+<ul>
+<li><strong>作者</strong>: Burgess, Higgins, Pal, Matthey, Watters, </li>
+<li><strong>机构</strong>: DeepMind</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1804.03599.pdf">论文链接</a>, 2018 arxiv</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>: <ul>
+<li><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Isolating sources of disentanglement in variational autoencoders</strong></p>
+<ul>
+<li><strong>作者</strong>: Ricky T. Q. Chen, Xuechen Li, Grosse, Duvenaud</li>
+<li><strong>机构</strong>: University of Toronto, Vector Institute</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1802.04942.pdf">论文链接</a>, 2018 NIPS</li>
+<li><strong>简要描述</strong>:  <ul>
+<li><strong>β-TCVAE</strong> 模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Recent Advances in Autoencoder-Based Representation Learning</strong></p>
+<ul>
+<li><strong>作者</strong>: Tschannen, Bachem, Lucic</li>
+<li><strong>机构</strong>: ETH Zurich, Google AI, Brain Team</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1812.05069.pdf">论文链接</a>, 2018 NIPS 的 workshop</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>基于 Autoencoder 的表征学习的综述</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Learning disentangled joint continuous and discrete representations</strong></p>
+<ul>
+<li><strong>作者</strong>: Emilien Dupont</li>
+<li><strong>机构</strong>: Schlumberger Software Technology Innovation Center</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1804.00104.pdf">论文链接</a>, 2018 NIPS</li>
+<li><strong>简要描述</strong>:  <ul>
+<li><strong>Joint-VAE</strong> 模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>A framework for the quantitative evaluation of disentangled representations</strong></p>
+<ul>
+<li><strong>作者</strong>: Cian Eastwood, Christopher K. I. Williams</li>
+<li><strong>机构</strong>: School of Informatics, University of Edinburgh, UK</li>
+<li><a target="_blank" rel="noopener" href="https://openreview.net/pdf?id=By-7dz-AZ">论文链接</a>, 2018 ICLR</li>
+<li><strong>简要描述</strong>:  <ul>
+<li><strong>3DTeapots</strong> 数据集</li>
+<li></li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Learning deep disentangled embeddings with the f-statistic loss</strong></p>
+<ul>
+<li><strong>作者</strong>: Karl Ridgeway, Michael C. Mozer</li>
+<li><strong>机构</strong>: Department of Computer Science, University of Colorado ,Boulder, Colorado</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1802.05312.pdf">论文链接</a>, 2018 NIPS</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Towards a definition of disentangled representations</strong></p>
+<ul>
+<li><strong>作者</strong>: Irina Higgins, David Amos, David Pfau</li>
+<li><strong>机构</strong>: DeepMind</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1812.02230.pdf">论文链接</a></li>
+<li><strong>简要描述</strong>:  <ul>
+<li>对「解耦表征学习」的审视</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<h2 id="2017"><a href="#2017" class="headerlink" title="2017"></a>2017</h2><p><strong>The Consciousness Prior</strong></p>
+<ul>
+<li><strong>作者</strong>: Bengio</li>
+<li><strong>机构</strong>: Université de Montréal, Mila</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1709.08568.pdf">论文链接</a>, 2017 首次发表，2019 再次修订</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>beta-vae: Learning basic visual concepts with a constrained variational framework</strong></p>
+<ul>
+<li><strong>作者</strong>: Higgins, Matthey, Pal, Burgess</li>
+<li><strong>机构</strong>: Google DeepMind</li>
+<li><a target="_blank" rel="noopener" href="https://openreview.net/pdf?id=Sy2fzU9gl">论文链接</a>, 2017 ICLR</li>
+<li><strong>简要描述</strong>: </li>
+<li><strong>Related Work 中的描述</strong><ul>
+<li>modify the VAE objective to induce disentangled representations</li>
+<li>introduces a hyperparameter in front of the KL regularizer of vanilla VAEs to constrain the capacity of the VAE bottleneck</li>
+<li>introduce extra conflict between disentanglement of the latents and the observed data likelihood, (<strong>缺点</strong>)<br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Learning disentangled representations with semi-supervised deep generative models</strong></p>
+<ul>
+<li><strong>作者</strong>: Siddharth、Paige、Desmaison</li>
+<li><strong>机构</strong>: University of Oxford、Alan Turing Institute、Northeastern University、Stanford University、Deepmind</li>
+<li><a target="_blank" rel="noopener" href="https://proceedings.neurips.cc/paper/2017/file/9cb9ed4f35cf7c2f295cc2bc6f732a84-Paper.pdf">论文链接</a>, 2017 NIPS</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>: <ul>
+<li><strong>weak supervision</strong> 方法，采用了 <strong>semi-supervision of latent variables</strong><br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Conditional Similarity Networks</strong></p>
+<ul>
+<li><strong>作者</strong>: Veit, Belongie, Karaletsos</li>
+<li><strong>机构</strong>: Department of Computer Science &amp; Cornell Tech, Cornell University, Uber AI Labs</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1603.07810.pdf">论文链接</a>, 2017 CVPR</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>: <ul>
+<li><strong>weak supervision</strong> 方法，采用了 <strong>triplet supervision</strong><br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Adversarial Feature Learning</strong></p>
+<ul>
+<li><strong>作者</strong>: Jeff Donahue, Trevor Darrell, Philipp Krähenbühl</li>
+<li><strong>机构</strong>: Computer Science Division University of California, Berkeley</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1605.09782.pdf">论文链接</a>, 2017 ICLR</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>双向生成式对抗网络 (bi-directional generative adversarialnet, BiGAN)</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Adversarially Learned Inference</strong></p>
+<ul>
+<li><strong>作者</strong>: Vincent Dumoulin, Ishmael Belghazi, Ben Poole</li>
+<li><strong>机构</strong>: MILA, Université de Montréal</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1606.00704.pdf">论文链接</a></li>
+<li><strong>简要描述</strong>:  <ul>
+<li>双向生成式对抗网络 (bi-directional generative adversarialnet, BiGAN)</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<h2 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h2><p><strong>Bayesian representation learning with oracle constraints</strong></p>
+<ul>
+<li><strong>作者</strong>: Karaletsos, Belongie, Ratsch</li>
+<li><strong>机构</strong>: Computational Biology, Sloan Kettering Institute, Cornell Tech</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1506.05011.pdf">论文链接</a></li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>: <ul>
+<li><strong>weak supervision</strong> 方法，采用了 <strong>triplet supervision</strong><br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>A survey of inductive biases for factorial representation-learning</strong></p>
+<ul>
+<li><strong>作者</strong>: Karl Ridgeway</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1612.05299.pdf">论文链接</a>, 2016 arxiv</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<h2 id="2015"><a href="#2015" class="headerlink" title="2015"></a>2015</h2><p><strong>NICE: Non-linear Independent Components Estimation</strong></p>
+<ul>
+<li><strong>作者</strong>: Laurent Dinh, David Krueger, Yoshua Bengio</li>
+<li><strong>机构</strong>: Departement d’informatique et de recherche op ´ erationnelle</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1410.8516.pdf">论文链接</a>, 2015 ICLR</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>基于流的生成模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Deep Convolutional Inverse Graphics Network</strong></p>
+<ul>
+<li><strong>作者</strong>: Kulkarn, Whitney,  Kohli,  Tenenbaum</li>
+<li><strong>机构</strong>: Computer Science and Artificial Intelligence Laboratory, MIT, Brain and Cognitive Sciences, MIT, Microsoft Research Cambridge, UK</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1503.03167.pdf">论文链接</a>, 2015 NIPS</li>
+<li><strong>简要描述</strong>:  </li>
+<li><strong>Related Work 中的描述</strong>: <ul>
+<li><strong>weak supervision</strong> 方法，使用了 <strong>batch-level factor invariances</strong><br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Adversarial autoencoders</strong></p>
+<ul>
+<li><strong>作者</strong>: Makhzani, Shlens, Jaitly, Goodfellow, Frey</li>
+<li><strong>机构</strong>: University of Toronto、Google Brain、OpenAI</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1511.05644.pdf">论文链接</a>, 2015 arxiv</li>
+<li><strong>简要描述</strong>:  <ul>
+<li><strong>AAE</strong> 模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Deep Unsupervised Learning using Nonequilibrium Thermodynamics</strong></p>
+<ul>
+<li><strong>作者</strong>: Jascha Sohl-Dickstein, Eric A. Weiss , Niru Maheswaranathan</li>
+<li><strong>机构</strong>: Stanford University, University of California, Berkeley</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1503.03585.pdf">论文链接</a>, 2015 ICML</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>基于「扩散过程」的「生成模型」</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<h2 id="2014"><a href="#2014" class="headerlink" title="2014"></a>2014</h2><p><strong>Auto-Encoding Variational Bayes</strong></p>
+<ul>
+<li><strong>作者</strong>: Kingma, Welling</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1312.6114.pdf">论文链接</a>, <strong>2014 ICLR</strong></li>
+<li><strong>简要描述</strong>: <ul>
+<li>首次提出了<strong>变分自编码器</strong> (Variational Auto-Encoder, VAE)<br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Generative Adversarial Nets</strong></p>
+<ul>
+<li><strong>作者</strong>: Goodfellow, Pouget-Abadie, Mirza</li>
+<li><strong>机构</strong>: Departement d’informatique et de recherche op ´ erationnelle ´<br>Universite de Montr ´ eal</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1406.2661.pdf">论文链接</a>, 2014 NIPS</li>
+<li><strong>简要描述</strong>:  <ul>
+<li><strong>GAN</strong> 模型</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>:<br><br></li>
+</ul>
+<p><strong>Stochastic backpropagation and approximate inference in deep generative models</strong></p>
+<ul>
+<li><strong>作者</strong>: Rezende, Mohamed, Wierstra</li>
+<li><strong>机构</strong>: Google DeepMind</li>
+<li><a target="_blank" rel="noopener" href="http://proceedings.mlr.press/v32/rezende14.html">论文链接</a>, <strong>2014 ICML</strong></li>
+<li><strong>简要描述</strong>: <ul>
+<li>将<strong>变分自编码器</strong>应用到生成模型中<br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Semi-supervised learning with deep generative models</strong></p>
+<ul>
+<li><strong>作者</strong>: Kingma, Rezende, Mohamed, Welling</li>
+<li><strong>机构</strong>: Machine Learning Group, Univ. of Amsterdam, Google Deepmind</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1406.5298.pdf">论文链接</a>, 2014 NIPS</li>
+<li><strong>简要描述</strong>:  <ul>
+<li>VAE 的作者、Deepmind 合作完成</li>
+</ul>
+</li>
+<li><strong>Related Work 中的描述</strong>: <ul>
+<li><strong>weak supervision</strong> 方法，使用了 <strong>semi-supervision of latent variables</strong></li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<h2 id="2013"><a href="#2013" class="headerlink" title="2013"></a>2013</h2><p><strong>Representation Learning: A Review and New Perspectives</strong></p>
+<ul>
+<li><strong>作者</strong>: Bengio, Courville, Vincent</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1206.5538.pdf">论文链接</a>, 2013 TPAMI</li>
+<li><strong>简要描述</strong>: <ul>
+<li><strong>表征学习</strong> (representation learning) 的一篇综述</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<h2 id="2006"><a href="#2006" class="headerlink" title="2006"></a>2006</h2><p><strong>Reducing the Dimensionality of Data with Neural Networks</strong></p>
+<ul>
+<li><strong>作者</strong>: Hinton, Salakhutdinov</li>
+<li><a target="_blank" rel="noopener" href="https://classes.cs.uoregon.edu/17S/cis607bddl/papers/Hinton2006.pdf">论文链接</a></li>
+<li><strong>简要描述</strong>: <ul>
+<li>提出了 <strong>Auto-Encoder</strong><br><br></li>
+</ul>
+</li>
+</ul>
+<h2 id="2000"><a href="#2000" class="headerlink" title="2000"></a>2000</h2><p><strong>The information bottleneck method</strong></p>
+<ul>
+<li><strong>作者</strong>: Tishby, Pereira and Bialek</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/physics/0004057.pdf">论文链接</a></li>
+<li><strong>简要描述</strong>: <ul>
+<li><strong>信息瓶颈</strong> (information bottleneck) 方法的提出<br><br></li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>最喜欢你一言不合就打赏的样子了~~~么么哒！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/image/微信收款码.jpg" alt=" WeChat Pay"/>
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    MorningStar
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="https://morningstarovo.github.io/2021/10/03/4-%E9%A2%86%E5%9F%9F%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/5-%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/" title="解耦表征学习 | 论文整理">https://morningstarovo.github.io/2021/10/03/4-%E9%A2%86%E5%9F%9F%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/5-%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/" rel="tag"># 解耦表征学习</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2021/10/03/4-%E9%A2%86%E5%9F%9F%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/5-%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0_%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/" rel="next" title="解耦表征学习 | 相关资料">
+                <i class="fa fa-chevron-left"></i> 解耦表征学习 | 相关资料
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2021/10/04/2-%E8%AE%BA%E6%96%87&%E9%A1%B9%E7%9B%AE&%E4%BB%A3%E7%A0%81&%E8%8B%B1%E8%AF%AD%E7%9B%B8%E5%85%B3/1-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%9B%B8%E5%85%B3/%E5%85%B6%E4%BB%96%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D%E6%B1%87%E6%80%BB-1/" rel="prev" title="其他英语单词汇总-1">
+                其他英语单词汇总-1 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/GitHub-1-%E5%A8%B1%E4%B9%90-%E7%99%BD%E8%89%B2%E8%83%8C%E6%99%AF.png"
+                alt="" />
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">33</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/MorningStarOvO" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/ha-ha-ha-ha-ha-58-78" target="_blank" title="zhihu">
+                      
+                        <i class="fa fa-fw fa-globe"></i>zhihu</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2%E7%9A%84%E8%AF%9D"><span class="nav-number">1.</span> <span class="nav-text">写在前面的话</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2021"><span class="nav-number">2.</span> <span class="nav-text">2021</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2020"><span class="nav-number">3.</span> <span class="nav-text">2020</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2019"><span class="nav-number">4.</span> <span class="nav-text">2019</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2018"><span class="nav-number">5.</span> <span class="nav-text">2018</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2017"><span class="nav-number">6.</span> <span class="nav-text">2017</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2016"><span class="nav-number">7.</span> <span class="nav-text">2016</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2015"><span class="nav-number">8.</span> <span class="nav-text">2015</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2014"><span class="nav-number">9.</span> <span class="nav-text">2014</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2013"><span class="nav-number">10.</span> <span class="nav-text">2013</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2006"><span class="nav-number">11.</span> <span class="nav-text">2006</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2000"><span class="nav-number">12.</span> <span class="nav-text">2000</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">MorningStar</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'khbq861jzkdsuRSArqOokQUr-gzGzoHsz',
+        appKey: 'lDrW4ddywwOlFPqzMiiPsHpf',
+        placeholder: '请在此输入您的留言',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('-1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("khbq861jzkdsuRSArqOokQUr-gzGzoHsz", "lDrW4ddywwOlFPqzMiiPsHpf");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+  
+  <style>
+    .copy-btn {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 20px;
+      color: #333;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      background-color: #eee;
+      background-image: linear-gradient(#fcfcfc, #eee);
+      border: 1px solid #d5d5d5;
+      border-radius: 3px;
+      user-select: none;
+      outline: 0;
+    }
+
+    .highlight-wrap .copy-btn {
+      transition: opacity .3s ease-in-out;
+      opacity: 0;
+      padding: 2px 6px;
+      position: absolute;
+      right: 4px;
+      top: 8px;
+    }
+
+    .highlight-wrap:hover .copy-btn,
+    .highlight-wrap .copy-btn:focus {
+      opacity: 1
+    }
+
+    .highlight-wrap {
+      position: relative;
+    }
+  </style>
+  
+  <script>
+    $('.highlight').each(function (i, e) {
+      var $wrap = $('<div>').addClass('highlight-wrap')
+      $(e).after($wrap)
+      $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function (e) {
+        var code = $(this).parent().find('.code').find('.line').map(function (i, e) {
+          return $(e).text()
+        }).toArray().join('\n')
+        var ta = document.createElement('textarea')
+        document.body.appendChild(ta)
+        ta.style.position = 'absolute'
+        ta.style.top = '0px'
+        ta.style.left = '0px'
+        ta.value = code
+        ta.select()
+        ta.focus()
+        var result = document.execCommand('copy')
+        document.body.removeChild(ta)
+        
+          if(result)$(this).text('复制成功')
+          else $(this).text('复制失败')
+        
+        $(this).blur()
+      })).on('mouseleave', function (e) {
+        var $b = $(this).find('.copy-btn')
+        setTimeout(function () {
+          $b.text('复制')
+        }, 300)
+      }).append(e)
+    })
+  </script>
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"left","width":200,"height":500},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
+
+<!--love 图标-->
+<script type="text/javascript" src="/js/src/love.js"></script>
+
+<!--浏览器搞笑标题-->
+<script type="text/javascript" src="\js\FunnyTitle.js"></script>

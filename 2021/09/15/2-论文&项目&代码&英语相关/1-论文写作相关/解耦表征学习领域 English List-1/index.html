@@ -1,0 +1,3214 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="English List,解耦表征学习," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="MorningStar" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="阅读解耦表征学习领域的 paper 遇到的不会的英语单词">
+<meta property="og:type" content="article">
+<meta property="og:title" content="解耦表征学习 English List-1">
+<meta property="og:url" content="https://morningstarovo.github.io/2021/09/15/2-%E8%AE%BA%E6%96%87&%E9%A1%B9%E7%9B%AE&%E4%BB%A3%E7%A0%81&%E8%8B%B1%E8%AF%AD%E7%9B%B8%E5%85%B3/1-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%9B%B8%E5%85%B3/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%20English%20List-1/index.html">
+<meta property="og:site_name" content="MorningStar">
+<meta property="og:description" content="阅读解耦表征学习领域的 paper 遇到的不会的英语单词">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-09-15T01:34:09.000Z">
+<meta property="article:modified_time" content="2021-11-24T11:03:51.259Z">
+<meta property="article:author" content="MorningStar">
+<meta property="article:tag" content="English List">
+<meta property="article:tag" content="解耦表征学习">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"输入关键字进行搜索","hits_empty":"找不到关于  ${query} 的文章","hits_stats":"共找到 ${hits} 篇文章，花了 ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://morningstarovo.github.io/2021/09/15/2-论文&项目&代码&英语相关/1-论文写作相关/解耦表征学习领域 English List-1/"/>
+
+
+
+
+
+  <title>解耦表征学习 English List-1 | MorningStar</title>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?3ec404aa56960f0fcb8eaba5a155ccb6";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">MorningStar</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">晨旭OvO</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://morningstarovo.github.io/2021/09/15/2-%E8%AE%BA%E6%96%87&%E9%A1%B9%E7%9B%AE&%E4%BB%A3%E7%A0%81&%E8%8B%B1%E8%AF%AD%E7%9B%B8%E5%85%B3/1-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%9B%B8%E5%85%B3/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%20English%20List-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/GitHub-1-%E5%A8%B1%E4%B9%90-%E7%99%BD%E8%89%B2%E8%83%8C%E6%99%AF.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="MorningStar">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">解耦表征学习 English List-1</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-09-15T09:34:09+08:00">
+                2021-09-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index">
+                    <span itemprop="name">英语学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2021/09/15/2-%E8%AE%BA%E6%96%87&%E9%A1%B9%E7%9B%AE&%E4%BB%A3%E7%A0%81&%E8%8B%B1%E8%AF%AD%E7%9B%B8%E5%85%B3/1-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%9B%B8%E5%85%B3/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%20English%20List-1/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/09/15/2-%E8%AE%BA%E6%96%87&%E9%A1%B9%E7%9B%AE&%E4%BB%A3%E7%A0%81&%E8%8B%B1%E8%AF%AD%E7%9B%B8%E5%85%B3/1-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%9B%B8%E5%85%B3/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%20English%20List-1/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2021/09/15/2-%E8%AE%BA%E6%96%87&%E9%A1%B9%E7%9B%AE&%E4%BB%A3%E7%A0%81&%E8%8B%B1%E8%AF%AD%E7%9B%B8%E5%85%B3/1-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%9B%B8%E5%85%B3/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%20English%20List-1/" class="leancloud_visitors" data-flag-title="解耦表征学习 English List-1">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+              <div class="post-description">
+                  阅读解耦表征学习领域的 paper 遇到的不会的英语单词
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h2><ul>
+<li>本博客以 paper 为小标题进行分类</li>
+</ul>
+<p><br></p>
+<p><strong>单词难度标记</strong></p>
+<ul>
+<li>⭐</li>
+</ul>
+<p><br></p>
+<h2 id="Auto-Encoding-Variational-Bayes"><a href="#Auto-Encoding-Variational-Bayes" class="headerlink" title="Auto-Encoding Variational Bayes"></a>Auto-Encoding Variational Bayes</h2><ul>
+<li><code>convergence</code><br><strong>n.</strong><br>if two or more rates of interest, unemployment etc <strong>converge</strong>, they move to the same level. </li>
+<li></li>
+</ul>
+<p><br></p>
+<h2 id="Stochastic-Backpropagation-and-Approximate-Inference-in-Deep-Generative-Models"><a href="#Stochastic-Backpropagation-and-Approximate-Inference-in-Deep-Generative-Models" class="headerlink" title="Stochastic Backpropagation and Approximate Inference in Deep Generative Models"></a>Stochastic Backpropagation and Approximate Inference in Deep Generative Models</h2><ul>
+<li><code>scalable</code><br><strong>adj.</strong><br>capable of being easily expanded or upgraded on demand, 可根据需要轻松扩展或升级<br>举例: scalable computer network</li>
+</ul>
+<p><br></p>
+<h2 id="Challenging-Common-Assumptions-in-the-Unsupervised-Learning-of-Disentangled-Fresentations"><a href="#Challenging-Common-Assumptions-in-the-Unsupervised-Learning-of-Disentangled-Fresentations" class="headerlink" title="Challenging Common Assumptions in the Unsupervised Learning of Disentangled Fresentations"></a>Challenging Common Assumptions in the Unsupervised Learning of Disentangled Fresentations</h2><p><strong>Abstract</strong></p>
+<ul>
+<li><code>explanatory</code><br><strong>adj.</strong><br>giving information about something or describing how something works, in order to make it easier to understand<br>解释性的</li>
+<li><code>sober</code><br><strong>adj.</strong><ul>
+<li>not drunk<br>没有喝酒的</li>
+<li>serious, and thinking or making you think carefully about things<br>清醒的<br><strong>例子:</strong> a <strong>sober</strong> look</li>
+<li>plain and not at all brightly coloured</li>
+</ul>
+</li>
+<li><code>theoretically</code><br><strong>adv.</strong><ul>
+<li>used to say what is supposed to be true in a particular situation, especially when the opposite is true</li>
+<li>according to a scientific idea that has not been proven to be true in a practical way</li>
+<li>理论上地</li>
+</ul>
+</li>
+<li><code>fundamentally</code><br><strong>adv.</strong><br>in every way that is important or basic<br>从根本上地<br><strong>例子:</strong> The conclusions of the report are <strong>fundamentally</strong> wrong.</li>
+<li><code>inductive</code><br><strong>adj.</strong><ul>
+<li>using known facts to produce general principles<br>归纳</li>
+<li>connected with electrical or magnetic induction<br>与电或磁感应连接</li>
+</ul>
+</li>
+<li><p><code>bias</code><br><strong>n.</strong></p>
+<ul>
+<li>an opinion about whether a person, group, or idea is good or bad that influences how you deal with it<br>偏见</li>
+<li>a natural skill or interest in one type of thing</li>
+</ul>
+<p><strong>v.</strong></p>
+<ul>
+<li>to unfairly influence attitudes, choices, or decisions</li>
+</ul>
+</li>
+<li><code>prominent</code><br><strong>adj.</strong><ul>
+<li>important</li>
+<li>something that is in a prominent place is easily seen</li>
+<li>something that is prominent is large and sticks out</li>
+</ul>
+</li>
+<li><code>reproducible</code><br><strong>adj.</strong><br>可重复的</li>
+<li><code>properties</code> / <code>property</code> ⭐⭐<br><strong>n.</strong><ul>
+<li>the thing or things that someone owns<br>财产</li>
+<li>a building, a piece of land, or both together</li>
+<li>a quality or power that a substance, plant etc has<br>属性</li>
+</ul>
+</li>
+<li><code>explicit</code><br><strong>adj.</strong><ul>
+<li>expressed in a way that is very clear and direct<br>明确的</li>
+<li>language or pictures that are explicit describe or show sex or violence very clearly</li>
+</ul>
+</li>
+<li><code>implicit</code><br><strong>adj.</strong><ul>
+<li>suggested or understood without being stated directly<br><font color=red>反义词: </font> <code>explicit</code><br>隐含的</li>
+<li>forming a central part of something, but without being openly stated</li>
+<li>complete and containing no doubts</li>
+</ul>
+</li>
+<li><p><code>concrete</code> ⭐<br><strong>adj.</strong></p>
+<ul>
+<li>made of concrete</li>
+<li>definite and specific (<strong>Abstract</strong>)<br>明确而具体的</li>
+</ul>
+<p><strong>n.</strong></p>
+<ul>
+<li>a substance used for building that is made by mixing sand, small stones, cement, and water<br>混凝土</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<p><strong>Introduction</strong></p>
+<ul>
+<li><code>multivariate</code><br><strong>adj.</strong><br>多元的</li>
+<li><code>integrate</code><br><strong>v.</strong><ul>
+<li>if two or more things integrate, or if you integrate them, they combine or work together in a way that makes something more effective<br>整合</li>
+<li>to become part of a group or society and be accepted by them, or to help someone do this</li>
+<li>to end the practice of separating people of different races in schools, colleges etc</li>
+</ul>
+</li>
+<li><code>nuisance</code><br><strong>n.</strong><ul>
+<li>a person, thing, or situation that annoys you or causes problems<br>滋扰</li>
+<li>the use of a place or property in a way that causes public annoyance</li>
+</ul>
+</li>
+<li><code>substantially</code><br><strong>adv.</strong><ul>
+<li>very much or a lot</li>
+<li>used to say that in many ways something is true, the same, different etc.<br>本质上<br><strong>同义词</strong>: essentially</li>
+</ul>
+</li>
+<li><code>substantial</code><br><strong>adj.</strong><ul>
+<li>large in amount or number</li>
+<li>large and strongly made</li>
+</ul>
+</li>
+<li><code>compact</code><br><strong>adj.</strong><ul>
+<li>small, but arranged so that everything fits neatly into the space available – used to show approval </li>
+<li>packed or put together firmly and closely</li>
+<li>small, but solid and strong</li>
+</ul>
+</li>
+<li><code>interpretable</code><br><strong>adj.</strong><br>可解释的</li>
+<li><code>interpretive</code> / <code>interpretative</code><br><strong>adj.</strong><ul>
+<li>relating to, explaining, or understanding the meaning of something</li>
+<li>relating to how feelings are expressed through music, dance, art etc  </li>
+</ul>
+</li>
+<li><code>intervention</code> ⭐<br><strong>n.</strong><br>the act of becoming involved in an argument, fight, or other difficult situation in order to change what happens<br>干预</li>
+<li><code>counterfactual</code><br><strong>adj.</strong><br>反事实的</li>
+<li><code>formalize</code><br><strong>v.</strong><br>to make a plan, decision, or idea official, especially by deciding and clearly describing all the details<br>形式化</li>
+<li><code>notion</code> ⭐<br><strong>n.</strong><br>an idea, belief, or opinion<br>概念、观念</li>
+<li><code>protocol</code><br><strong>n.</strong><ul>
+<li>a system of rules about the correct way to behave on an official occasion<br>协议</li>
+<li>an international agreement between two or more countries</li>
+<li>a written record of a formal or international agreement, or an early form of an agreement</li>
+<li>an established method for connecting computers so that they can exchange information</li>
+<li>a set of rules that are followed when doing a scientific experiment or giving someone medical treatment</li>
+</ul>
+</li>
+<li><code>leverage</code> ⭐<br><strong>n.</strong><ul>
+<li>influence that you can use to make people do what you want</li>
+<li>the action, power, or use of a lever</li>
+<li>杠杆作用</li>
+</ul>
+</li>
+<li><code>factorize</code> ⭐<br><strong>v.</strong><br>to divide a sum into the numbers that, when multiplied, equal that sum. For example, if you factorise the number 10, you get 2 and 5<br>分解</li>
+<li><code>aggregated</code><br><strong>adj.</strong><br>聚合的</li>
+<li><code>implement</code> ⭐<br><strong>v.</strong><br>to take action or make changes that you have officially decided should happen<br>实施</li>
+<li><code>from scratch</code><br><strong>短语</strong><br>从头开始</li>
+<li><code>computation</code><br><strong>n.</strong><br>the process of calculating or the result of calculating</li>
+<li><code>correlate</code> ⭐<br><strong>v.</strong><br>if two or more facts, ideas etc correlate or if you correlate them, they are closely connected to each other or one causes the other<br>相关</li>
+<li><code>reliable</code><br><strong>adj.</strong><br>someone or something that is reliable can be trusted or depended on<br>可靠的</li>
+<li><code>persist</code><br><strong>v.</strong><br>to continue to do something, although this is difficult, or other people oppose it<br>坚持</li>
+</ul>
+<p><br></p>
+<p><strong>Related Work</strong></p>
+<ul>
+<li><code>identifiability</code><br>可识别性</li>
+<li><code>identifiable</code><br><strong>adj.</strong><br>able to be recognized<br>能够被识别的</li>
+<li><code>milestone</code><br><strong>n.</strong><ul>
+<li>a very important event in the development of something<br>里程碑事件</li>
+<li>a stone next to a road that shows the distance in miles to the next town<br>里程碑</li>
+</ul>
+</li>
+<li><code>bottleneck</code><br><strong>n.</strong><ul>
+<li>a place in a road where the traffic cannot pass easily, so that there are a lot of delays</li>
+<li>a delay in one stage of a process that makes the whole process take longer<br>瓶颈</li>
+</ul>
+</li>
+<li><code>exploit</code><br><strong>v.</strong><ul>
+<li>to treat someone unfairly by asking them to do things for you, but giving them very little in return – used to show disapproval</li>
+<li>to try to get as much as you can out of a situation, sometimes unfairly</li>
+<li>to use something fully and effectively<br>充分利用</li>
+<li>to develop and use minerals, forests, oil etc for business or industry</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<p><strong>Impossibility result</strong></p>
+<ul>
+<li><code>arbitrary</code><br><strong>adj.</strong><br>decided or arranged without any reason or plan, often unfairly<br>随意的</li>
+<li><code>Theorem</code><br><strong>n.</strong><br>a statement, especially in mathematics, that you can prove by showing that it has been correctly developed from facts<br>定理</li>
+<li><code>infinite</code><br><strong>adj.</strong><ul>
+<li>very great in amount or degree</li>
+<li>without limits in space or time<br>无限的<br><strong>反义词</strong>: finite</li>
+</ul>
+</li>
+<li><code>bijective functions</code><br><strong>短语</strong><br>双射函数</li>
+<li><code>marginal distribution</code><br><strong>短语</strong><br>边缘分布</li>
+<li><code>imply</code><br><strong>v.</strong><ul>
+<li>to suggest that something is true, without saying this directly</li>
+<li>if a fact, event etc implies something, it shows that it is likely to be true</li>
+<li>if one thing implies another, it proves that the second thing exists</li>
+<li>意味着</li>
+</ul>
+</li>
+<li><code>equivalent</code><br><strong>adj.</strong><br>having the same value, purpose, job etc as a person or thing of a different kind<br>等价的, 相同的</li>
+<li><code>furthermore</code><br><strong>adv.</strong><br>in addition to what has already been said<br>此外<br><strong>同义词</strong>: <code>in addition</code>, <code>moreover</code> </li>
+<li><code>deterministic</code><br><strong>adj.</strong><br>确定性的</li>
+<li><code>multivariate uniform distributions</code><br><strong>词组</strong><br>多元均匀分布</li>
+<li><code>invariant</code> ⭐⭐<br><strong>adj.</strong><br>不变的</li>
+<li><code>endeavour</code><br><strong>v.</strong><br>to try very hard<br>努力</li>
+<li></li>
+</ul>
+<p><br></p>
+<p><strong>Experimental design</strong></p>
+<ul>
+<li><p><code>vanilla</code><br><strong>n.</strong></p>
+<ul>
+<li>a substance used to give a special taste to ice cream, cakes etc, made from the beans of a tropical plant<br>香草</li>
+</ul>
+<p><strong>adj.</strong></p>
+<ul>
+<li>having the taste of vanilla</li>
+<li>plain, ordinary, or uninteresting</li>
+<li>最初的</li>
+</ul>
+</li>
+<li><code>constrain</code><br><strong>v.</strong><ul>
+<li>to stop someone from doing what they want to do</li>
+<li>to limit something<br>约束</li>
+</ul>
+</li>
+<li><code>penalize</code> or <code>penalise</code> ⭐<br><strong>v.</strong><ul>
+<li>to punish someone or treat them unfairly<br>惩罚</li>
+<li>to punish a team or player in sports by giving an advantage to the other team</li>
+</ul>
+</li>
+<li><code>tractable</code><br><strong>adj.</strong><br>easy to control or deal with<br>易处理的</li>
+<li><code>intractable</code><br><strong>adj.</strong><ul>
+<li>an intractable problem is very difficult to deal with or solve<br>顽固的</li>
+<li>having a strong will and difficult to control</li>
+</ul>
+</li>
+<li><code>respectively</code> ⭐<br><strong>adv.</strong><br>in the same order as the things you have just mentioned<br>分别</li>
+<li><code>mismatch</code><br><strong>n.</strong><br>a combination of things or people that do not work well together or are not suitable for each other<br>误配</li>
+<li><p><code>measure</code><br><strong>v.</strong></p>
+<ul>
+<li>to find the size, length, or amount of something, using standard units such as inches, metres etc</li>
+<li>to judge the importance, value, or true nature of something<br>判断事物的重要性、值、真实性质</li>
+<li>to be a particular size, length, or amount</li>
+<li>if a piece of equipment measures something, it shows or records a particular kind of measurement</li>
+</ul>
+<p><strong>n.</strong></p>
+<ul>
+<li>an action, especially an official one, that is intended to deal with a particular problem</li>
+</ul>
+</li>
+<li><code>invert</code><br><strong>v.</strong><br>to put something in the opposite position to the one it was in before, especially by turning it upside down<br>倒置, 颠倒<br><br></li>
+</ul>
+<p><strong>Key experimental results</strong></p>
+<ul>
+<li><code>specifically</code><br><strong>adv.</strong><ul>
+<li>relating to or intended for one particular type of person or thing only</li>
+<li>in a detailed or exact way<br>具体来说</li>
+</ul>
+</li>
+<li><code>minor</code><br> <strong>adj.</strong><ul>
+<li>small and not very important or serious, especially when compared with other things<br>次要的</li>
+<li>based on a particular type of musical scale</li>
+</ul>
+</li>
+<li><code>irrelevant</code><br><strong>adj.</strong><br>not useful or not relating to a particular situation, and therefore not important<br>无关的</li>
+<li><code>modification</code><br><strong>n.</strong><ul>
+<li>a small change made in something such as a design, plan, or system<br>很小的修改</li>
+<li>the act of modifying something, or the process of being modified</li>
+</ul>
+</li>
+<li><code>fitted</code><br><strong>adj.</strong><ul>
+<li>be fitted with something</li>
+<li>built, made, or cut to fit a particular space</li>
+<li>fitted clothes are designed so that they fit closely to someone’s body</li>
+<li>having the right qualities or experience for a particular job</li>
+<li>适合的</li>
+</ul>
+</li>
+<li><code>covariance matrix</code><br><strong>短语</strong><br>协方差矩阵</li>
+<li><code>diagonal</code><br><strong>adj.</strong><ul>
+<li>a diagonal line is straight and joins two opposite corners of a flat shape, usually a square<br>对角线的</li>
+<li>following a sloping angle</li>
+</ul>
+</li>
+<li><code>implication</code><br><strong>n.</strong><ul>
+<li>a possible future effect or result of an action, event, decision etc<br>影响</li>
+<li>a situation in which it is shown or suggested that someone or something is involved in a crime or a dishonest act</li>
+<li>a suggestion that is not made directly but that people are expected to understand or accept</li>
+</ul>
+</li>
+<li><p><code>overall</code><br><strong>adj.</strong></p>
+<ul>
+<li>considering or including everything</li>
+</ul>
+<p><strong>adv.</strong></p>
+<ul>
+<li>considering or including everything<br>总体来说</li>
+<li>generally</li>
+</ul>
+</li>
+<li><code>mildly</code><br><strong>adv.</strong><ul>
+<li>slightly<br>轻微的, 温和的</li>
+<li>in a gentle way without being angry</li>
+</ul>
+</li>
+<li><code>overlap</code><br><strong>v.</strong><ul>
+<li>if two or more things overlap, part of one thing covers part of another thing</li>
+<li>if two subjects, ideas etc overlap, they include some but not all of the same things</li>
+<li>if two activities or periods of time overlap, the second one starts before the first one has finished</li>
+</ul>
+</li>
+<li><code>attainable</code><br><strong>adj.</strong><br>可到达的</li>
+<li><code>attain</code><br><strong>v.</strong><ul>
+<li>to succeed in achieving something after trying for a long time</li>
+<li>to reach a particular level, age, size etc</li>
+</ul>
+</li>
+<li><code>range</code><br><strong>n.</strong><ul>
+<li>a number of people or things that are all different, but are all of the same general type</li>
+<li>the limits within which amounts, quantities, ages etc vary</li>
+<li>a set of similar products made by a particular company or available in a particular shop</li>
+<li>the distance over which a particular weapon can hit things</li>
+<li>the distance within which something can be seen or heard</li>
+<li>the distance which a vehicle such as an aircraft can travel before it needs more fuel etc</li>
+<li>all the musical notes that a particular singer or musical instrument can make</li>
+<li>a group of mountains or hills, usually in a line</li>
+<li>an area of land where you can practise shooting or where weapons can be tested</li>
+<li>the number of different things that someone, especially an actor or actress, does well</li>
+<li>a large area of land covered with grass, on which cattle are kept</li>
+<li>范围</li>
+</ul>
+</li>
+<li><code>violin</code><br><strong>n.</strong><br>小提琴</li>
+<li><code>least squares</code><br><strong>短语</strong><br>最小二乘法</li>
+<li><code>objective function</code><br><strong>短语</strong><br>目标函数</li>
+<li><code>advocate</code><br><strong>v.</strong><br>to publicly support a particular way of doing something<br>提倡</li>
+<li><code>adequate</code><br><strong>adj.</strong><ul>
+<li>enough in quantity or of a good enough quality for a particular purpose</li>
+<li>fairly good but not excellent</li>
+</ul>
+</li>
+<li><code>remainder</code><br><strong>n.</strong><ul>
+<li>the number you get when you subtract one number from another number</li>
+<li>the number that is left when you divide one number by another number</li>
+<li>余下</li>
+</ul>
+</li>
+<li><code>median</code><br><strong>n.</strong><ul>
+<li>a narrow area of land that separates the two sides of a big road in order to keep traffic travelling in different directions apart</li>
+<li>the middle number or measurement in a set of numbers or measurements that have been arranged in order<br>中位数</li>
+<li>a line passing from one of the points of a triangle to the centre of the opposite side</li>
+</ul>
+</li>
+<li><code>dominate</code><br><strong>v.</strong><ul>
+<li>to control someone or something or to have more importance than other people or things<br>支配</li>
+<li>to be larger and more noticeable than anything else in a place</li>
+</ul>
+</li>
+<li><code>percentage</code><br><strong>n.</strong><ul>
+<li>an amount expressed as if it is part of a total which is 100<br>百分比</li>
+<li>a share of the profits</li>
+</ul>
+</li>
+<li><code>trial</code> ⭐<br><strong>n.</strong><ul>
+<li>a legal process in which a judge and often a jury in a court of law examine information to decide whether someone is guilty of a crime<br>审判</li>
+<li>a process of testing to find out whether something works effectively and is safe<br>一个测试过程, 以确定某物是否有效且安全</li>
+<li>a short period during which you use or do something or employ someone to find out whether they are satisfactory for a particular purpose or job</li>
+<li>something that is difficult to deal with, and that is worrying or annoying</li>
+</ul>
+</li>
+<li><p><code>boost</code><br><strong>v.</strong></p>
+<ul>
+<li>to increase or improve something and make it more successful<br>提升</li>
+<li>to help someone reach a higher place by lifting or pushing them</li>
+<li>if a rocket or motor boosts a spacecraft, it makes it go up into space or go in a particular direction</li>
+</ul>
+<p><strong>n.</strong></p>
+<ul>
+<li>something that gives someone more confidence, or that helps something increase, improve, or become successful</li>
+<li>an increase in the amount of power available to a rocket, piece of electrical equipment etc</li>
+</ul>
+</li>
+<li><code>informativeness</code><br><strong>n.</strong><br>信息量</li>
+<li><code>inexistent</code><br><strong>adj.</strong><br>不存在的</li>
+<li><code>versus</code><br><strong>prep</strong><ul>
+<li>used to show that two people or teams are competing against each other in a game or court case</li>
+<li>used when comparing the advantages of two different things, ideas etc<br>用于比较两者的优势, 相对</li>
+</ul>
+</li>
+<li><code>empirical</code> ⭐<br><strong>adj.</strong><ul>
+<li>based on scientific testing or practical experience, not on ideas<br>基于科学测试或实践的经验</li>
+</ul>
+</li>
+<li><code>interpret</code><br><strong>v.</strong><ul>
+<li>to translate spoken words from one language into another</li>
+<li>to believe that something someone does or something that happens has a particular meaning</li>
+<li>to explain the meaning of something<br>解释</li>
+<li>to perform a part in a play, a piece of music etc in a way that shows your feelings about it or what you think it means</li>
+</ul>
+</li>
+<li><code>fairness</code><br><strong>n.</strong><br>the quality of being fair<br>公平</li>
+<li><code>nevertheless</code><br><strong>adv.</strong><br>in spite of a fact that you have just mentioned<br>尽管如此</li>
+</ul>
+<p><br></p>
+<p><strong>Conclusions</strong></p>
+<ul>
+<li><code>crucial</code><br><strong>adj.</strong><ul>
+<li>something that is crucial is extremely important, because everything else depends on it<br>至关重要的</li>
+</ul>
+</li>
+<li><code>deviate</code> ⭐<br><strong>v.</strong><br>to change what you are doing so that you are not following an expected plan, idea, or type of behaviour<br>偏离</li>
+<li><code>compelling</code><br><strong>adj.</strong><br>very interesting or exciting, so that you have to pay attention</li>
+<li><code>compelling reason/argument/case</code><br>an argument etc that makes you feel certain that something is true or that you must do something about it</li>
+<li><code>compellingly</code><br><strong>adv.</strong><br>令人信服地</li>
+<li><code>interactive</code><br><strong>adj.</strong><ul>
+<li>an interactive computer program, television system etc allows you to communicate directly with it, and does things in reaction to your actions</li>
+<li>involving talking and working together<br>交互的</li>
+</ul>
+</li>
+<li><code>candidate</code><br><strong>n.</strong><ul>
+<li>someone who is being considered for a job or is competing in an election<br>候选人</li>
+<li>someone who is taking an examination</li>
+<li>someone or something that is likely to experience or get something<br>候选项</li>
+</ul>
+</li>
+<li><code>potential</code><br><strong>adj.</strong><br>likely to develop into a particular type of person or thing in the future<br>潜在的</li>
+<li><code>spurious</code><br><strong>adj.</strong><br>a spurious statement, argument etc is not based on facts or good thinking and is likely to be incorrect<br>虚假的</li>
+</ul>
+<p><br></p>
+<h2 id="NP-DRAW-A-Non-Parametric-Structured-Latent-Variable-Model-for-Image-Generation"><a href="#NP-DRAW-A-Non-Parametric-Structured-Latent-Variable-Model-for-Image-Generation" class="headerlink" title="NP-DRAW: A Non-Parametric Structured Latent Variable Model for Image Generation"></a>NP-DRAW: A Non-Parametric Structured Latent Variable Model for Image Generation</h2><p><strong>Abstract</strong></p>
+<ul>
+<li><code>canvas</code><br><strong>n.</strong><ul>
+<li>strong cloth used to make bags, tents, shoes etc</li>
+<li>a painting done with oil paints, or the piece of cloth it is painted on</li>
+<li>帆布, 画布</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<p><strong>Introduction</strong></p>
+<ul>
+<li><code>simultaneously</code> ⭐<br><strong>adv.</strong><br>同时地</li>
+<li><code>simultaneous</code><br><strong>adj.</strong><br>things that are simultaneous happen at exactly the same time<br>同时的</li>
+<li><code>facilitate</code><br><strong>v.</strong><br>to make it easier for a process or activity to happen<br>促进</li>
+<li><code>mimic</code><br><strong>v.</strong><ul>
+<li>to copy the way someone speaks or behaves, especially in order to make people laugh<br>模仿</li>
+<li>to behave or operate in exactly the same way as something or someone else</li>
+<li>if an animal mimics something, it looks or sounds very like it</li>
+</ul>
+</li>
+<li><code>plain</code><br><strong>adj.</strong><ul>
+<li>very clear, and easy to understand or recognize<br>显而易见的, 清楚的</li>
+<li>without anything added or without decoration<br>朴素的, 简单的</li>
+</ul>
+</li>
+<li><code>heuristic</code><br><strong>adj.</strong><ul>
+<li>heuristic education is based on discovering and experiencing things for yourself<br>启发式的</li>
+<li>helping you in the process of learning or discovery</li>
+</ul>
+</li>
+<li><code>parse</code><br><strong>v.</strong><br>to describe the grammar of a word when it is in a particular sentence, or the grammar of the whole sentence<br>解析</li>
+<li><code>superior</code><br><strong>adj.</strong><ul>
+<li>better, more powerful, more effective etc than a similar person or thing, especially one that you are competing against<br>优越的</li>
+<li>thinking that you are better than other people – used to show disapproval</li>
+<li>having a higher position or rank than someone else</li>
+<li>of very good quality – used especially in advertising</li>
+</ul>
+</li>
+<li><code>portion</code><br><strong>n.</strong><ul>
+<li>a part of something larger, especially a part that is different from the other parts<br>大东西的一部分</li>
+<li>an amount of food for one person, especially when served in a restaurant</li>
+<li>a share of something, such as responsibility, blame, or a duty, that is divided between a small number of people</li>
+</ul>
+</li>
+<li><code>compositionality</code><br><strong>n.</strong><br>组合性</li>
+<li><code>compositional</code><br><strong>adj.</strong><br>组合式的</li>
+<li><code>composition</code><br><strong>n.</strong><ul>
+<li>the way in which something is made up of different parts, things, or members</li>
+<li>a piece of music, a poem, or a piece of writing</li>
+<li>the way in which the different parts that make up a photograph or picture are arranged</li>
+<li>a short piece of writing about a particular subject, that is done at school</li>
+<li>the process of arranging words, pictures etc on a page before they are printed</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<p><strong>RELATED WORK</strong></p>
+<ul>
+<li><code>exemplar</code><br><strong>n.</strong><br>a good or typical example</li>
+<li><code>stroke</code><br><strong>n.</strong><ul>
+<li>if someone has a stroke, an artery (=tube carrying blood) in their brain suddenly bursts or becomes blocked, so that they may die or be unable to use some muscles<br>中风</li>
+<li>one of a set of movements in swimming or rowing in which you move your arms or the oar forward and then back</li>
+<li>a style of swimming or rowing</li>
+<li>the action of hitting the ball in games such as tennis, golf, and cricket</li>
+<li>a single movement of a pen or brush when you are writing or painting</li>
+<li>a line made by a pen or brush</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<p><strong>Model</strong></p>
+<p><br></p>
+<p><strong>Experiments</strong></p>
+<ul>
+<li><p><code>generic</code></p>
+</li>
+<li><p><code>roughly</code></p>
+</li>
+<li></li>
+</ul>
+<p><br></p>
+<p><strong>Conclusion</strong></p>
+<ul>
+<li><code>appearance</code><br><strong>n.</strong><ul>
+<li>the way someone or something looks to other people<br>外貌</li>
+<li>when a famous person takes part in a film, concert, or other public event</li>
+<li>when something new begins to exist or starts being used</li>
+<li>the unexpected or sudden arrival of someone or something</li>
+<li>an occasion when someone goes to a court of law or official meeting to give information, answer questions etc</li>
+</ul>
+</li>
+<li><code>auto-regressive</code><br>自回归</li>
+<li><code>par</code><br><strong>n.</strong><ul>
+<li>the number of strokes a good player should take to hit the ball into a hole in the game of golf<br>标准杆</li>
+<li>the value of a stock or bond that is printed on it when it is first sold</li>
+</ul>
+</li>
+<li><code>on par with</code><br><strong>词组</strong><br>与 … 相当<br><strong>例句</strong>: <code>The model significantly outperforms previous structured image models and is on par with state-of-the-art generic generative models</code><br><br></li>
+</ul>
+<h2 id="The-Role-of-Disentanglement-in-Generalisation"><a href="#The-Role-of-Disentanglement-in-Generalisation" class="headerlink" title="The Role of Disentanglement in Generalisation"></a>The Role of Disentanglement in Generalisation</h2><p><strong>Abstract</strong></p>
+<ul>
+<li><code>role</code><br><strong>n.</strong><ul>
+<li>the way in which someone or something is involved in an activity or situation, and how much influence they have on it<br>某人 / 某物对某活动 / 某情境的影响</li>
+<li>the character played by an actor in a play or film<br>角色</li>
+</ul>
+</li>
+<li><code>combinatorial</code><br><strong>adj.</strong><br>组合的</li>
+<li><p><code>novel</code><br><strong>n.</strong><br>a long written story in which the characters and events are usually imaginary<br>小说</p>
+<p><strong>adj.</strong><br>not like anything known before, and unusual or interesting<br>新颖的<br><strong>举例</strong>: novel idea/approach/method</p>
+</li>
+<li><code>capacity</code><br><strong>n.</strong><ul>
+<li>the amount of space a container, room etc has to hold things or people<br>容量</li>
+<li>someone’s ability to do something<br>能力</li>
+<li>someone’s job, position, or duty<br>相当于 <code>role</code></li>
+<li>the amount of something that a factory, company, machine etc can produce or deal with</li>
+<li>the size or power of something such as an engine</li>
+</ul>
+</li>
+<li><code>systematically</code><br><strong>adv.</strong><br>系统地</li>
+<li><code>systematic</code><br><strong>adj.</strong><br>organized carefully and done thoroughly<br>系统的</li>
+<li><code>generalisation</code><br><strong>n.</strong><ul>
+<li>a statement about all the members of a group that may be true in some or many situations but is not true in every case<br>概括 (对一个组成员的陈述)</li>
+<li>the act of making generalizationså</li>
+</ul>
+</li>
+<li><code>irrespective of</code> ⭐<br><strong>词组</strong><br>不管，不考虑</li>
+<li><code>meta-</code><br><strong>prefix</strong><ul>
+<li>beyond or at a higher level</li>
+<li>relating to a change of state or position</li>
+</ul>
+</li>
+<li><code>hyperplane</code><br><strong>n.</strong><br>超平面</li>
+<li><code>excluding</code><br><strong>prep.</strong><br>not including – used especially when you are making a list or calculating a total<br>排除</li>
+</ul>
+<p><br></p>
+<p><strong>Introduction</strong></p>
+<ul>
+<li><p><code>connectionism</code></p>
+</li>
+<li><p><code>considerable</code></p>
+</li>
+<li><p><code>emulate</code></p>
+</li>
+<li><p><code>impressive</code></p>
+</li>
+<li><p><code>elusive</code><br><strong>adj.</strong></p>
+<ul>
+<li>an elusive person or animal is difficult to find or not often seen<br>难以捉摸的</li>
+<li>an elusive result is difficult to achieve</li>
+<li>an elusive idea or quality is difficult to describe or understand</li>
+</ul>
+</li>
+<li><code>stimuli</code><br><strong>n.</strong><br>刺激</li>
+<li><code>primitive</code><br><strong>adj.</strong><ul>
+<li>belonging to a simple way of life that existed in the past and does not have modern industries and machines</li>
+<li>something that is primitive is very simple and does not have the extra modern parts that would make it faster, better, more comfortable etc<br>原始的</li>
+<li>a primitive animal or plant has a simple structure or body</li>
+<li>primitive feelings are not based on reason, and seem to come from a part of people’s character that is ancient and animal-like</li>
+</ul>
+</li>
+<li><p><code>square</code><br><strong>adj.</strong></p>
+<ul>
+<li>having four straight equal sides and 90° angles at the corners</li>
+<li>forming a 90° angle, or being close to or similar to a 90° angle</li>
+<li>parallel with a straight line</li>
+<li>if someone’s body or a part of their body is square, it looks broad and strong</li>
+</ul>
+<p><strong>n.</strong></p>
+<ul>
+<li>a shape with four straight equal sides with 90° angles at the corners</li>
+<li>a large open area in the centre of a town or city, usually in the shape of a square, or the buildings surrounding it</li>
+<li>the result of multiplying a number by itself<br>平方</li>
+<li>a space on a board used for playing a game such as chess</li>
+<li>a flat object with a straight edge, often shaped like an L, used for drawing or measuring 90° angles</li>
+</ul>
+</li>
+<li><code>critically</code><br><strong>adv.</strong><ul>
+<li>in a way that is very important</li>
+<li>in a way that is very serious and worrying</li>
+<li>in a way that shows you are criticizing someone or something</li>
+<li>thinking about something and giving a careful judgment about how good or bad it is</li>
+<li>according to critics who give judgments about art, films, theatre, and books</li>
+</ul>
+</li>
+<li><code>hallmark</code><br><strong>n.</strong><ul>
+<li>an idea, method, or quality that is typical of a particular person or thing<br>标志</li>
+<li>a mark put on silver, gold, or platinum that shows the quality of the metal, and where and when it was made</li>
+</ul>
+</li>
+<li><code>interpolation</code><br><strong>n.</strong><br>插值</li>
+<li><code>interpolate</code><br><strong>v.</strong><ul>
+<li>to put additional words into a piece of writing</li>
+<li>to interrupt someone by saying something</li>
+</ul>
+</li>
+<li><code>extrapolation</code><br><strong>v.</strong><br>to separate and examine the facts about something, and to form an opinion based on your knowledge of those facts<br>外推</li>
+</ul>
+<p><br></p>
+<p><strong>Related Work</strong></p>
+<ul>
+<li><code>confer</code><br><strong>v.</strong><ul>
+<li>to discuss something with other people, so that everyone can express their opinions and decide on something<br>商谈</li>
+</ul>
+</li>
+<li><code>render</code><br><strong>v.</strong><ul>
+<li>to cause someone or something to be in a particular condition<br>使成为</li>
+<li>to give something to someone or do something, because it is your duty or because someone expects you to</li>
+<li>to express or present something in a particular way</li>
+<li>to spread plaster or cement on the surface of a wall</li>
+<li>to melt the fat of an animal as you cook it</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<p><strong>Methods &amp; Results</strong></p>
+<ul>
+<li><p>``</p>
+</li>
+<li><p>``</p>
+</li>
+<li><p>``</p>
+</li>
+<li><p>``</p>
+</li>
+<li><p>``</p>
+</li>
+<li><p>``</p>
+</li>
+<li><p>``</p>
+</li>
+<li><p>``</p>
+</li>
+<li><p>``</p>
+</li>
+<li><p>``</p>
+</li>
+</ul>
+<p><br></p>
+<h2 id="数据科学导论作业遇到的不会单词"><a href="#数据科学导论作业遇到的不会单词" class="headerlink" title="数据科学导论作业遇到的不会单词"></a>数据科学导论作业遇到的不会单词</h2><p><strong>第一次作业</strong></p>
+<ul>
+<li><code>dull</code><br><strong>adj.</strong><ul>
+<li>not interesting or exciting<br>乏味的</li>
+<li>not bright or shiny</li>
+<li>not bright and with lots of clouds</li>
+<li>a dull pain is not severe but does not stop</li>
+</ul>
+</li>
+<li><code>prerequisite</code><br><strong>n.</strong><br>something that is necessary before something else can happen or be done<br>先决条件</li>
+<li><code>strive</code><br><strong>v.</strong><br>to make a great effort to achieve something</li>
+<li><code>straightforward</code><br><strong>adj.</strong><ul>
+<li>simple and easy to understand</li>
+<li>honest about your feelings or opinions and not hiding anything</li>
+</ul>
+</li>
+<li><code>3rd party Python libraries</code><br><strong>短语</strong><br>第 3 方 Python 库</li>
+<li><code>numerical</code> ⭐<br><strong>adj.</strong><br>expressed or considered in numbers<br>数字的</li>
+<li><code>sine wave</code><br><strong>短语</strong><br>正弦波</li>
+<li><code>crash course</code><br><strong>短语</strong><br>速成课程</li>
+<li><code>riddle</code><br><strong>n.</strong><ul>
+<li>a question that is deliberately very confusing and has a humorous or clever answer </li>
+<li>something that you do not understand and cannot explain</li>
+</ul>
+</li>
+<li><code>statistical riddle</code><br><strong>短语</strong><br>统计谜语</li>
+<li><code>game show</code><br><strong>n.</strong><br>a television programme in which people play games or answer questions to win prizes</li>
+<li><code>contestant</code><br><strong>n.</strong><br>someone who competes in a contest<br>参赛者</li>
+<li><code>as a twist</code><br><strong>短语</strong><br>作为转折</li>
+<li><code>host</code><br><strong>n.</strong><ul>
+<li>someone at a party, meal etc who has invited the guests and who provides the food, drink etc</li>
+<li>someone who introduces and talks to the guests on a television or radio programme<br>主持人</li>
+<li>a country, city, or organization that provides the necessary space, equipment etc for a special event</li>
+</ul>
+</li>
+<li><code>occasionally</code><br><strong>adv.</strong><br>sometimes, but not regularly and not often</li>
+<li><code>reveal</code> ⭐<br><strong>v.</strong><ul>
+<li>to make known something that was previously secret or unknown<br>揭示</li>
+<li>to show something that was previously hidden</li>
+</ul>
+</li>
+<li><code>counter-intuitive</code><br><strong>adj.</strong><br>违反直觉的</li>
+<li><code>mathematician</code><br><strong>n.</strong><br>someone who studies or teaches mathematics, or is a specialist in mathematics<br>数学家</li>
+</ul>
+<p><br></p>
+<p><strong>Homework 2</strong></p>
+<ul>
+<li><code>plain-text</code><br><strong>n.</strong><br>纯文本</li>
+<li><code>tabular</code><br><strong>adj.</strong><br>arranged in rows across and down a page, in the form of a table<br>表格式的</li>
+<li><code>unwittingly</code><br><strong>adv.</strong><br>in a way that shows you do not know or realize something<br>不知不觉地</li>
+<li><code>census data</code><br><strong>词组</strong><br>人口普查数据</li>
+<li><code>census</code><br><strong>n.</strong><ul>
+<li>an official process of counting a country’s population and finding out about the people<br>人口普查</li>
+<li>an official process of counting something for government planning</li>
+</ul>
+</li>
+<li><code>commas</code><br><strong>n.</strong><br>the mark (, ) used in writing to show a short pause or to separate things in a list<br>逗号</li>
+</ul>
+<p><br></p>
+<p><strong>Homework 1-3</strong></p>
+<ul>
+<li><code>familiarize</code><br><strong>v.</strong><br>familiarize yourself/somebody with something<br>熟悉</li>
+<li><code>k-Nearest Neighbors</code><br><strong>短语</strong><br>K-近邻</li>
+<li><code>Polynomial Regression</code><br><strong>短语</strong><br>多项式回归</li>
+<li><code>exploratory</code><br><strong>adj.</strong><br>done in order to find out more about something<br>探索性的</li>
+<li><code>scatterplot</code><br><strong>n.</strong><br>散点图</li>
+<li><code>designate</code><br><strong>v.</strong><ul>
+<li>to choose someone or something for a particular job or purpose<br>指定</li>
+<li>to represent or refer to something using a particular sign, name etc</li>
+</ul>
+</li>
+<li><code>concatenate</code><br><strong>v.</strong><br>连接</li>
+<li><code>As such</code><br><strong>短语</strong><br>像这样</li>
+</ul>
+<p><br></p>
+<p><strong>Homework 1-4</strong></p>
+<ul>
+<li><code>coefficient</code><br><strong>n.</strong><br>the number by which an unknown quantity is multiplied<br>系数</li>
+<li></li>
+</ul>
+<p><br></p>
+<h2 id="Theorists-Experimentalists-and-the-Bias-in-Popular-Physics"><a href="#Theorists-Experimentalists-and-the-Bias-in-Popular-Physics" class="headerlink" title="Theorists, Experimentalists and the Bias in Popular Physics"></a>Theorists, Experimentalists and the Bias in Popular Physics</h2><ul>
+<li><code>mere</code><br><strong>adj.</strong><ul>
+<li>used to emphasize how small or unimportant something or someone is<br>仅仅是</li>
+<li>used to emphasize that something which is small or not extreme has a big effect or is important</li>
+</ul>
+</li>
+<li><code>will-o-wisp</code> or <code>will o&#39; the wisp</code><br><strong>词组</strong><ul>
+<li>someone that you can never completely depend on, or something that you can never achieve<br>鬼火 (中文这个翻译不好)</li>
+<li>a blue moving light caused by natural gases, that can be seen over wet ground at night  </li>
+</ul>
+</li>
+<li><code>collaborator</code><br><strong>n.</strong><ul>
+<li>someone who helps their country’s enemies, for example by giving them information, when the enemy has taken control of their country</li>
+<li>someone who works with other people or groups in order to achieve something, especially in science or art<br>合作者</li>
+</ul>
+</li>
+<li><code>ghostly</code><br><strong>adj.</strong><br>slightly frightening and seeming to be related to ghosts or spirits<br>幽灵般的</li>
+<li><code>enthusiast</code><br><strong>n.</strong><br>someone who is very interested in a particular activity or subject<br>爱好者</li>
+<li><code>dogged</code><br><strong>adj.</strong><br>dogged behaviour shows that you are very determined to continue doing something<br>顽固的</li>
+<li><code>knitted brows</code><br><strong>词组</strong><br>眉头紧皱</li>
+<li><code>popular science enthusiasts</code><br><strong>词组</strong><br>科普爱好者</li>
+<li><p><code>starlight</code></p>
+</li>
+<li><p><code>bend</code></p>
+</li>
+<li><p><code>gravitational</code></p>
+</li>
+<li><p><code>verification</code></p>
+</li>
+<li><p><code>remain</code></p>
+</li>
+<li><p><code>theme</code></p>
+</li>
+<li><p><code>schoolchild</code></p>
+</li>
+<li><p><code>theorist</code></p>
+</li>
+<li><p><code>experimentalist</code></p>
+</li>
+<li><p><code>cue</code></p>
+</li>
+<li><p><code>lag</code></p>
+</li>
+<li><p><code>counterparts</code></p>
+</li>
+<li><p><code>post-war</code></p>
+</li>
+<li><p><code>vague</code></p>
+</li>
+<li><p><code>perception</code><br><strong>n.</strong></p>
+<ul>
+<li>the way you think about something and your idea of what it is like<br>看法，认识，感觉，洞察力</li>
+<li>the way that you notice things with your senses of sight, hearing etc</li>
+<li>the natural ability to understand or notice things quickly</li>
+</ul>
+</li>
+<li><code>the leaning tower of Pisa</code><br><strong>词组</strong><br>比萨斜塔</li>
+<li><p><code>centerpiece</code></p>
+</li>
+<li><p><code>singular</code></p>
+</li>
+<li><p><code>supremacy</code></p>
+</li>
+<li><p><code>roaring</code></p>
+</li>
+<li><p><code>utterly</code></p>
+</li>
+<li><p><code>self-assured</code></p>
+</li>
+<li><p><code>theoretician</code></p>
+</li>
+<li><p><code>ultimate</code></p>
+</li>
+<li><p><code>ironically</code></p>
+</li>
+<li><p><code>sheer</code></p>
+</li>
+<li><p><code>cosmos</code></p>
+</li>
+<li><p><code>liberally</code></p>
+</li>
+<li><p><code>pioneering</code></p>
+</li>
+<li><p><code>to be fair though</code></p>
+</li>
+<li><p><code>ingenious</code></p>
+</li>
+<li><p><code>contraption</code></p>
+</li>
+<li><p><code>invent</code></p>
+</li>
+<li><p><code>awe</code></p>
+</li>
+<li><p><code>nerd</code> or <code>nerdy</code></p>
+</li>
+<li><p><code>speculation</code><br><strong>n.</strong></p>
+<ul>
+<li>when you guess about the possible causes or effects of something without knowing all the facts, or the guesses that you make<br>猜测</li>
+<li>when you try to make a large profit by buying goods, property, shares etc and then selling them</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<h2 id="beta-VAE-Learning-Basic-Visual-Concepts-with-a-Constrained-Variational-Framework"><a href="#beta-VAE-Learning-Basic-Visual-Concepts-with-a-Constrained-Variational-Framework" class="headerlink" title="beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework"></a>beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework</h2><p><strong>Abstract</strong></p>
+<ul>
+<li><code>precursor</code><br><strong>n.</strong><br>something that happened or existed before something else and influenced its development<br>前导</li>
+<li><code>stable</code><br><strong>adj.</strong><ul>
+<li>steady and not likely to move or change<br>稳定的</li>
+<li>calm, reasonable, and not easy to upset</li>
+</ul>
+</li>
+<li><code>inspection</code><br><strong>n.</strong><ul>
+<li>an official visit to a building or organization to check that everything is satisfactory and that rules are being obeyed</li>
+<li>a careful examination of something to find out more about it or to check for anything wrong<br>审视，检查</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<p><strong>Introduction</strong></p>
+<p><br></p>
+<h2 id="Demystifying-Variational-Autoencoders"><a href="#Demystifying-Variational-Autoencoders" class="headerlink" title="Demystifying Variational Autoencoders"></a>Demystifying Variational Autoencoders</h2><ul>
+<li><code>demystify</code><br><strong>v.</strong><br>to make a subject that seems difficult or complicated easier to understand, especially by explaining it in simpler language<br>揭开神秘面纱, 揭秘</li>
+<li>``</li>
+</ul>
+<p><br></p>
+<h2 id="Structured-Disentangled-Representations"><a href="#Structured-Disentangled-Representations" class="headerlink" title="Structured Disentangled Representations"></a>Structured Disentangled Representations</h2><p><strong>Abstract</strong></p>
+<ul>
+<li><code>discrete</code> ⭐<br><strong>adj.</strong><br>clearly separate<br>离散的</li>
+<li><code>trade-off</code><br><strong>词组</strong><br>a balance between two opposing things, that you are willing to accept in order to achieve something<br>权衡</li>
+<li><code>hierarchical</code><br><strong>adj.</strong><br>if a system, organization etc is hierarchical, people or things are divided into levels of importance<br>层次分明的</li>
+<li><p><code>objective</code><br><strong>n.</strong></p>
+<ul>
+<li>something that you are trying hard to achieve, especially in business or politics<br>目标</li>
+<li>a place that you are trying to reach, especially in a military attack</li>
+</ul>
+<p><strong>adj.</strong></p>
+<ul>
+<li>based on facts, or making a decision that is based on facts rather than on your feelings or beliefs<br>客观的</li>
+<li>existing outside the mind as something real, not only as an idea<br>客观存在的</li>
+</ul>
+</li>
+<li><code>axes</code><br><strong>n.</strong><br>轴</li>
+<li><code>variation</code><br><strong>n.</strong><ul>
+<li>a difference between similar things, or a change from the usual amount or form of something<br>变化</li>
+<li>something that is done in a way that is different from the way it is usually done</li>
+<li>one of a set of short pieces of music, each based on the same simple tune</li>
+</ul>
+</li>
+<li><p><code>preliminary</code> ⭐<br><strong>adj.</strong></p>
+<ul>
+<li>happening before something that is more important, often in order to prepare for it<br>初步的</li>
+</ul>
+<p><strong>n.</strong></p>
+<ul>
+<li>something that is said or done first, to introduce or prepare for something else<br>初步行动</li>
+<li>one of the games in the first part of a competition, when it is decided who will go on to the main competition<br>预赛<br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>Introduction</strong></p>
+<ul>
+<li><code>compressed</code><br><strong>v.</strong><ul>
+<li>to press something or make it smaller so that it takes up less space, or to become smaller<br>压缩</li>
+<li>to make a computer file smaller by using a special computer program, which makes the file easier to store or send, or to become smaller in this way</li>
+<li>to write or express something using fewer words</li>
+<li>to reduce the amount of time that it takes for something to happen or be done</li>
+</ul>
+</li>
+<li><code>perturbation</code><br><strong>n.</strong><ul>
+<li>a small change in the movement, quality, or behaviour of something<br>扰动</li>
+<li>worry about something that has happened or will happen</li>
+</ul>
+</li>
+<li><code>perturb</code><br><strong>v.</strong><br>扰动</li>
+<li><code>corresponding</code><br><strong>adj</strong><ul>
+<li>caused by or connected with something you have already mentioned<br>对应的，相应的</li>
+<li>having similar qualities or a similar size, position etc to something else</li>
+</ul>
+</li>
+<li><code>modify</code><br><strong>v.</strong><ul>
+<li>to make small changes to something in order to improve it and make it more suitable or effective<br>很小的改变</li>
+<li>if an adjective, adverb etc modifies another word, it describes something or limits the word’s meaning. In the phrase ‘walk slowly’, the adverb ‘slowly’ modifies the verb ‘walk’.<br>修饰</li>
+</ul>
+</li>
+<li><code>induce</code> ⭐<br><strong>v.</strong><ul>
+<li>to persuade someone to do something, especially something that does not seem wise<br>诱导 (某事，不太智慧的)</li>
+<li>to make a woman give birth to her baby, by giving her a special drug</li>
+<li>to cause a particular physical condition</li>
+</ul>
+</li>
+<li><p><code>prompt</code><br><strong>v.</strong></p>
+<ul>
+<li>to make someone decide to do something<br>促进</li>
+<li>to make people say or do something as a reaction</li>
+<li>to help a speaker who pauses, by suggesting how to continue</li>
+<li>to ask someone to do something on a computer</li>
+<li>to remind an actor of the next words in a speech</li>
+</ul>
+<p><strong>adj.</strong></p>
+<ul>
+<li>done quickly, immediately, or at the right time<br>迅速的，立刻的</li>
+<li>someone who is prompt arrives or does something at the right time and is not late<br>准时的</li>
+</ul>
+</li>
+<li><code>decomposition</code> ⭐<br><strong>n.</strong><br>分解</li>
+<li><code>decompose</code><br><strong>v.</strong><ul>
+<li>to decay or make something decay</li>
+<li>to divide into smaller parts, or to make something do this<br>分解</li>
+</ul>
+</li>
+<li><code>derivation</code><br><strong>n.</strong><br>the origin of something, especially a word<br>起源，由来，派生</li>
+<li><code>reinterpret</code><br><strong>v.</strong><br>to think about something, show something, perform something etc in a new way<br>重新解释</li>
+<li><code>unified</code><br><strong>adj.</strong><br>created from more than one part, group etc<br>统一的</li>
+<li><code>problematic</code><br><strong>adj.</strong><br>involving problems and difficult to deal with<br>有问题的</li>
+<li><code>confirm</code><br><strong>v.</strong><ul>
+<li>to show that something is definitely true, especially by providing more proof<br>证实</li>
+<li>to say that something is definitely true</li>
+<li>to tell someone that a possible arrangement, date, or situation is now definite or official</li>
+<li>to make you believe that your idea or feeling is right<br><br></li>
+</ul>
+</li>
+</ul>
+<p><strong>related work</strong></p>
+<ul>
+<li><p><br></p>
+</li>
+</ul>
+<h2 id="Determining-Differences-Between-Facts-and-Opinions"><a href="#Determining-Differences-Between-Facts-and-Opinions" class="headerlink" title="Determining Differences Between Facts and Opinions"></a>Determining Differences Between Facts and Opinions</h2><ul>
+<li><code>validity</code><br><strong>n.</strong><br>when a document is legally acceptable<br>有效性</li>
+<li><code>extent</code><br><strong>n.</strong><ul>
+<li>how large, important, or serious something is, especially something such as a problem or injury<br>程度</li>
+<li>the length or size of something</li>
+</ul>
+</li>
+<li><code>critical</code><br><strong>adj.</strong><ul>
+<li>if you are critical, you criticize someone or something</li>
+<li>something that is critical is very important because what happens in the future depends on it<br>同 <code>crucial</code>, 至关重要的</li>
+<li>a critical time or situation is serious and worrying because things might suddenly become much worse</li>
+<li>so ill that you might die</li>
+<li>making careful judgments about how good or bad something is</li>
+<li>according to critics who give judgments about art, films, theatre, and books</li>
+</ul>
+</li>
+<li><code>belief</code><br><strong>n.</strong><ul>
+<li>the feeling that something is definitely true or definitely exists</li>
+<li>the feeling that something is good and can be trusted</li>
+<li>an idea that you believe to be true, especially one that forms part of a system of ideas</li>
+</ul>
+</li>
+<li><code>interpretation</code> ⭐<br><strong>n.</strong><ul>
+<li>the way in which someone explains or understands an event, information, someone’s actions etc<br>解释</li>
+<li>the way in which someone performs a play, a piece of music etc and shows what they think and feel about it</li>
+</ul>
+</li>
+<li><code>synthesise</code> 或 <code>synthesize</code><br><strong>v.</strong><ul>
+<li>to make something by combining different things or substances</li>
+<li>to combine separate things into a complete whole<br>合成</li>
+<li>to produce sounds, speech, or music electronically</li>
+</ul>
+</li>
+<li><code>comment</code><br><strong>n.</strong><ul>
+<li>an opinion that you express about someone or something<br>评论</li>
+<li>criticism or discussion of something someone has said or done</li>
+</ul>
+</li>
+<li><code>tone</code><br><strong>n.</strong><ul>
+<li>the way your voice sounds, which shows how you are feeling or what you mean<br>语气</li>
+<li>the quality of a sound, especially the sound of a musical instrument or someone’s voice</li>
+</ul>
+</li>
+<li><code>civilian</code><br><strong>n.</strong><br>anyone who is not a member of the military forces or the police</li>
+<li><code>elaborate</code><br><strong>adj.</strong><ul>
+<li>having a lot of small parts or details put together in a complicated way<br>精心制作的</li>
+<li>carefully planned and organized in great detail</li>
+</ul>
+</li>
+<li><code>assessment</code><br><strong>n.</strong><ul>
+<li>a process in which you make a judgment about a person or situation, or the judgment you make<br>评估</li>
+<li>a calculation about the cost or value of something</li>
+</ul>
+</li>
+<li><code>predominantly</code><br><strong>adv.</strong><br>mostly or mainly<br>主要是</li>
+<li><code>celebrity</code><br><strong>n.</strong><ul>
+<li>a famous living person<br>名人</li>
+<li>the state of being famous</li>
+</ul>
+</li>
+<li><code>revenge</code><br><strong>n.</strong><ul>
+<li>something you do in order to punish someone who has harmed or offended you<br>报仇</li>
+<li>the defeat of someone who has previously defeated you in a sport</li>
+</ul>
+</li>
+<li><code>refute</code> ⭐<br><strong>v.</strong><ul>
+<li>to prove that a statement or idea is not correct<br>反驳</li>
+<li>to say that a statement is wrong or unfair</li>
+</ul>
+</li>
+<li><code>excerpt</code><br><strong>n.</strong><br>a short piece taken from a book, poem, piece of music etc<br>摘抄</li>
+<li><code>omit</code><br><strong>v.</strong><br>to not include someone or something, either deliberately or because you forget to do it<br>忽略</li>
+<li><code>concise</code><br><strong>adj.</strong><ul>
+<li>short, with no unnecessary words<br>同义词，brief</li>
+<li>shorter than the original book on which something is based</li>
+</ul>
+</li>
+<li><code>concisely</code><br><strong>adv.</strong><br>简洁的</li>
+<li><code>brief</code><br><strong>adj.</strong><ul>
+<li>continuing for a short time </li>
+<li>using very few words or including few details</li>
+</ul>
+</li>
+<li><code>distant</code><br><strong>adj.</strong><ul>
+<li>far away in space or time<br>遥远的</li>
+<li>unfriendly</li>
+<li>thinking deeply about something private, rather than about what is happening around you</li>
+<li>not closely related to you</li>
+</ul>
+</li>
+<li><code>climactic</code><br><strong>adj.</strong><br>forming a very exciting or important part of an event or story, especially near the end of it<br>高潮的</li>
+<li><code>chronological</code><br><strong>adj.</strong><br>arranged according to when things happened or were made<br>按时间顺序</li>
+<li><code>cohesive</code><br><strong>adj.</strong><ul>
+<li>connected or related in a reasonable way to form a whole<br>有凝聚力的</li>
+<li>uniting people or things</li>
+</ul>
+</li>
+<li><p><code>startling</code><br><strong>adj.</strong><br>very unusual or surprising</p>
+</li>
+<li><p><code>pandemic</code><br><strong>n.</strong><br>a disease that affects people over a very large area or the whole world<br>在很大范围内的流行病</p>
+</li>
+<li><code>epidemic</code><br><strong>n.</strong><ul>
+<li>a large number of cases of a disease that happen at the same time</li>
+<li>a sudden increase in the number of times that something bad happens</li>
+<li>传染病，流形病</li>
+</ul>
+</li>
+<li><code>Coronavirus Disease</code><br><strong>词组</strong><br>COVID-19, 新型冠状病毒</li>
+<li><code>genetic disorder</code><br><strong>词组</strong><br>遗传性疾病<br><br></li>
+</ul>
+<h2 id="Representation-Learning-A-Review-and-New-Perspectives"><a href="#Representation-Learning-A-Review-and-New-Perspectives" class="headerlink" title="Representation Learning: A Review and New Perspectives"></a>Representation Learning: A Review and New Perspectives</h2><ul>
+<li><code>consecutive</code> ⭐⭐<br><strong>adj.</strong><br>consecutive numbers or periods of time follow one after the other without any interruptions<br>连续的</li>
+<li><code>complicate</code><br><strong>v.</strong><ul>
+<li>to make a problem or situation more difficult</li>
+<li>to make an illness worse</li>
+</ul>
+</li>
+<li><code>preservation</code><br><strong>n.</strong><ul>
+<li>when something is kept in its original state or in good condition<br>保存</li>
+<li>the act of making sure that a situation continues without changing</li>
+<li>the degree to which something has remained unchanged or unharmed by weather, age etc</li>
+</ul>
+</li>
+<li>``</li>
+</ul>
+<p><br></p>
+<h2 id="On-the-Fairness-of-Disentangled-Representations"><a href="#On-the-Fairness-of-Disentangled-Representations" class="headerlink" title="On the Fairness of Disentangled Representations"></a>On the Fairness of Disentangled Representations</h2><ul>
+<li><code>scenario</code> ⭐<br><strong>n.</strong><ul>
+<li>a situation that could possibly happen<br>设想</li>
+<li>a written description of the characters, place, and things that will happen in a film, play etc</li>
+</ul>
+</li>
+<li><code>optimal</code><br><strong>adj.</strong><br>the best or most suitable<br>最佳的</li>
+<li><code>allude</code><br><strong>v.</strong><br>暗示</li>
+<li><code>inconsequential</code><br><strong>adj.</strong><br>not important<br>无关紧要的</li>
+<li><code>nuisance factors</code><br><strong>词组</strong><br>扰动因素</li>
+<li><code>disjoint</code><br><strong>adj.</strong><br>不连贯的, 不相交的</li>
+<li><code>conditioning</code><br><strong>n.</strong><br>the process by which people or animals are trained to behave in a particular way when particular things happen<br>调节</li>
+<li><code>marginalize</code> 或 <code>marginalise</code><br><strong>v.</strong><br>to make a person or a group of people unimportant and powerless in an unfair way<br>边缘化</li>
+<li><code>inherently</code> ⭐<br><strong>adv.</strong><br>天生的</li>
+<li><code>involvement</code><br><strong>n.</strong><ul>
+<li>the act of taking part in an activity or event, or the way in which you take part in it<br>参与, 同 <code>participation</code></li>
+<li>something that you take part in or spend time doing</li>
+<li>the feeling of excitement and satisfaction that you get from an activity</li>
+<li>a romantic relationship between two people, especially when they are not married to each other</li>
+</ul>
+</li>
+<li><code>susceptible</code><br><strong>adj.</strong><ul>
+<li>likely to suffer from a particular illness or be affected by a particular problem</li>
+<li>a susceptible person is easily influenced or attracted by someone or something<br>易受影响的</li>
+</ul>
+</li>
+<li><code>manifest</code><br><strong>v.</strong><br>to show a feeling, attitude etc</li>
+<li><code>mitigate</code><br><strong>v.</strong><ul>
+<li>to make a situation or the effects of something less unpleasant, harmful, or serious<br>缓解</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<h2 id="Unit3-Quiz"><a href="#Unit3-Quiz" class="headerlink" title="Unit3 Quiz"></a>Unit3 Quiz</h2><p><strong>word</strong></p>
+<ul>
+<li><code>postulate</code><br><strong>v.</strong><ul>
+<li>to suggest that something might have happened or be true<br>提出 (理论), 假定, 假设等, 同义词 <code>hypothesize</code></li>
+</ul>
+</li>
+<li><code>proliferate</code><br><strong>v.</strong><br>if something proliferates, it increases quickly and spreads to many different places<br>激增, 扩散</li>
+<li><code>conjecture</code> ⭐<br><strong>n.</strong><ul>
+<li>when you form ideas or opinions without having very much information to base them on</li>
+<li>an idea or opinion formed by guessing</li>
+<li>推测, 猜想</li>
+</ul>
+</li>
+<li><code>verification</code><br><strong>n.</strong><br>the act or state of being verified<br>证实，证明</li>
+<li><code>mull</code><br><strong>v.</strong><br>over to think about a problem, plan etc for a long time before making a decision<br>认真琢磨, 反复思考 (问题、计划等)</li>
+<li><code>cogent</code><br><strong>adj.</strong><br>if a statement is cogent, it seems reasonable and correct</li>
+<li><code>paradigm</code><br><strong>n.</strong><ul>
+<li>a model or example that shows how something works or is produced</li>
+<li>a very clear or typical example of something<br>示例，范例，样式</li>
+</ul>
+</li>
+<li><code>tribute</code><br><strong>n.</strong><ul>
+<li>something that you say, do, or give in order to express your respect or admiration for someone<br>(向某人表示敬慕的) 致敬 (行为)</li>
+<li>a payment of goods or money by one ruler or country to another more powerful one, especially in order to be protected</li>
+</ul>
+</li>
+<li><code>admonish</code><br><strong>v.</strong><br>to tell someone severely that they have done something wrong<br>(严正) 批评, 责备, 警告, 告诫</li>
+<li><code>tutelage</code><br><strong>n.</strong><ul>
+<li>when you are taught or looked after by someone<br>受指导(期), 受监护(期)</li>
+<li>responsibility for someone’s education, actions, or property</li>
+</ul>
+</li>
+<li><code>ingenious</code><br><strong>adj.</strong><ul>
+<li>an ingenious plan, idea, or object works well and is the result of clever thinking and new ideas<br>(计划、主意或物体) 精巧的, 巧妙的</li>
+<li>someone who is ingenious is very good at inventing things or at thinking of new ideas</li>
+</ul>
+</li>
+<li><code>tacitly</code><br><strong>adv.</strong><br>in a way that can be understood without being openly expressed.<br>心照不宣地, 默认地</li>
+<li><p><code>divine</code><br><strong>v.</strong></p>
+<ul>
+<li>to discover or guess something<br>发现，猜出</li>
+<li>to search for underground water or minerals using a Y-shaped stick</li>
+</ul>
+<p><strong>adj.</strong></p>
+<ul>
+<li>coming from or relating to God or a god<br>神圣的</li>
+<li>very pleasant or good</li>
+</ul>
+</li>
+<li><code>humdrum</code><br><strong>adj.</strong><br>boring and ordinary, and having no variety or interes<br>单调的, 刻板的, 乏味的</li>
+<li><code>mundane</code><br><strong>adj.</strong><ul>
+<li>ordinary and not interesting or exciting<br>平凡的，平淡的</li>
+<li>concerned with ordinary daily life rather than religious matters</li>
+</ul>
+</li>
+<li><code>contraption</code><br><strong>n.</strong><br>奇怪的机械装置, 怪模怪样的玩意儿</li>
+<li><code>validate</code><br><strong>v.</strong><ul>
+<li>to prove that something is true or correct, or to make a document or agreement officially and legally acceptable<br>证实; 使生效; 使合法化</li>
+<li>to make someone feel that their ideas and feelings are respected and considered seriously</li>
+</ul>
+</li>
+<li><code>pluck</code><br><strong>v.</strong><ul>
+<li>to pull something quickly in order to remove it</li>
+<li>to take someone away from a place or situation that is dangerous or unpleasant in a quick and unexpected way</li>
+<li>to pull the strings of a musical instrument</li>
+</ul>
+</li>
+<li><code>veracity</code><br><strong>n.</strong><br>the fact of being true or correct<br>真实 (性), 正确 (性)</li>
+<li><code>ascendancy</code><br><strong>n.</strong><br>a position of power, influence, or control<br>优势, 支配地位</li>
+<li><code>proponent</code><br><strong>n.</strong><br>someone who supports something or persuades people to do something<br>支持者, 拥护者, 鼓吹者</li>
+<li><code>pantheon</code><br><strong>n.</strong><ul>
+<li>all the gods of a particular people or nation<br>万神殿, 万神庙</li>
+<li>a group of famous and important people</li>
+<li>a religious building that is built in honour of all gods</li>
+</ul>
+</li>
+<li><code>dearth</code><br><strong>n.</strong><br>a lack of something that people want or need<br>缺乏</li>
+<li><code>verify</code><br><strong>v.</strong><br>to discover whether something is correct or true<br>核实, 核对</li>
+<li><code>curvature</code><br><strong>n.</strong><br>the state of being curved, or the degree to which something is curved<br>曲率, 曲度, 弯曲(的) </li>
+<li><code>baton</code><br><strong>n.</strong><ul>
+<li>a short thin stick used by a conductor<br>接力棒</li>
+<li>a short light stick that is passed from one person to another during a race</li>
+<li>a short thick stick used as a weapon by a police officer</li>
+</ul>
+</li>
+<li><code>edifice</code><br> <strong>n.</strong><br> a building, especially a large one<br> (尤指宏伟的)建筑</li>
+<li><code>confounding</code><br><strong>adj.</strong><br>surprising or confusing<br>(令人)困惑的, 惊惶的<br><br></li>
+</ul>
+<p><strong>其他词汇</strong></p>
+<ul>
+<li><code>gasp in awe</code><br><strong>词组</strong><br>惊叹不已</li>
+<li><code>grand</code><br><strong>adj.</strong><ul>
+<li>big and very impressive<br>盛大的</li>
+<li>aiming or intended to achieve something impressive</li>
+<li>important and rich</li>
+</ul>
+</li>
+<li><code>initiative</code><br><strong>n.</strong><ul>
+<li>the ability to make decisions and take action without waiting for someone to tell you what to do</li>
+<li>an important new plan or process to achieve a particular aim or to solve a particular problem</li>
+</ul>
+</li>
+<li><code>practitioner</code><br><strong>n.</strong><ul>
+<li>someone who works as a doctor or a lawyer</li>
+<li>someone who regularly does a particular activity</li>
+</ul>
+</li>
+<li><code>stray</code><br><strong>v.</strong><ul>
+<li>to move away from the place you should be</li>
+<li>to begin to deal with or think about a different subject from the main one, without intending to</li>
+<li>if your eyes stray, you begin to look at something else, usually without intending to</li>
+<li>to start doing something that is wrong or immoral, when usually you do not do this</li>
+</ul>
+</li>
+<li><code>frankly</code><br><strong>adv.</strong><ul>
+<li>used to show that you are saying what you really think about something</li>
+<li>honestly and directly</li>
+</ul>
+</li>
+<li><code>supremacy</code><br><strong>n.</strong><br>the position in which you are more powerful or advanced than anyone else<br>霸权</li>
+<li><code>moral implications</code><br><strong>词组</strong><br>道德含义</li>
+</ul>
+<p><br></p>
+<h2 id="InfoGAN-CR-and-ModelCentrality-Self-supervised-Model-Training-and-Selection-for-Disentangling-GANs"><a href="#InfoGAN-CR-and-ModelCentrality-Self-supervised-Model-Training-and-Selection-for-Disentangling-GANs" class="headerlink" title="InfoGAN-CR and ModelCentrality: Self-supervised Model Training and Selection for Disentangling GANs"></a>InfoGAN-CR and ModelCentrality: Self-supervised Model Training and Selection for Disentangling GANs</h2><ul>
+<li><code>latent traversal</code><br><strong>词组</strong><br>潜在遍历</li>
+<li><code>generated synthetic samples</code><br><strong>词组</strong><br>生成的合成样本</li>
+<li><code>distinct</code><br><strong>adj.</strong><ul>
+<li>clearly different or belonging to a different type</li>
+<li>something that is distinct can clearly be seen, heard, smelled etc<br>清楚的</li>
+<li>a distinct possibility, feeling, quality etc definitely exists and cannot be ignored</li>
+</ul>
+</li>
+<li><code>obstacle</code><br><strong>n.</strong><ul>
+<li>something that makes it difficult to achieve something</li>
+<li>an object which blocks your way, so that you must try to go around it<br>障碍</li>
+</ul>
+</li>
+<li><code>albeit</code><br><strong>conjunction</strong><br>used to add information that reduces the force or importance of what you have just said<br>尽管, 同 <code>although</code></li>
+<li><code>relatively</code><br><strong>adv.</strong><ul>
+<li>something that is relatively small, easy etc is fairly small, easy etc compared to other things<br>相对的</li>
+</ul>
+</li>
+<li><code>premise</code> ⭐<br><strong>n.</strong><br>a statement or idea that you accept as true and use as a base for developing other ideas<br>前提</li>
+<li><code>numerically</code><br><strong>adv.</strong><br>在数字上</li>
+<li><code>traverse</code><br><strong>v.</strong><br>to move across, over, or through something, especially an area of land or water<br>遍历</li>
+<li><code>centrality</code><br><strong>n.</strong><br>中心, 中央</li>
+<li><code>desired</code><br><strong>adj.</strong><br>渴望的, 想要的, 预期的</li>
+<li><code>manual</code><br><strong>adj.</strong><ul>
+<li>manual work involves using your hands or your physical strength rather than your mind</li>
+<li>operated or done by hand or without the help of electricity, computers etc<br>手动的</li>
+<li>relating to how well you use your hands to make or do things</li>
+</ul>
+</li>
+<li><code>breakthrough</code><br><strong>n.</strong><br>an important new discovery in something you are studying, especially one made after trying for a long time<br>突破</li>
+<li><code>misconception</code><br><strong>n.</strong><br>an idea which is wrong or untrue, but which people believe because they do not understand the subject properly<br>误解</li>
+<li><code>corroborate</code><br><strong>v.</strong><br>to provide information that supports or helps to prove someone else’s statement, idea etc<br>证实</li>
+<li><code>justify</code><br><strong>v.</strong><ul>
+<li>to give an acceptable explanation for something that other people think is unreasonable<br>给出「其他人不太能接受」的事情「可接受的解释」, </li>
+<li>to be a good and acceptable reason for something</li>
+<li>to arrange lines of words on a page or computer screen so that they form a straight edge on both the right and left sides</li>
+</ul>
+</li>
+<li><code>equivalence</code><br><strong>n.</strong><br>等价</li>
+<li><code>prescribe</code><br><strong>v.</strong><ul>
+<li>to say what medicine or treatment a sick person should have</li>
+<li>to state officially what should be done in a particular situation<br>规定</li>
+</ul>
+</li>
+<li><code>progressively</code><br><strong>adv.</strong><ul>
+<li>gradually over a period of time<br>逐渐地</li>
+</ul>
+</li>
+<li><code>inception</code><br><strong>n.</strong><br>the start of an organization or institution<br>开始</li>
+<li><code>pseudocode</code><br><strong>n.</strong><br>伪代码</li>
+<li><code>derive</code><br><strong>v.</strong><ul>
+<li>to get something, especially an advantage or a pleasant feeling, from something</li>
+<li>to develop or come from something else<br>派生</li>
+</ul>
+</li>
+<li><code>Lasso regressor</code><br><strong>词组</strong><br>Lasso 回归</li>
+<li><code>coordinate</code><br><strong>v.</strong><ul>
+<li>to organize an activity so that the people involved in it work well together and achieve a good result<br>协调</li>
+<li>to make the parts of your body move and work together well</li>
+<li>if clothes, decorations etc coordinate, or if you coordinate them, they look good together because they have similar colours and styles</li>
+</ul>
+</li>
+<li><code>coordinates ranging</code><br><strong>词组</strong><br>坐标范围</li>
+<li><code>benchmark</code><br><strong>n.</strong><ul>
+<li>something that is used as a standard by which other things can be judged or measured<br>基准</li>
+</ul>
+</li>
+<li><code>permutation matrix</code> ⭐<br><strong>词组</strong><br>置换矩阵, 「每一行」和「每一列」都恰好有一个 1</li>
+<li><code>sufficient</code> ⭐<br><strong>adj.</strong><ul>
+<li>as much as is needed for a particular purpose<br>充足的</li>
+</ul>
+</li>
+<li><code>unify</code><br><strong>v.</strong><br>if you unify two or more parts or things, or if they unify, they are combined to make a single unit<br>统一</li>
+<li><code>hazardous</code><br><strong>adj.</strong><br>dangerous, especially to people’s health or safety<br>危险的</li>
+<li><code>devise</code><br><strong>v.</strong><br>to plan or invent a new way of doing something<br>设计</li>
+<li><code>accumulate</code><br><strong>v.</strong><ul>
+<li>to gradually get more and more money, possessions, knowledge etc over a period of time<br>积累</li>
+<li>to gradually increase in numbers or amount until there is a large quantity in one place</li>
+</ul>
+</li>
+<li><code>perceptual</code><br><strong>adj.</strong><br>知觉的；感知的；有知觉的；感性的</li>
+<li><code>orthogonal</code><br><strong>adj.</strong><br>正交的；直角的</li>
+<li><code>rotation-invariant</code><br><strong>词组</strong><br>旋转不变的</li>
+<li><code>anisotropic</code><br><strong>adj.</strong><br>各向异性</li>
+<li><code>isotropic</code><br><strong>adj.</strong><br>各向同性</li>
+<li><code>alongside</code><br><strong>adv.</strong> or <strong>prep.</strong><ul>
+<li>next to the side of something</li>
+<li>used to say that people or things do something or exist together at the same time</li>
+<li>in comparison with something</li>
+</ul>
+</li>
+<li><code>orthogonality</code><br><strong>n.</strong><br>正交性</li>
+<li><code>propagation</code><br><strong>n.</strong><br>传播</li>
+<li><code>inherent</code><br><strong>adj.</strong><br>a quality that is inherent in something is a natural part of it and cannot be separated from it<br>天生的</li>
+<li><code>stochasticity</code><br><strong>n.</strong><br>随机性</li>
+<li><code>promote</code> ⭐<br><strong>v.</strong><ul>
+<li>to help something to develop or increase<br>促进</li>
+<li>to give someone a better more responsible job in a company</li>
+</ul>
+</li>
+<li><code>foundational</code><br><strong>adj.</strong><br>基础的</li>
+<li><code>predominantly</code><br><strong>adv.</strong><br>主要地，显著地</li>
+<li><code>azimuth</code><br><strong>n.</strong><br>方位角</li>
+<li><code>gender</code><br><strong>n.</strong><ul>
+<li>the fact of being male or female<br>性别</li>
+<li>males or females, considered as a group</li>
+</ul>
+</li>
+<li><code>suspicion</code><br><strong>n.</strong><ul>
+<li>a feeling you have that someone is probably guilty of doing something wrong or dishonest<br>怀疑</li>
+<li>a feeling that you do not trust someone</li>
+<li>a feeling you have that something is true, especially something bad</li>
+</ul>
+</li>
+<li><code>mechanistic</code><br><strong>adj.</strong><br>tending to explain the behaviour of things in the natural world as if they were machines<br>机械的</li>
+<li><code>resemblance</code><br><strong>n.</strong><br>if there is a resemblance between two people or things, they are similar, especially in the way they look<br>相似</li>
+<li><code>regime</code><br><strong>n.</strong><ul>
+<li>a government, especially one that was not elected fairly or that you disapprove of for some other reason</li>
+<li>a particular system – used especially when talking about a previous system, or one that has just been introduced</li>
+<li>a special plan of food, exercise etc that is intended to improve your health</li>
+</ul>
+</li>
+<li><code>prevalent</code> ⭐<br><strong>adj.</strong><br>common at a particular time, in a particular place, or among a particular group of people<br>盛行的，普遍的 (特定的时间、场景)</li>
+<li><code>simplification</code><br><strong>n.</strong><br>简化</li>
+<li><code>originate</code><br><strong>v.</strong><ul>
+<li>to come from a particular place or start in a particular situation<br>起源</li>
+<li>to have the idea for something and start it</li>
+</ul>
+</li>
+<li><code>nontrivial</code><br><strong>adj.</strong><br>不平凡的，重要的</li>
+<li><code>statistical properties</code><br><strong>词组</strong><br>统计特性</li>
+<li><p><code>resort</code><br><strong>n.</strong><br>a place where a lot of people go for holidays<br>旅游胜地，度假胜地</p>
+<p><strong>v.</strong><br>诉诸，求助于</p>
+</li>
+<li><code>eigenvector</code><br><strong>n.</strong><br>特征向量；本征矢量</li>
+<li><code>ordered by the magnitudes of the corresponding eigenvalues</code><br><strong>句子</strong><br>按照相应「特征值」的大小排序</li>
+<li><code>invertible</code><br><strong>adj.</strong><br>可逆的</li>
+<li><code>invertible matrix</code><br><strong>词组</strong><br>可逆矩阵</li>
+<li><code>inverse</code><br><strong>adj.</strong><br>if there is an inverse relationship between two amounts, one gets bigger at the same rate as the other gets smaller<br>逆</li>
+<li><code>geometrical</code><br><strong>adj.</strong><br>几何的</li>
+<li><code>For the sake of brevity</code><br><strong>词组</strong><br>为简洁起见</li>
+<li><code>remark</code><br><strong>n.</strong><br>something that you say when you express an opinion or say what you have noticed<br>评论</li>
+<li><code>proposition</code><br><strong>n.</strong><ul>
+<li>a statement that consists of a carefully considered opinion or judgment<br>主张</li>
+<li>a suggestion, or something that is suggested or considered as a possible thing to do</li>
+</ul>
+</li>
+<li><code>symmetric</code><br><strong>adj.</strong><br>an object or design that is symmetrical has two halves that are exactly the same shape and size<br>对称的</li>
+<li><code>rotationally symmetric</code><br><strong>词组</strong><br>旋转对称的</li>
+<li><code>consequently</code><br><strong>adv.</strong><br>as a result<br>因此，结果</li>
+<li><code>sketch</code><br><strong>n.</strong><ul>
+<li>a simple, quickly made drawing that does not show much detail<br>草图</li>
+<li>a short humorous scene on a television programme, in a theatre etc, that is part of a larger show</li>
+<li>a short written or spoken description</li>
+</ul>
+</li>
+<li><code>prevalence</code><br><strong>n.</strong><br>the fact that something is prevalent<br>流行，盛行</li>
+<li><code>polarized regime</code><br><strong>词组</strong><br>极化状态</li>
+<li><code>factorisation</code><br><strong>n.</strong><br>分解</li>
+<li><code>canonical</code><br><strong>adj.</strong><ul>
+<li>according to canon law</li>
+<li>in the simplest mathematical form<br>数学形式上最简洁的</li>
+</ul>
+</li>
+<li><code>deviation</code><br><strong>n.</strong><ul>
+<li>a noticeable difference from what is expected or acceptable<br>偏离，偏差</li>
+<li>the difference between a number or measurement in a set and the average of all the numbers or measurements in that set</li>
+</ul>
+</li>
+<li><code>hue</code><br><strong>n.</strong><ul>
+<li>a colour or type of colour<br>色调</li>
+<li>a type of opinion, belief etc</li>
+</ul>
+</li>
+<li><code>saturation</code><br><strong>n.</strong><ul>
+<li>when an event or person is given so much attention by newspapers, television etc that everyone has heard about it</li>
+<li>the degree to which something has been mixed into something else<br>饱和度</li>
+<li>when something is made completely wet</li>
+</ul>
+</li>
+<li><code>predicament</code><br><strong>n.</strong><br>a difficult or unpleasant situation in which you do not know what to do, or in which you have to make a difficult choice<br>困境</li>
+<li><code>plausible</code><br><strong>adj.</strong><ul>
+<li>reasonable and likely to be true or successful<br>似乎是真的，貌似有理的</li>
+<li>someone who is plausible is good at talking in a way that sounds reasonable and truthful, although they may in fact be lying</li>
+</ul>
+</li>
+<li><code>operationalise</code> or <code>operationalize</code><br><strong>v.</strong><br>使开始运转，使用于操作</li>
+<li><code>converge</code><br><strong>v.</strong><ul>
+<li>to come from different directions and meet at the same point to become one thing<br>收敛</li>
+<li>if groups of people converge in a particular place, they come there from many different places and meet together to form a large crowd</li>
+<li>if different ideas or aims converge, they become the same</li>
+</ul>
+</li>
+<li><code>justification</code><br><strong>n.</strong><br>a good and acceptable reason for doing something<br>理由</li>
+<li><code>respective</code><br><strong>adj.</strong><br>used before a plural noun to refer to the different things that belong to each separate person or thing mentioned<br>各自的</li>
+<li><code>proportional</code><br><strong>adj.</strong><br>something that is proportional to something else is in the correct or most suitable relationship to it in size, amount, importance etc<br>成比例的</li>
+<li><code>proportional weight</code><br><strong>词组</strong><br>比例权重</li>
+</ul>
+<p><br></p>
+<h2 id="Unit4"><a href="#Unit4" class="headerlink" title="Unit4"></a>Unit4</h2><ul>
+<li><code>equation</code><br><strong>n.</strong><ul>
+<li>a statement in mathematics that shows that two amounts or totals are equal<br>等式</li>
+<li>the set of different facts, ideas, or people that all affect a situation and must be considered together<br>方程组, </li>
+<li>when you consider that two things are similar or connected</li>
+</ul>
+</li>
+<li><code>British Nobel laureate</code><br><strong>词组</strong><br>英国诺贝尔奖获得者</li>
+<li><code>laureate</code><br><strong>n.</strong><br>someone who has been given an important prize or honour, especially the Nobel prize</li>
+<li><code>quantum theory</code><br><strong>词组</strong><br>量子理论</li>
+<li><code>mathematics</code><br><strong>n.</strong><ul>
+<li>the science of numbers and of shapes, including algebra(代数), geometry(几何), and arithmetic(算术)</li>
+<li>the calculations that are involved in a particular situation or plan</li>
+</ul>
+</li>
+<li><code>secondary</code><br><strong>adj.</strong><ul>
+<li>not as important as something else<br>次要的</li>
+</ul>
+</li>
+<li><code>elegance</code><br><strong>n.</strong><br>优雅</li>
+<li><code>formula</code><br><strong>n.</strong><ul>
+<li>a method or set of principles that you use to solve a problem or to make sure that something is successful</li>
+<li>a series of numbers or letters that represent a mathematical or scientific rule</li>
+<li>a list of the substances used to make a medicine, fuel, drink etc, showing the amounts of each substance that should be used</li>
+<li>a type of liquid food for babies that is similar to a woman’s breast milk</li>
+<li>a fixed and familiar series of words that seems meaningless or insincere</li>
+<li>复数: <code>formulas</code> or <code>formulae</code></li>
+</ul>
+</li>
+<li><code>underlying</code><br><strong>adj.</strong><ul>
+<li>潜在的</li>
+<li>基本的，根本的</li>
+</ul>
+</li>
+<li><code>realm</code><br><strong>n.</strong><ul>
+<li>a general area of knowledge, activity, or thought<br>领域</li>
+<li>a country ruled by a king or queen</li>
+</ul>
+</li>
+<li><code>collaborative</code><br><strong>adj.</strong><br>合作的</li>
+<li><code>lottery</code><br><strong>n.</strong><ul>
+<li>a game used to make money for a state or a charity in which people buy tickets with a series of numbers on them. If their number is picked by chance, they win money or a prize<br>彩票</li>
+<li>a system of deciding who will get something by choosing people’s names by chance</li>
+</ul>
+</li>
+<li><code>pesticide</code><br><strong>n.</strong><br>a chemical substance used to kill insects and small animals that destroy crops<br>农药</li>
+<li><code>dominate</code><br><strong>v.</strong><ul>
+<li>to control someone or something or to have more importance than other people or things<br>支配</li>
+<li>to be larger and more noticeable than anything else in a place</li>
+</ul>
+</li>
+<li><code>alteration</code><br><strong>n.</strong><br>a small change that makes someone or something slightly different, or the process of this change<br>改造</li>
+<li><code>consume</code><br><strong>v.</strong><ul>
+<li>to use time, energy, goods etc<br>消耗</li>
+<li>to eat or drink something</li>
+<li>if a feeling or idea consumes you, it affects you very strongly, so that you cannot think about anything else</li>
+<li>if fire consumes something, it destroys it completely</li>
+</ul>
+</li>
+<li><p><code>harvest</code><br><strong>n.</strong> </p>
+<ul>
+<li>the time when crops are gathered from the fields, or the act of gathering them</li>
+<li>the crops that have been gathered, or the amount and quality of the crops gathered</li>
+</ul>
+<p><strong>v.</strong></p>
+<ul>
+<li>to gather crops from the fields</li>
+<li>to take or collect for use, especially to take a part of someone’s body to put into someone else’s body</li>
+</ul>
+</li>
+<li><code>illustrate</code><br><strong>v.</strong><ul>
+<li>to make the meaning of something clearer by giving examples<br>阐明</li>
+<li>to be an example which shows that something is true or that a fact exists</li>
+<li>to put pictures in a book, article etc</li>
+</ul>
+</li>
+<li><code>realism</code><br><strong>n.</strong><ul>
+<li>the ability to accept and deal with difficult situations in a practical way, based on what is possible rather than what you would like to happen<br>现实主义</li>
+<li>the quality of being or seeming real</li>
+<li>the style of art and literature in which things, especially unpleasant things, are shown or described as they really are in life</li>
+</ul>
+</li>
+<li><code>surrealism</code><br><strong>n.</strong><br>a style of 20th-century art or literature in which the artist or writer connects unrelated images and objects in a strange way<br>超现实主义</li>
+<li><code>symbolize</code><br><strong>v.</strong><br>if something symbolizes a quality, feeling etc, it represents it<br>象征，标志</li>
+<li><code>sculpture</code><br><strong>n.</strong><br>an object made out of stone, wood, clay etc by an artist<br>雕塑</li>
+<li><code>Antarctic</code><br><strong>n.</strong><br>南极洲</li>
+<li><code>proceed</code><br><strong>v.</strong><ul>
+<li>to continue to do something that has already been planned or started<br>继续</li>
+<li>to continue</li>
+<li>to move in a particular direction</li>
+</ul>
+</li>
+<li><code>stuck</code><br><strong>adj.</strong><ul>
+<li>impossible or unable to move from a particular position<br>卡住</li>
+<li>unable to escape from a bad or boring situation</li>
+<li>unable to do any more of something that you are working on because it is too difficult</li>
+</ul>
+</li>
+<li><code>float</code><br><strong>v.</strong><ul>
+<li>to stay or move on the surface of a liquid without sinking<br>漂浮</li>
+<li>to put something on the surface of a liquid so that it does not sink</li>
+<li>if something floats, it moves slowly through the air or stays up in the air</li>
+<li>if sounds or smells float somewhere, people in another place can hear or smell them</li>
+<li>to walk in a slow light graceful way</li>
+<li>to suggest an idea or plan in order to see if people like it</li>
+<li>if the government of a country floats its money, the value of the money is allowed to change freely in relation to money from other countries</li>
+<li>to sell shares in a company or business to the public for the first time</li>
+<li>to write a cheque when you do not have enough money in the bank to pay it</li>
+</ul>
+</li>
+<li><code>Shackleton</code><br><strong>人名</strong><br>沙克尔顿，带领「宁录号」和「坚忍号」向「南极探险」而闻名</li>
+<li><code>crew</code><br><strong>n.</strong><ul>
+<li>all the people who work on a ship or plane</li>
+<li>a group of people working together with special skills</li>
+<li>a team of people who compete in rowing races</li>
+<li>a group of people or friends – often used to show disapproval</li>
+</ul>
+</li>
+<li><code>violence</code><br><strong>n.</strong><ul>
+<li>behaviour that is intended to hurt other people physically<br>暴力</li>
+<li>extreme force</li>
+</ul>
+</li>
+<li><code>assess</code><br><strong>v.</strong><ul>
+<li>to make a judgment about a person or situation after thinking carefully about it</li>
+<li>to calculate the value or cost of something</li>
+</ul>
+</li>
+<li><code>immediate</code><br><strong>adj.</strong><ul>
+<li>happening or done at once and without delay<br>立即</li>
+<li>existing now, and needing to be dealt with quickly</li>
+<li>happening just before or just after someone or something else</li>
+<li>next to, or very near to, a particular place</li>
+</ul>
+</li>
+<li><code>long-term</code><br><strong>adj.</strong><ul>
+<li>continuing for a long period of time, or relating to what will happen in the distant future<br>长期的</li>
+</ul>
+</li>
+<li><code>adolescents</code><br><strong>n.</strong><br>a young person, usually between the ages of 12 and 18, who is developing into an adult<br>青少年</li>
+<li><code>accent</code><br><strong>n.</strong><ul>
+<li>the way someone pronounces the words of a language, showing which country or which part of a country they come from<br>口音</li>
+<li>the part of a word that you should emphasize when you say it</li>
+<li>a written mark used above or below particular letters in some languages to show how to pronounce that letter</li>
+</ul>
+</li>
+<li><code>native</code><br><strong>adj.</strong> <ul>
+<li>your native country, town etc is the place where you were born<br>本国的</li>
+<li>native customs, traditions etc are related to people who lived in a particular country before European people arrived there</li>
+<li>a native ability is one that you have naturally from birth</li>
+</ul>
+</li>
+<li><code>tertiary</code><br><strong>adj.</strong><br>third in place, degree, or order<br>第三的</li>
+<li><code>Academic Corpus</code><br><strong>词组</strong><br>学术预料库</li>
+<li><code>authority</code><br><strong>n.</strong><ul>
+<li>the power you have because of your official position<br>权威</li>
+<li>an official organization or a government department that has the power to make decisions, and has particular responsibilities</li>
+<li>someone who knows a lot about a subject and whose knowledge and opinions are greatly respected</li>
+</ul>
+</li>
+<li><code>constitutional</code><br><strong>adj.</strong><ul>
+<li>officially allowed or limited by the system of rules of a country or organization<br>宪法的准许的</li>
+<li>connected with the constitution of a country or organization<br>宪法的，章程的</li>
+<li>relating to someone’s health, physical ability, or character<br>身体素质的，体制的</li>
+</ul>
+</li>
+<li><code>derived</code><br><strong>adj.</strong><br>导出的；衍生的，派生的</li>
+<li><code>established</code><br><strong>adj.</strong><ul>
+<li>already in use or existing for a long period of time</li>
+<li>known to do a particular job well, because you have done it for a long time</li>
+</ul>
+</li>
+<li><code>indicate</code><br><strong>v.</strong><ul>
+<li>to show that a particular situation exists, or that something is likely to be true<br>表明</li>
+<li>to say or do something to make your wishes, intentions etc clear</li>
+<li>to direct someone’s attention to something or someone, for example by pointing</li>
+<li>to represent something</li>
+<li>to show the direction in which you intend to turn in a vehicle, using lights or your hands<br>指出</li>
+</ul>
+</li>
+<li><p><code>labour</code><br><strong>n.</strong></p>
+<ul>
+<li>work, especially physical work</li>
+<li>all the people who work for a company or in a country</li>
+<li>the process of giving birth to a baby</li>
+</ul>
+<p><strong>v.</strong></p>
+<ul>
+<li>to work hard</li>
+<li>to move slowly and with difficulty</li>
+</ul>
+</li>
+<li><code>legislation</code><br><strong>n.</strong><br>a law or set of laws<br>法律，法规；立法</li>
+<li><code>procedure</code><br><strong>n.</strong><ul>
+<li>a way of doing something, especially the correct or usual way<br>手续，步骤</li>
+<li>a medical treatment or operation<br>手术</li>
+</ul>
+</li>
+<li><code>sector</code><br><strong>n.</strong><ul>
+<li>a part of an area of activity, especially of business, trade etc<br>区域，部分；部门</li>
+<li>one of the parts into which an area is divided, especially for military purposes</li>
+</ul>
+</li>
+<li><code>acquisition</code><br><strong>n.</strong><ul>
+<li>the process by which you gain knowledge or learn a skill<br>获得物，获得，收购</li>
+<li>the act of getting land, power, money etc</li>
+<li>something that you have obtained by buying it or being given it</li>
+</ul>
+</li>
+<li><code>administration</code><br><strong>n.</strong><ul>
+<li>the activities that are involved in managing the work of a company or organization<br>管理，行政</li>
+<li>the government of a country at a particular time<br>(某一任期的) 政府 </li>
+<li>the act of administering something, especially a law, test, or medicine</li>
+</ul>
+</li>
+<li><code>appropriate</code><br><strong>adj.</strong><br>correct or suitable for a particular time, situation, or purpose<br>合适的</li>
+<li><p><code>commission</code><br><strong>n.</strong></p>
+<ul>
+<li>a group of people who have been given the official job of finding out about something or controlling something<br>考察团</li>
+<li>an extra amount of money that is paid to a person or organization according to the value of the goods they have sold or the services they have provided<br>佣金，回扣</li>
+<li>a request for an artist, designer, or musician to make a piece of art or music, for which they are paid<br>委托制作</li>
+<li>the position of an officer in the army, navy etc<br>所授之权</li>
+</ul>
+<p><strong>v.</strong><br>to formally ask someone to write an official report, produce a work of art for you etc<br>w委托撰写；委任</p>
+</li>
+<li><p><code>institute</code><br><strong>n.</strong><br>an organization that has a particular purpose such as scientific or educational work, or the building where this organization is based</p>
+<p><strong>v.</strong><br>to introduce or start a system, rule, legal process etc<br>即 <code>begin</code></p>
+</li>
+<li><code>investment</code><br><strong>n.</strong><ul>
+<li>the use of money to get a profit or to make a business activity successful, or the money that is used<br>投资</li>
+<li>something that you buy or do because it will be useful later<br>值得买的东西</li>
+<li>when you spend a large amount of time, energy, emotion etc on something<br>投入 (时间、精力)</li>
+</ul>
+</li>
+<li><code>maintenance</code><br><strong>n.</strong><ul>
+<li>the repairs, painting etc that are necessary to keep something in good condition<br>维护，保养</li>
+<li>the act of making a state or situation continue<br>保持，维持</li>
+<li>money paid by someone who is divorced to their former wife or husband<br>生活费，抚养费</li>
+</ul>
+</li>
+<li><code>perceived</code><br><strong>adj.</strong><br>感知到的，感观的</li>
+<li><code>perceive</code><br><strong>v.</strong><ul>
+<li>to understand or think of something or someone in a particular way</li>
+<li>to notice, see, or recognize something</li>
+</ul>
+</li>
+<li><code>regulations</code> or <code>regulation</code><br><strong>n.</strong><ul>
+<li>an official rule or order<br>规则，规章</li>
+<li>control over something, especially by rules<br>法规</li>
+</ul>
+</li>
+<li><p><code>resident</code><br><strong>n.</strong></p>
+<ul>
+<li>someone who lives or stays in a particular place<br>居民, 住户</li>
+<li>a doctor working at a hospital where he or she is being trained</li>
+</ul>
+<p><strong>adj.</strong></p>
+<ul>
+<li>living in a place</li>
+<li>living or working in a particular place or institution</li>
+<li>belonging to a particular group of people – used humorously</li>
+</ul>
+</li>
+<li><code>restricted</code><br><strong>adj.</strong><ul>
+<li>small or limited in size, area, or amount</li>
+<li>limited or controlled, especially by laws or rules<br>受限制的</li>
+<li>limited in your movements or in what you are able to do</li>
+<li>a restricted area, document, or information can only be seen or used by a particular group of people because it is secret or dangerous</li>
+</ul>
+</li>
+<li><code>sought</code> or <code>seek</code><br><strong>v.</strong><ul>
+<li>to try to achieve or get something</li>
+<li>to look for someone or something</li>
+<li>to move naturally towards something or into a particular position</li>
+</ul>
+</li>
+<li><code>survey</code><br><strong>n.</strong><ul>
+<li>a set of questions that you ask a large number of people in order to find out about their opinions or behaviour</li>
+<li>an examination of an area of land in order to make a map of it</li>
+<li>an examination of a house or other building done especially for someone who wants to buy it</li>
+<li>a general description or report about a particular subject or situation</li>
+</ul>
+</li>
+<li><code>laureate</code><br><strong>n.</strong><br>someone who has been given an important prize or honour, especially the Nobel prize<br>获奖者</li>
+<li><code>elicit</code><br><strong>v.</strong><br>to succeed in getting information or a reaction from someone, especially when this is difficult<br>引出，探得</li>
+<li><code>faculty</code><br><strong>n.</strong><ul>
+<li>a department or group of related departments within a university</li>
+<li>all the teachers in a university<br>全体教职员</li>
+<li>a natural ability, such as the ability to see, hear, or think clearly</li>
+<li>a particular skill that someone has</li>
+</ul>
+</li>
+<li><code>stun</code><br><strong>v.</strong><ul>
+<li>to surprise or upset someone so much that they do not react immediately<br>使目瞪口呆，使大吃一惊</li>
+<li>to make someone unconscious for a short time</li>
+</ul>
+</li>
+<li><code>glide</code><br><strong>v.</strong><ul>
+<li>to move smoothly and quietly, as if without effort<br>悄然滑行</li>
+<li>to do or achieve things easily</li>
+</ul>
+</li>
+<li><p><code>aesthetic</code><br><strong>adj.</strong></p>
+<ul>
+<li>connected with beauty and the study of beauty<br>美的, 美学的</li>
+</ul>
+<p><strong>n.</strong></p>
+<ul>
+<li>a set of principles about beauty or art</li>
+</ul>
+</li>
+<li><code>compelling</code><br><strong>adj.</strong><ul>
+<li>very interesting or exciting, so that you have to pay attention<br>引人注目的</li>
+</ul>
+</li>
+<li><code>fallible</code><br><strong>adj.</strong><ul>
+<li>able to make mistakes or be wrong<br>难免有错误的, 会犯错的</li>
+</ul>
+</li>
+<li><code>seduce</code><br><strong>v.</strong><ul>
+<li>to persuade someone to have sex with you, especially in a way that is attractive and not too direct</li>
+<li>to make someone want to do something by making it seem very attractive or interesting to them<br>迷惑，使入迷</li>
+</ul>
+</li>
+<li><code>kitschy</code><br><strong>adj.</strong><br>(艺术作品)浅薄鄙俗的 </li>
+<li><code>interdependence</code><br><strong>n.</strong><br>互相依赖</li>
+<li><code>peer-reviewed</code><br><strong>adj.</strong><br>经同行评议的</li>
+</ul>
+<p><br></p>
+<h2 id="Unit-5"><a href="#Unit-5" class="headerlink" title="Unit 5"></a>Unit 5</h2><p><br></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>最喜欢你一言不合就打赏的样子了~~~么么哒！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/image/微信收款码.jpg" alt=" WeChat Pay"/>
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    MorningStar
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="https://morningstarovo.github.io/2021/09/15/2-%E8%AE%BA%E6%96%87&%E9%A1%B9%E7%9B%AE&%E4%BB%A3%E7%A0%81&%E8%8B%B1%E8%AF%AD%E7%9B%B8%E5%85%B3/1-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%9B%B8%E5%85%B3/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%20English%20List-1/" title="解耦表征学习 English List-1">https://morningstarovo.github.io/2021/09/15/2-%E8%AE%BA%E6%96%87&%E9%A1%B9%E7%9B%AE&%E4%BB%A3%E7%A0%81&%E8%8B%B1%E8%AF%AD%E7%9B%B8%E5%85%B3/1-%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%9B%B8%E5%85%B3/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E9%A2%86%E5%9F%9F%20English%20List-1/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/English-List/" rel="tag"># English List</a>
+          
+            <a href="/tags/%E8%A7%A3%E8%80%A6%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0/" rel="tag"># 解耦表征学习</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2021/09/09/5-%E8%AF%BB%E4%B9%A6%E6%84%9F%E6%82%9F%E7%9B%B8%E5%85%B3/%E5%A4%A7%E4%BD%AC%E4%BB%AC%E6%8E%A8%E8%8D%90%E7%9A%84%E4%B9%A6%E7%B1%8D/" rel="next" title="大佬们推荐的书籍">
+                <i class="fa fa-chevron-left"></i> 大佬们推荐的书籍
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2021/09/27/4-%E9%A2%86%E5%9F%9F%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/2-%E7%BC%96%E7%A8%8B%E7%9F%A5%E8%AF%86/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E4%B8%8A%E7%BB%98%E5%9B%BE%E5%B7%A5%E5%85%B7/" rel="prev" title="好用的网上绘图工具">
+                好用的网上绘图工具 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/GitHub-1-%E5%A8%B1%E4%B9%90-%E7%99%BD%E8%89%B2%E8%83%8C%E6%99%AF.png"
+                alt="" />
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">33</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/MorningStarOvO" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/ha-ha-ha-ha-ha-58-78" target="_blank" title="zhihu">
+                      
+                        <i class="fa fa-fw fa-globe"></i>zhihu</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2%E7%9A%84%E8%AF%9D"><span class="nav-number">1.</span> <span class="nav-text">写在前面的话</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Auto-Encoding-Variational-Bayes"><span class="nav-number">2.</span> <span class="nav-text">Auto-Encoding Variational Bayes</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Stochastic-Backpropagation-and-Approximate-Inference-in-Deep-Generative-Models"><span class="nav-number">3.</span> <span class="nav-text">Stochastic Backpropagation and Approximate Inference in Deep Generative Models</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Challenging-Common-Assumptions-in-the-Unsupervised-Learning-of-Disentangled-Fresentations"><span class="nav-number">4.</span> <span class="nav-text">Challenging Common Assumptions in the Unsupervised Learning of Disentangled Fresentations</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NP-DRAW-A-Non-Parametric-Structured-Latent-Variable-Model-for-Image-Generation"><span class="nav-number">5.</span> <span class="nav-text">NP-DRAW: A Non-Parametric Structured Latent Variable Model for Image Generation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#The-Role-of-Disentanglement-in-Generalisation"><span class="nav-number">6.</span> <span class="nav-text">The Role of Disentanglement in Generalisation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA%E4%BD%9C%E4%B8%9A%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%8D%E4%BC%9A%E5%8D%95%E8%AF%8D"><span class="nav-number">7.</span> <span class="nav-text">数据科学导论作业遇到的不会单词</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Theorists-Experimentalists-and-the-Bias-in-Popular-Physics"><span class="nav-number">8.</span> <span class="nav-text">Theorists, Experimentalists and the Bias in Popular Physics</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#beta-VAE-Learning-Basic-Visual-Concepts-with-a-Constrained-Variational-Framework"><span class="nav-number">9.</span> <span class="nav-text">beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Demystifying-Variational-Autoencoders"><span class="nav-number">10.</span> <span class="nav-text">Demystifying Variational Autoencoders</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Structured-Disentangled-Representations"><span class="nav-number">11.</span> <span class="nav-text">Structured Disentangled Representations</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Determining-Differences-Between-Facts-and-Opinions"><span class="nav-number">12.</span> <span class="nav-text">Determining Differences Between Facts and Opinions</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Representation-Learning-A-Review-and-New-Perspectives"><span class="nav-number">13.</span> <span class="nav-text">Representation Learning: A Review and New Perspectives</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#On-the-Fairness-of-Disentangled-Representations"><span class="nav-number">14.</span> <span class="nav-text">On the Fairness of Disentangled Representations</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unit3-Quiz"><span class="nav-number">15.</span> <span class="nav-text">Unit3 Quiz</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#InfoGAN-CR-and-ModelCentrality-Self-supervised-Model-Training-and-Selection-for-Disentangling-GANs"><span class="nav-number">16.</span> <span class="nav-text">InfoGAN-CR and ModelCentrality: Self-supervised Model Training and Selection for Disentangling GANs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unit4"><span class="nav-number">17.</span> <span class="nav-text">Unit4</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unit-5"><span class="nav-number">18.</span> <span class="nav-text">Unit 5</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">MorningStar</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'khbq861jzkdsuRSArqOokQUr-gzGzoHsz',
+        appKey: 'lDrW4ddywwOlFPqzMiiPsHpf',
+        placeholder: '请在此输入您的留言',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('-1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("khbq861jzkdsuRSArqOokQUr-gzGzoHsz", "lDrW4ddywwOlFPqzMiiPsHpf");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+  
+  <style>
+    .copy-btn {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 20px;
+      color: #333;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      background-color: #eee;
+      background-image: linear-gradient(#fcfcfc, #eee);
+      border: 1px solid #d5d5d5;
+      border-radius: 3px;
+      user-select: none;
+      outline: 0;
+    }
+
+    .highlight-wrap .copy-btn {
+      transition: opacity .3s ease-in-out;
+      opacity: 0;
+      padding: 2px 6px;
+      position: absolute;
+      right: 4px;
+      top: 8px;
+    }
+
+    .highlight-wrap:hover .copy-btn,
+    .highlight-wrap .copy-btn:focus {
+      opacity: 1
+    }
+
+    .highlight-wrap {
+      position: relative;
+    }
+  </style>
+  
+  <script>
+    $('.highlight').each(function (i, e) {
+      var $wrap = $('<div>').addClass('highlight-wrap')
+      $(e).after($wrap)
+      $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function (e) {
+        var code = $(this).parent().find('.code').find('.line').map(function (i, e) {
+          return $(e).text()
+        }).toArray().join('\n')
+        var ta = document.createElement('textarea')
+        document.body.appendChild(ta)
+        ta.style.position = 'absolute'
+        ta.style.top = '0px'
+        ta.style.left = '0px'
+        ta.value = code
+        ta.select()
+        ta.focus()
+        var result = document.execCommand('copy')
+        document.body.removeChild(ta)
+        
+          if(result)$(this).text('复制成功')
+          else $(this).text('复制失败')
+        
+        $(this).blur()
+      })).on('mouseleave', function (e) {
+        var $b = $(this).find('.copy-btn')
+        setTimeout(function () {
+          $b.text('复制')
+        }, 300)
+      }).append(e)
+    })
+  </script>
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"left","width":200,"height":500},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
+
+<!--love 图标-->
+<script type="text/javascript" src="/js/src/love.js"></script>
+
+<!--浏览器搞笑标题-->
+<script type="text/javascript" src="\js\FunnyTitle.js"></script>
