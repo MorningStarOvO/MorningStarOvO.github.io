@@ -1,0 +1,34 @@
+main:
+
+  - title: "ProAPO: Progressively Automatic Prompt Optimization for Visual Classification"
+    authors: <strong>Xiangyan Qu</strong>, Gaopeng Gou†, Jiamin Zhuang, Jing Yu, Kun Song, Qihao Wang, Yili Li, Gang Xiong
+    conference_short: CVPR 2025
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025
+    pdf: https://arxiv.org/abs/2502.19844
+    code: https://github.com/MorningStarOvO/ProAPO
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/QXY_ProAPO.png
+    # poster: ./assets/files/
+    # notes: Early Accept
+
+  - title: "Visual-Semantic Decomposition and Partial Alignment for Document-based Zero-Shot Learning"
+    authors: <strong>Xiangyan Qu</strong>, Jing Yu†, Keke Gai, Jiamin Zhuang, Yuanmin Tang, Gang Xiong, Gaopeng Gou, Qi Wu
+    conference_short: MM 2024
+    conference: ACM International Conference on Multimedia (ACM MM), 2024
+    pdf: https://arxiv.org/abs/2407.15613
+    code: https://github.com/MorningStarOvO/EmDepart
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/QXY_EmDepart.png
+    poster: ./assets/files/poster_QXY_EmDepart.pdf
+    # notes: Early Accept
+
+  - title: "Towards Fast and Accurate Image-Text Retrieval with Self-Supervised Fine-Grained Alignment"
+    authors: Jiamin Zhuang, Jing Yu†, Yang Ding, <strong>Xiangyan Qu</strong>, Yue Hu
+    conference_short: TMM
+    conference: IEEE Transactions on Multimedia (TMM), (Impact factor 6.513)
+    pdf: https://ieeexplore.ieee.org/document/10138045/
+    code: https://github.com/Zjamie813/SelfAlign
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
+    image: ./assets/img/ZJM_TMM.png
