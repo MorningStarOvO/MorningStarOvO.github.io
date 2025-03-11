@@ -11,6 +11,17 @@ main:
     # poster: ./assets/files/
     # notes: Early Accept
 
+  - title: "MADS: Multi-Attribute Document Supervision for Zero-Shot Image Classification"
+    authors: <strong>Xiangyan Qu</strong>, Jing Yu†, Jiamin Zhuang, Gaopeng Gou, Gang Xiong, Qi Wu
+    conference_short: arxiv
+    conference: arxiv, 2025
+    pdf: https://arxiv.org/abs/2503.06847
+    # code: 
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/QXY_MADS.png
+    # poster: ./assets/files/poster_QXY_EmDepart.pdf
+    # notes: Early Accept
+
   - title: "Visual-Semantic Decomposition and Partial Alignment for Document-based Zero-Shot Learning"
     authors: <strong>Xiangyan Qu</strong>, Jing Yu†, Keke Gai, Jiamin Zhuang, Yuanmin Tang, Gang Xiong, Gaopeng Gou, Qi Wu
     conference_short: MM 2024
