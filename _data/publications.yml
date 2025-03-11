@@ -46,7 +46,7 @@ main:
 
   - title: "Watermarking Vision-Language Pre-trained Models for Multi-modal Embedding as a Service"
     authors: Yuanmin Tang, Jing Yu†, Keke Gai, <strong>Xiangyan Qu</strong>, Yue Hu, Gang Xiong, Qi Wu
-    # conference_short: TMM
+    conference_short: arxiv
     conference: arxiv, 2023
     pdf: https://arxiv.org/abs/2311.05863
     code: https://github.com/Pter61/vlpmarker
